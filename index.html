@@ -3,176 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>TeleNexus Hub - 技術與市場趨勢</title>
+    <title>Tech Scouting Hub - AI & 技術趨勢</title>
     <style>
         :root {
             --primary: #00ff88;
-            --secondary: #00d4ff;
             --bg: #0a0a0c;
             --text: #e0e0e0;
             --card-bg: #16161a;
         }
-        * { box-sizing: border-box; }
         body {
             background-color: var(--bg);
             color: var(--text);
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 1rem;
-            line-height: 1.5;
-            -webkit-font-smoothing: antialiased;
+            font-family: -apple-system, system-ui, sans-serif;
+            margin: 0; padding: 1rem;
         }
         .container { max-width: 600px; margin: 0 auto; }
-        header {
-            padding: 1.5rem 0;
-            text-align: center;
-            border-bottom: 1px solid #222;
-            margin-bottom: 1rem;
-        }
-        h1 {
-            color: var(--primary);
-            font-size: 1.5rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-            margin: 0;
-            text-transform: uppercase;
-        }
-        .update-time {
-            color: #666;
-            font-size: 0.75rem;
-            margin-top: 0.5rem;
-        }
-        .section-title {
-            font-size: 1rem;
-            font-weight: 600;
-            margin: 1.5rem 0 1rem;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .crypto-title { color: var(--secondary); }
-        .tech-title { color: var(--primary); }
-
-        /* 卡片設計 */
+        header { border-bottom: 1px solid #222; padding: 1.5rem 0; margin-bottom: 1.5rem; text-align: center; }
+        h1 { color: var(--primary); font-size: 1.5rem; margin: 0; letter-spacing: 2px; }
+        .update-time { font-size: 0.75rem; color: #666; margin-top: 4px; }
+        
         .card {
             background: var(--card-bg);
             border: 1px solid #222;
             border-radius: 12px;
             padding: 1.2rem;
             margin-bottom: 1rem;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            border-left: 4px solid var(--primary);
         }
-        .crypto-card { border-left: 4px solid var(--secondary); }
-        .tech-card { border-left: 4px solid var(--primary); }
-
-        /* 行情顯示 */
-        .price-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 0.5rem;
-        }
-        .btc-price {
-            font-size: 1.8rem;
-            font-weight: 800;
-            color: #fff;
-        }
-        .price-change {
-            padding: 4px 8px;
-            border-radius: 6px;
-            font-weight: 700;
-            font-size: 0.9rem;
-        }
-        .negative { background: rgba(255, 69, 58, 0.2); color: #ff453a; }
-        .positive { background: rgba(50, 215, 75, 0.2); color: #32d74b; }
-
-        /* 項目清單 */
-        .project-item {
-            border-bottom: 1px solid #222;
-            padding: 0.8rem 0;
-        }
-        .project-item:last-child { border-bottom: none; }
-        .project-name {
-            font-weight: 700;
-            color: #fff;
-            font-size: 1rem;
-            margin-bottom: 4px;
-        }
-        .project-desc {
+        .project-name { font-weight: 700; color: #fff; margin-bottom: 4px; }
+        .project-desc { font-size: 0.85rem; color: #aaa; line-height: 1.4; }
+        .tag { font-size: 0.7rem; background: #222; color: var(--primary); padding: 2px 6px; border-radius: 4px; margin-right: 4px; }
+        
+        .insight-box {
+            background: #1a1a1e;
+            padding: 1rem;
+            border-radius: 8px;
             font-size: 0.85rem;
-            color: #aaa;
+            border: 1px dashed #444;
+            color: #ccc;
         }
-        .tag {
-            font-size: 0.7rem;
-            background: #222;
-            color: var(--primary);
-            padding: 2px 6px;
-            border-radius: 4px;
-            margin-right: 4px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 2rem 0;
-            font-size: 0.7rem;
-            color: #444;
-        }
+        footer { text-align: center; font-size: 0.7rem; color: #444; margin-top: 3rem; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>TeleNexus Intelligence</h1>
+            <h1>TECH SCOUTING HUB</h1>
             <p class="update-time">最後更新：2026-03-08 09:00 (Taipei)</p>
         </header>
 
-        <!-- 市場趨勢 -->
-        <div class="section-title crypto-title">📊 MARKET DYNAMICS</div>
-        <div class="card crypto-card">
-            <div class="price-row">
-                <span style="color: #888; font-weight: 600;">BTC/USDT</span>
-                <span class="price-change negative">-0.11%</span>
-            </div>
-            <div class="btc-price">$67,177.81</div>
-            <p style="font-size: 0.8rem; color: #aaa; margin: 8px 0 0;">
-                <strong>最新新聞：</strong> 區塊鏈媒體報導今日加密市場關鍵事件，行情進入週末低波動盤整期。
-            </p>
-        </div>
-
-        <!-- 技術趨勢 -->
-        <div class="section-title tech-title">🚀 TECH SCOUTING</div>
-        <div class="card tech-card">
-            <div class="project-item">
-                <div class="project-name">1. AstrBot</div>
-                <div class="project-desc">
-                    <span class="tag">AI Agent</span><span class="tag">IM Bot</span>
-                    Agentic 機器人基礎設施，支援多平台 LLM 整合與插件化工作流。
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-name">2. Higress</div>
-                <div class="project-desc">
-                    <span class="tag">AI Gateway</span><span class="tag">Alibaba</span>
-                    AI 原生 API 網關，整合流量治理與 Prompt 模板管理。
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-name">3. Hello 算法</div>
-                <div class="project-desc">
-                    <span class="tag">Education</span>
-                    資料結構與算法圖解教程，適合視覺化學習。
-                </div>
+        <div style="font-size: 0.8rem; font-weight: 700; color: #888; margin-bottom: 1rem;">🔥 TRENDING REPOS</div>
+        
+        <div class="card">
+            <div class="project-name">1. AstrBot</div>
+            <div class="project-desc">
+                <span class="tag">AI Agent</span><span class="tag">IM Bot</span>
+                Agentic 機器人基礎設施，支援多平台 LLM 整合與插件化工作流。
             </div>
         </div>
 
-        <div class="section-title" style="color: #888;">🧠 INSIGHTS</div>
-        <div class="card" style="font-size: 0.85rem; color: #ccc; border-style: dashed;">
-            市場情緒正與技術工具落地深度連結。預測市場法律爭議（Kalshi）雖造成波動，但開源界對「AI 治理（Higress）」的熱情證明了長期基本面的穩健。
+        <div class="card">
+            <div class="project-name">2. Higress</div>
+            <div class="project-desc">
+                <span class="tag">AI Gateway</span><span class="tag">Alibaba</span>
+                AI 原生 API 網關，整合流量治理與 Prompt 模板管理。
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="project-name">3. Hello 算法</div>
+            <div class="project-desc">
+                <span class="tag">Education</span>
+                資料結構與算法圖解教程，適合視覺化學習。
+            </div>
+        </div>
+
+        <div style="font-size: 0.8rem; font-weight: 700; color: #888; margin: 2rem 0 1rem;">🧠 ARCHITECTURE INSIGHT</div>
+        <div class="insight-box">
+            2026 年企業級 AI 的重心已從單純的模型調用轉向「能力契約驅動」的工程化落地。對 AI 網關與專屬 Agent 平台的關注度飆升正是此趨勢的體現。
         </div>
 
         <footer>
-            &copy; 2026 Raybird & TeleNexus AI<br>
-            系統自動維運中 | 行動版已優化
+            &copy; 2026 Raybird. 技術趨勢獵頭服務由 TeleNexus AI 提供。
         </footer>
     </div>
 </body>
