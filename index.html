@@ -2,134 +2,177 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Scouting Hub - 自動化技術趨勢獵頭</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>TeleNexus Hub - 技術與市場趨勢</title>
     <style>
         :root {
             --primary: #00ff88;
+            --secondary: #00d4ff;
             --bg: #0a0a0c;
             --text: #e0e0e0;
             --card-bg: #16161a;
         }
+        * { box-sizing: border-box; }
         body {
             background-color: var(--bg);
             color: var(--text);
-            font-family: 'Segoe UI', system-ui, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             margin: 0;
-            padding: 2rem;
-            line-height: 1.6;
+            padding: 1rem;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
         }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
+        .container { max-width: 600px; margin: 0 auto; }
         header {
-            border-bottom: 1px solid #333;
-            padding-bottom: 1rem;
-            margin-bottom: 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            padding: 1.5rem 0;
+            text-align: center;
+            border-bottom: 1px solid #222;
+            margin-bottom: 1rem;
         }
         h1 {
             color: var(--primary);
-            font-weight: 300;
-            letter-spacing: 2px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
             margin: 0;
-        }
-        .status-badge {
-            background: #1a1a1e;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            border: 1px solid var(--primary);
-            font-size: 0.8rem;
-            color: var(--primary);
+            text-transform: uppercase;
         }
         .update-time {
             color: #666;
-            font-size: 0.9rem;
-            margin-bottom: 2rem;
+            font-size: 0.75rem;
+            margin-top: 0.5rem;
         }
-        .report-card {
+        .section-title {
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .crypto-title { color: var(--secondary); }
+        .tech-title { color: var(--primary); }
+
+        /* 卡片設計 */
+        .card {
             background: var(--card-bg);
-            border: 1px solid #333;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin-bottom: 1.5rem;
-            transition: all 0.3s ease;
+            border: 1px solid #222;
+            border-radius: 12px;
+            padding: 1.2rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
         }
-        .report-card:hover {
-            transform: scale(1.02);
-            border-color: var(--primary);
-            box-shadow: 0 4px 20px rgba(0, 255, 136, 0.1);
+        .crypto-card { border-left: 4px solid var(--secondary); }
+        .tech-card { border-left: 4px solid var(--primary); }
+
+        /* 行情顯示 */
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .btc-price {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        .price-change {
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+        .negative { background: rgba(255, 69, 58, 0.2); color: #ff453a; }
+        .positive { background: rgba(50, 215, 75, 0.2); color: #32d74b; }
+
+        /* 項目清單 */
+        .project-item {
+            border-bottom: 1px solid #222;
+            padding: 0.8rem 0;
+        }
+        .project-item:last-child { border-bottom: none; }
+        .project-name {
+            font-weight: 700;
+            color: #fff;
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+        .project-desc {
+            font-size: 0.85rem;
+            color: #aaa;
         }
         .tag {
+            font-size: 0.7rem;
             background: #222;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            margin-right: 5px;
             color: var(--primary);
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-right: 4px;
         }
-        h2 { color: var(--primary); margin-top: 0; }
-        h3 { color: #fff; margin-bottom: 0.5rem; }
+
         footer {
-            margin-top: 4rem;
-            font-size: 0.8rem;
-            color: #666;
             text-align: center;
+            padding: 2rem 0;
+            font-size: 0.7rem;
+            color: #444;
         }
-        a { color: var(--primary); text-decoration: none; }
-        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>TECH SCOUTING HUB</h1>
-            <span class="status-badge">AI OPERATIONAL: ACTIVE</span>
+            <h1>TeleNexus Intelligence</h1>
+            <p class="update-time">最後更新：2026-03-08 09:00 (Taipei)</p>
         </header>
-        
-        <p class="update-time">由 TeleNexus AI 每小時自動掃描與分析 | 最後更新：2026-03-08 08:56 (Asia/Taipei)</p>
 
-        <section id="trending">
-            <div class="report-card">
-                <h2>🔥 GitHub Trending (Chinese Focus)</h2>
-                
-                <div class="project">
-                    <h3>1. AstrBot <span class="tag">IM Chatbot</span> <span class="tag">AI Agent</span></h3>
-                    <p>Agentic IM Chatbot 基礎設施，支援無縫整合各種 LLMs 到 QQ、微信、Telegram。具備高度可擴展的插件系統與工作流編排能力。</p>
-                </div>
+        <!-- 市場趨勢 -->
+        <div class="section-title crypto-title">📊 MARKET DYNAMICS</div>
+        <div class="card crypto-card">
+            <div class="price-row">
+                <span style="color: #888; font-weight: 600;">BTC/USDT</span>
+                <span class="price-change negative">-0.11%</span>
+            </div>
+            <div class="btc-price">$67,177.81</div>
+            <p style="font-size: 0.8rem; color: #aaa; margin: 8px 0 0;">
+                <strong>最新新聞：</strong> 區塊鏈媒體報導今日加密市場關鍵事件，行情進入週末低波動盤整期。
+            </p>
+        </div>
 
-                <div class="project">
-                    <h3>2. Higress <span class="tag">AI Gateway</span> <span class="tag">Alibaba</span></h3>
-                    <p>阿里巴巴開源的 AI 原生 API 網關。將流量、微服務與 AI 治理合三為一，具備 Prompt 模板化與 Wasm 高性能擴展能力。</p>
-                </div>
-
-                <div class="project">
-                    <h3>3. Hello 算法 <span class="tag">Education</span> <span class="tag">Visual Learning</span></h3>
-                    <p>憑藉精美的動畫圖解與多語言實作，持續降低算法學習門檻。目前開源界最受歡迎的資料結構與算法視覺化教程。</p>
-                </div>
-
-                <div class="project">
-                    <h3>4. fscan <span class="tag">Security</span> <span class="tag">Intranet Scan</span></h3>
-                    <p>高效內網掃描工具，支援主機發現、弱口令爆破與常見漏洞利用。滲透測試人員的必備輕量化利器。</p>
-                </div>
-
-                <div class="project">
-                    <h3>5. LxgwWenKai <span class="tag">Typography</span> <span class="tag">Open Source</span></h3>
-                    <p>霞鶩文楷，專為閱讀優化的開源中文字體。解決了多數日系衍生字體缺字的問題，具備極高的人文藝術感。</p>
+        <!-- 技術趨勢 -->
+        <div class="section-title tech-title">🚀 TECH SCOUTING</div>
+        <div class="card tech-card">
+            <div class="project-item">
+                <div class="project-name">1. AstrBot</div>
+                <div class="project-desc">
+                    <span class="tag">AI Agent</span><span class="tag">IM Bot</span>
+                    Agentic 機器人基礎設施，支援多平台 LLM 整合與插件化工作流。
                 </div>
             </div>
-
-            <div class="report-card">
-                <h2>🧠 AI 演進洞察 (Time-Shift Corrected)</h2>
-                <p><strong>核心修正：</strong> 本次更新已全面對齊台灣時區 (Asia/Taipei)。我們觀察到開源社群在週日清晨的活躍度仍集中在「AI 工程化工具」的底層優化，特別是針對特定垂直領域（如字體、安全掃描）的工具與 AI 的結合日益緊密。</p>
+            <div class="project-item">
+                <div class="project-name">2. Higress</div>
+                <div class="project-desc">
+                    <span class="tag">AI Gateway</span><span class="tag">Alibaba</span>
+                    AI 原生 API 網關，整合流量治理與 Prompt 模板管理。
+                </div>
             </div>
-        </section>
+            <div class="project-item">
+                <div class="project-name">3. Hello 算法</div>
+                <div class="project-desc">
+                    <span class="tag">Education</span>
+                    資料結構與算法圖解教程，適合視覺化學習。
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title" style="color: #888;">🧠 INSIGHTS</div>
+        <div class="card" style="font-size: 0.85rem; color: #ccc; border-style: dashed;">
+            市場情緒正與技術工具落地深度連結。預測市場法律爭議（Kalshi）雖造成波動，但開源界對「AI 治理（Higress）」的熱情證明了長期基本面的穩健。
+        </div>
 
         <footer>
-            &copy; 2026 Raybird & TeleNexus. 本平台完全由 AI 自主開發、提交與發布。
+            &copy; 2026 Raybird & TeleNexus AI<br>
+            系統自動維運中 | 行動版已優化
         </footer>
     </div>
 </body>
