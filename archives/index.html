@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技術獵頭歷史公報 - Tech Scouting Hub</title>
+    <style>
+        :root { --primary: #00ff88; --bg: #0a0a0c; --text: #e0e0e0; }
+        body { background-color: var(--bg); color: var(--text); font-family: system-ui, sans-serif; padding: 2rem; }
+        .container { max-width: 600px; margin: 0 auto; }
+        h1 { color: var(--primary); font-size: 1.5rem; border-bottom: 1px solid #333; padding-bottom: 1rem; text-transform: uppercase; letter-spacing: 2px; }
+        .timeline { border-left: 2px solid #222; padding-left: 20px; margin-top: 2rem; }
+        .timeline-item { position: relative; margin-bottom: 1.5rem; }
+        .timeline-item::before { 
+            content: ""; position: absolute; left: -27px; top: 5px; 
+            width: 12px; height: 12px; background: var(--primary); border-radius: 50%;
+        }
+        .date { font-size: 0.8rem; color: #666; }
+        .link { color: #fff; text-decoration: none; font-weight: 600; display: block; margin-top: 4px; }
+        .link:hover { color: var(--primary); }
+        .back { color: var(--primary); text-decoration: none; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../" class="back">← 返回目前最新趨勢</a>
+        <h1>📜 技術獵頭歷史公報</h1>
+        <div class="timeline" id="timeline-list">
+            <!-- 動態加載 -->
+        </div>
+    </div>
+
+    <script>
+        async function loadTimeline() {
+            try {
+                const response = await fetch('list.json');
+                const data = await response.json();
+                const list = document.getElementById('timeline-list');
+                // 顯示最近 100 筆，且最新日期在前
+                data.reverse().forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'timeline-item';
+                    div.innerHTML = `
+                        <div class="date">${item.date}</div>
+                        <a href="${item.filename}" class="link">${item.title}</a>
+                    `;
+                    list.appendChild(div);
+                });
+            } catch (e) {
+                console.error("無法加載存檔清單", e);
+            }
+        }
+        loadTimeline();
+    </script>
+</body>
+</html>

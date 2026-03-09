@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-size="medium">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tech Scouting Hub - AI & 技術趨勢大會報</title>
+    <style>
+        :root {
+            --primary: #00ff88;
+            --bg: #0a0a0c;
+            --text: #e0e0e0;
+            --card-bg: #16161a;
+        }
+        html[data-size="small"] { font-size: 14px; }
+        html[data-size="medium"] { font-size: 16px; }
+        html[data-size="large"] { font-size: 20px; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, system-ui, sans-serif;
+            margin: 0; padding: 1rem; line-height: 1.5; transition: font-size 0.2s ease;
+        }
+        .container { max-width: 600px; margin: 0 auto; }
+        header { 
+            border-bottom: 1px solid #222; padding-bottom: 1rem; margin-bottom: 1.5rem; 
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        h1 { color: var(--primary); font-size: 1.2rem; margin: 0; letter-spacing: 1px; }
+        .font-switcher { display: flex; gap: 5px; background: #1a1a1e; padding: 4px; border-radius: 8px; border: 1px solid #333; }
+        .font-btn { background: none; border: none; color: #666; padding: 4px 8px; cursor: pointer; border-radius: 4px; font-weight: bold; font-size: 0.8rem; }
+        .font-btn.active { background: var(--primary); color: #000; }
+        .update-time { font-size: 0.75rem; color: #666; margin-top: 4px; text-align: center; }
+        
+        .section-tag { font-size: 0.8rem; font-weight: 700; color: #888; margin: 1.5rem 0 0.8rem; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
+        .section-tag::after { content: ""; flex: 1; height: 1px; background: #222; }
+
+        .card {
+            background: var(--card-bg); border: 1px solid #222; border-radius: 12px;
+            padding: 1.2rem; margin-bottom: 1rem; border-left: 4px solid var(--primary);
+        }
+        .project-name { font-weight: 700; color: #fff; margin-bottom: 4px; font-size: 1.1rem; }
+        .project-desc { font-size: 0.9rem; color: #aaa; line-height: 1.4; }
+        .tag { font-size: 0.7rem; background: #222; color: var(--primary); padding: 2px 6px; border-radius: 4px; margin-right: 4px; }
+        
+        .insight-box {
+            background: #1a1a1e; padding: 1.2rem; border-radius: 12px;
+            font-size: 0.9rem; border: 1px dashed #444; color: #ccc; line-height: 1.6;
+        }
+        footer { text-align: center; font-size: 0.75rem; color: #444; margin-top: 3rem; padding-bottom: 2rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TECH SCOUTING</h1>
+            <div class="font-switcher">
+                <button class="font-btn" onclick="setFontSize('small')" id="btn-small">S</button>
+                <button class="font-btn" onclick="setFontSize('medium')" id="btn-medium">M</button>
+                <button class="font-btn" onclick="setFontSize('large')" id="btn-large">L</button>
+            </div>
+        </header>
+
+        <p class="update-time">合併版每日大報 | 更新：2026-03-08 13:10 (Taipei)</p>
+
+        <!-- 全球趨勢 -->
+        <div class="section-tag">🌍 Global Top 3</div>
+        <div class="card">
+            <div class="project-name">1. MiroFish</div>
+            <div class="project-desc">
+                <span class="tag">Python</span><span class="tag">Swarm Intelligence</span>
+                通用的「群體智慧引擎」，模擬生物協作行為處理複雜預測任務，實現高度並行決策優化。
+            </div>
+        </div>
+        <div class="card">
+            <div class="project-name">2. skills (by OpenAI)</div>
+            <div class="project-desc">
+                <span class="tag">Standards</span><span class="tag">Tools</span>
+                OpenAI 官方釋出的 Codex 技能目錄，定義標準化的 AI 工具調用規範與執行流。
+            </div>
+        </div>
+        <div class="card">
+            <div class="project-name">3. agency-agents</div>
+            <div class="project-desc">
+                <span class="tag">Framework</span><span class="tag">Multi-Agent</span>
+                完整「AI 代理機構」框架，內建前端專家、社群經營者等多角色協作工作流。
+            </div>
+        </div>
+
+        <!-- 中文關注 -->
+        <div class="section-tag">🇹🇼 Chinese Focus</div>
+        <div class="card" style="border-left-color: #ff8800;">
+            <div class="project-name">1. AstrBot</div>
+            <div class="project-desc">
+                <span class="tag">IM Bot</span><span class="tag">Agentic</span>
+                代理式機器人基礎設施，支持多平台 LLM 整合與主動執行插件系統。
+            </div>
+        </div>
+        <div class="card" style="border-left-color: #ff8800;">
+            <div class="project-name">2. LxgwWenKai</div>
+            <div class="project-desc">
+                <span class="tag">Typography</span><span class="tag">Open Source</span>
+                高品質開源中文字體，針對閱讀體驗深度優化，解決日系衍生字體缺字痛點。
+            </div>
+        </div>
+        <div class="card" style="border-left-color: #ff8800;">
+            <div class="project-name">3. weekly (科技愛好者周刊)</div>
+            <div class="project-desc">
+                <span class="tag">Newsletter</span><span class="tag">Insights</span>
+                阮一峰老師維護的技術週報，彙整全球開源工具與技術演進的重要窗口。
+            </div>
+        </div>
+
+        <div class="section-tag">🧠 AI Agent & 工程化洞察</div>
+        <div class="insight-box">
+            AI 已從「對話式」轉向「代理式執行」。全球榜單中群體智能與多代理協作的崛起，反映出透過角色分工提升成功率的趨勢。OpenAI 技能標準化與中文社群的場景化集成（如 AstrBot）顯示，未來核心在於<strong>代理基礎設施</strong>的穩定性與可靠調度。
+        </div>
+
+        <footer>
+            &copy; 2026 Raybird & TeleNexus AI<br>
+            全自動合併更新系統已啟動
+        </footer>
+    </div>
+
+    <script>
+        function setFontSize(size) {
+            document.documentElement.setAttribute('data-size', size);
+            localStorage.setItem('hub-font-size', size);
+            document.querySelectorAll('.font-btn').forEach(btn => btn.classList.remove('active'));
+            const btn = document.getElementById('btn-' + size);
+            if(btn) btn.classList.add('active');
+        }
+        const savedSize = localStorage.getItem('hub-font-size') || 'medium';
+        setFontSize(savedSize);
+    </script>
+</body>
+</html>
