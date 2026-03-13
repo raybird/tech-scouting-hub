@@ -1,0 +1,13 @@
+{
+  "project": "tech-scouting-hub",
+  "pillar": "TECH",
+  "updated_at": "2026-03-12T12:00:00+08:00",
+  "history": [
+    {
+      "timestamp": "2026-03-12T12:00:00+08:00",
+      "version": "12:00 技術報",
+      "top_trend": "從對話向執行的全面遷徙",
+      "causal_summary": "OpenClaw 星數破 21 萬確立本地 Agent 標準。中資背景（字節、阿里）主導 Agent 記憶與長程任務架構。"
+    }
+  ]
+}
