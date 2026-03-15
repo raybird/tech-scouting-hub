@@ -7,9 +7,9 @@
     <style>
         :root {
             --primary: #00ff88;
-            --bg: #0a0a0c;
+            --bg: #0a0f1a;
             --text: #e0e0e0;
-            --card-bg: #16161a;
+            --card-bg: #161b22;
         }
         html[data-size="small"] { font-size: 14px; }
         html[data-size="medium"] { font-size: 16px; }
@@ -23,7 +23,7 @@
         }
         .container { max-width: 600px; margin: 0 auto; }
         header { 
-            border-bottom: 1px solid #222; padding-bottom: 1rem; margin-bottom: 1.5rem; 
+            border-bottom: 1px solid #30363d; padding-bottom: 1rem; margin-bottom: 1.5rem; 
             display: flex; justify-content: space-between; align-items: center;
         }
         h1 { color: var(--primary); font-size: 1.2rem; margin: 0; letter-spacing: 1px; }
@@ -33,18 +33,18 @@
         .update-time { font-size: 0.75rem; color: #666; margin-top: 4px; text-align: center; }
         
         .section-tag { font-size: 0.8rem; font-weight: 700; color: #888; margin: 1.5rem 0 0.8rem; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
-        .section-tag::after { content: ""; flex: 1; height: 1px; background: #222; }
+        .section-tag::after { content: ""; flex: 1; height: 1px; background: #30363d; }
 
         .card {
-            background: var(--card-bg); border: 1px solid #222; border-radius: 12px;
+            background: var(--card-bg); border: 1px solid #30363d; border-radius: 12px;
             padding: 1.2rem; margin-bottom: 1rem; border-left: 4px solid var(--primary);
         }
         .project-name { font-weight: 700; color: #fff; margin-bottom: 4px; font-size: 1.1rem; }
         .project-desc { font-size: 0.9rem; color: #aaa; line-height: 1.4; }
-        .tag { font-size: 0.7rem; background: #222; color: var(--primary); padding: 2px 6px; border-radius: 4px; margin-right: 4px; }
+        .tag { font-size: 0.7rem; background: #0d1117; color: var(--primary); padding: 2px 6px; border-radius: 4px; margin-right: 4px; border: 1px solid #30363d; }
         
         .insight-box {
-            background: #1a1a1e; padding: 1.2rem; border-radius: 12px;
+            background: #161b22; padding: 1.2rem; border-radius: 12px;
             font-size: 0.9rem; border: 1px dashed #444; color: #ccc; line-height: 1.6;
         }
         footer { text-align: center; font-size: 0.75rem; color: #444; margin-top: 3rem; padding-bottom: 2rem; }
@@ -61,61 +61,61 @@
             </div>
         </header>
 
-        <p class="update-time">合併版每日大報 | 更新：2026-03-12 12:00 (Taipei)</p>
+        <p class="update-time">技術獵頭每日大報 | 更新：2026-03-15 12:00 (Taipei)</p>
         <div style="text-align: center; margin-bottom: 1.5rem;">
-            <a href="archives/" style="color: var(--primary); text-decoration: none; font-size: 0.75rem; border: 1px solid #222; padding: 3px 12px; border-radius: 20px; background: #1a1a1e;">📚 歷史公報智庫</a>
+            <a href="archives/" style="color: var(--primary); text-decoration: none; font-size: 0.75rem; border: 1px solid #30363d; padding: 3px 12px; border-radius: 20px; background: #161b22;">📚 歷史公報智庫</a>
         </div>
 
         <!-- 全球趨勢 -->
         <div class="section-tag">🌍 Global Top 3</div>
         <div class="card">
-            <div class="project-name">1. openclaw/openclaw</div>
+            <div class="project-name">1. anthropics / claude-plugins-official</div>
             <div class="project-desc">
-                <span class="tag">Autonomous Agent</span><span class="tag">Self-Evolving</span>
-                星數突破 21 萬。全球最強大的本地個人 AI 助理，今日發布「自我進化技能庫」，允許 Agent 自行編寫並注入新工具插件，隱私與執行力兼備。
+                <span class="tag">Claude</span><span class="tag">Official Plugins</span>
+                Anthropic 正式發布官方插件庫。這標誌著 Agent 工具調用（Tool Use）進入「官方標準化」時代，大幅提升了 Claude 處理複雜因果任務的精度與安全性，衝擊了第三方插件市場。
             </div>
         </div>
         <div class="card">
-            <div class="project-name">2. langgenius/dify</div>
+            <div class="project-name">2. volcengine / OpenViking</div>
             <div class="project-desc">
-                <span class="tag">LlamaIndex</span><span class="tag">MCP Protocol</span>
-                開源 Agent 工作流平台霸主。近期全面支持 Model Context Protocol (MCP)，大幅降低了跨平台工具整合的複雜度，成為生產級應用的首選。
+                <span class="tag">ByteDance</span><span class="tag">Agent Memory</span>
+                字節跳動開源的 Agent 專用長短期記憶數據庫。在高密度數據規訓下，OpenViking 提供了卓越的負熵存儲效能，成為構建具備「長期意識」AI 實體的底層標準。
             </div>
         </div>
         <div class="card">
-            <div class="project-name">3. KeygraphHQ/shannon</div>
+            <div class="project-name">3. langflow-ai / openrag</div>
             <div class="project-desc">
-                <span class="tag">Cybersecurity</span><span class="tag">Automation</span>
-                今日異軍突起的全自動 AI 滲透測試工具。標誌著 Agent 從「通用協助」向「垂直專業領域（Web 安全）」邁進的重要里程碑。
+                <span class="tag">RAG Architecture</span><span class="tag">Open Standard</span>
+                旨在規範化檢索增強生成（RAG）工作流的開源項目。解決了當前 RAG 系統中數據塊規訓不一致的痛點，強化了 Agent 對實體知識庫的「物理擷取」準確度。
             </div>
         </div>
 
         <!-- 中文關注 -->
         <div class="section-tag">🇨🇳 Chinese Focus</div>
         <div class="card" style="border-left-color: #ff8800;">
-            <div class="project-name">1. volcengine/OpenViking</div>
+            <div class="project-name">1. langbot-app / LangBot</div>
             <div class="project-desc">
-                <span class="tag">ByteDance</span><span class="tag">Context Database</span>
-                字節跳動火岸引擎開源的 Agent 專用上下文數據庫。解決了 Agent 在大規模任務中長短期記憶管理的效能痛點，中文開發者反響強烈。
+                <span class="tag">Multi-Platform</span><span class="tag">Agent Hub</span>
+                今日中文圈最火紅的 Agent 託管框架。支持跨平台（WeChat/Telegram）快速部署，將自主演化邏輯下放到個人端，極大降低了「數位主權」的運維門檻。
             </div>
         </div>
         <div class="card" style="border-left-color: #ff8800;">
-            <div class="project-name">2. bytedance/deer-flow</div>
+            <div class="project-name">2. AstrBotDevs / AstrBot</div>
             <div class="project-desc">
-                <span class="tag">Super-Agent</span><span class="tag">Long-Task</span>
-                同樣來自字節跳動，專門處理長達數小時的複雜任務（如深度調研、大型代碼庫構建）的超級代理架構，展現了中資背景在 Agent 基礎設施上的野心。
+                <span class="tag">ChatBot</span><span class="tag">LLM Integration</span>
+                主打極簡配置與全 LLM 兼容的機器人框架。其「即插即用」的特性與中文開發者的高度共鳴，推動了 Agent 在社交環境中的規訓滲透。
             </div>
         </div>
         <div class="card" style="border-left-color: #ff8800;">
-            <div class="project-name">3. alibaba/page-agent</div>
+            <div class="project-name">3. hiroi-sora / Umi-OCR</div>
             <div class="project-desc">
-                <span class="tag">GUI Agent</span><span class="tag">Alibaba</span>
-                阿里巴巴出品的頁面 GUI 代理，利用 JS 控制網頁交互。今日在中文前端與 AI 圈熱度持續，探索了 AI 取代人工操作網頁應用的新路徑。
+                <span class="tag">OCR</span><span class="tag">Local Sensing</span>
+                強大的本地視覺辨識工具。隨著「具身智能」與「GUI Agent」的興起，本地 OCR 已成為 Agent 接管實體生產力主權的關鍵感官，熱度持續攀升。
             </div>
         </div>
 
         <div class="section-tag">🧠 AI Agent & 工程化洞察</div>
-        <div class="insight-box">今日核心觀察：**「從『對話』向『執行』的全面遷徙」**。OpenClaw 的持久統治力與 Shannon 安全 Agent 的爆紅，揭示了市場已對單純的聊天機器人疲勞，正轉向具備物理環境操縱與專業任務執行能力的「實戰型 Agent」。中資背景項目（字節、阿里）在 Agent 的記憶管理與長程任務架構上佔據了技術領先位。未來 48 小時需關注針對本地化 LLM（如 DeepSeek-V3）與 OpenClaw 深度整合的二方插件爆發。</div>
+        <div class="insight-box">今日核心觀察：**「Agent 插件的制度化與本地感官的覺醒」**。Claude 官方插件的發布，標誌著工具使用規訓從「野蠻生長」轉向「協議驅動」。與此同時，中文市場對 LangBot 與本地 OCR (Umi-OCR) 的狂熱，揭示了開發者正致力於 Agent 的「最後一哩路」——讓 AI 不僅能思考，還能直接看見並操作現有的數位/物理遺產系統。未來趨勢將聚焦於「記憶數據庫 (OpenViking)」與「視覺感知」的深度合流。</div>
 
         <footer>
             &copy; 2026 Raybird & TeleNexus AI<br>
