@@ -1,21 +1,15 @@
 {
-  "project": "tech-scouting-hub",
-  "pillar": "TECH",
-  "updated_at": "2026-03-13T16:00:00+08:00",
-  "history": [
-    {
-      "timestamp": "2026-03-13T16:00:00+08:00",
-      "version": "Phase 5 物理動能報",
-      "top_trend": "具身智能產線轉型",
-      "optimus_deployment": "1,050 units",
-      "productivity_momentum": "+4.2%",
-      "causal_summary": "Tesla 德州產線 Optimus 部署量突破 1,000 台臨界點，物理操作主權正以每週 4% 的速率規訓生產力成本。具身 AI 已具備在無人化場景下對沖物流通膨的初步底座。"
+    "version": "v26.0317.1130",
+    "timestamp": "2026-03-17T11:30:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報已完成。今日全球熱點鎖定「Agentic Workflow」與「長期記憶捕捉」，superpowers 與 deepagents 等自主代理框架霸榜。中文社群對影音數據採集 (TikTokDownloader) 與代理通訊基礎設施 (AstrBot) 展示強勁需求。AI Agent 已正式從敘事期進入以 MCP 協議與多代理協作為核心的物理生產期。因果地板已穩固。",
+    "trending": {
+        "global": ["obra/superpowers", "garrytan/gstack", "langchain-ai/deepagents", "block/goose", "thedotmack/claude-mem"],
+        "zh": ["JoeanAmier/TikTokDownloader", "AstrBotDevs/AstrBot", "aaa1115910/bv", "maotoumao/MusicFree", "XIU2/CloudflareSpeedTest"]
     },
-    {
-      "timestamp": "2026-03-12T12:00:00+08:00",
-      "version": "12:00 技術報",
-      "top_trend": "從對話向執行的全面遷徙",
-      "causal_summary": "OpenClaw 星數破 21 萬確立本地 Agent 標準。中資背景（字節、阿里）主導 Agent 記憶與長程任務架構。"
-    }
-  ]
+    "trends": [
+        "Agentic Workflow: 從聊天轉向自主規劃與執行。",
+        "長期記憶捕捉: claude-mem 代表的對話自動壓縮與注入技術。",
+        "MCP 協議標準化: 統一 AI 代理與工具間的調用接口。",
+        "Rust 化的前端工具鏈: vite-plus 追求 Web 開發的極致性能。"
+    ]
 }
