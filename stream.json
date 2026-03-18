@@ -1,15 +1,15 @@
 {
-    "version": "v26.0317.1130",
-    "timestamp": "2026-03-17T11:30:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報已完成。今日全球熱點鎖定「Agentic Workflow」與「長期記憶捕捉」，superpowers 與 deepagents 等自主代理框架霸榜。中文社群對影音數據採集 (TikTokDownloader) 與代理通訊基礎設施 (AstrBot) 展示強勁需求。AI Agent 已正式從敘事期進入以 MCP 協議與多代理協作為核心的物理生產期。因果地板已穩固。",
+    "version": "v26.0318.1130",
+    "timestamp": "2026-03-18T11:30:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報已完成。今日全球熱點鎖定「目標達成系統」與「記憶品質硬化」，deepagents 與 beads 等專案霸榜。中文社群對 Claude 中轉優化與安全沙箱展示強勁需求。AI Agent 正式從任務執行相位躍遷至「邊緣主權規訓」相位，P2P 算力調度與感測技術 (RuView) 成為新興邊界。因果地板已穩固。",
     "trending": {
-        "global": ["obra/superpowers", "garrytan/gstack", "langchain-ai/deepagents", "block/goose", "thedotmack/claude-mem"],
-        "zh": ["JoeanAmier/TikTokDownloader", "AstrBotDevs/AstrBot", "aaa1115910/bv", "maotoumao/MusicFree", "XIU2/CloudflareSpeedTest"]
+        "global": ["langchain-ai/deepagents", "abhigyanpatwari/GitNexus", "ruvnet/RuView", "steveyegge/beads", "Charmbracelet/Crush"],
+        "zh": ["Wei-Shaw/claude-relay-service", "bytedance/deer-flow", "volcengine/OpenViking", "alibaba/OpenSandbox", "shareAI-lab/learn-claude-code"]
     },
     "trends": [
-        "Agentic Workflow: 從聊天轉向自主規劃與執行。",
-        "長期記憶捕捉: claude-mem 代表的對話自動壓縮與注入技術。",
-        "MCP 協議標準化: 統一 AI 代理與工具間的調用接口。",
-        "Rust 化的前端工具鏈: vite-plus 追求 Web 開發的極致性能。"
+        "從「任務」轉向「目標」: 自主規劃路徑的達成系統成為主流。",
+        "記憶品質規訓: 解決長期對話遺忘上下文的 beads 模式。",
+        "邊緣 P2P 感測: 利用 WiFi 信號 (RuView) 的非視距環境感知。",
+        "數位流水線: 多 Agent 協作與工業級調度引擎 (deer-flow)。"
     ]
 }
