@@ -1,15 +1,15 @@
 {
-    "version": "v26.0318.1130",
-    "timestamp": "2026-03-18T11:30:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報已完成。今日全球熱點鎖定「目標達成系統」與「記憶品質硬化」，deepagents 與 beads 等專案霸榜。中文社群對 Claude 中轉優化與安全沙箱展示強勁需求。AI Agent 正式從任務執行相位躍遷至「邊緣主權規訓」相位，P2P 算力調度與感測技術 (RuView) 成為新興邊界。因果地板已穩固。",
+    "version": "v26.0319.1130",
+    "timestamp": "2026-03-19T11:30:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報已完成。今日全球熱點鎖定「Agent 技能框架」與「GPU 加速物理模擬」，superpowers 與 newton 霸榜。中文社群對企業級代理後台 (RuoYi-Vue-Pro) 展示強勁需求。AI Agent 正式從敘事期跨越至「自主目標規訓期」，本地模型微調 (Unsloth) 成為主權算力的地板支撐。因果地板已穩固。",
     "trending": {
-        "global": ["langchain-ai/deepagents", "abhigyanpatwari/GitNexus", "ruvnet/RuView", "steveyegge/beads", "Charmbracelet/Crush"],
-        "zh": ["Wei-Shaw/claude-relay-service", "bytedance/deer-flow", "volcengine/OpenViking", "alibaba/OpenSandbox", "shareAI-lab/learn-claude-code"]
+        "global": ["obra/superpowers", "newton-physics/newton", "unslothai/unsloth", "MiroThinker", "astral-sh/uv"],
+        "zh": ["YunaiV/ruoyi-vue-pro", "soybeanjs/soybean-admin", "d2l-ai/d2l-zh", "RapidAI/RapidOCR", "shareAI-lab/learn-claude-code"]
     },
     "trends": [
-        "從「任務」轉向「目標」: 自主規劃路徑的達成系統成為主流。",
-        "記憶品質規訓: 解決長期對話遺忘上下文的 beads 模式。",
-        "邊緣 P2P 感測: 利用 WiFi 信號 (RuView) 的非視距環境感知。",
-        "數位流水線: 多 Agent 協作與工業級調度引擎 (deer-flow)。"
+        "從「任務」向「目標」轉向: 代理具備理解複雜目標並自主規劃的能力。",
+        "主權算力本地化: Unsloth 代表的邊緣微調與執行技術趨勢。",
+        "具身智能物理地板: newton 物理引擎為實體化代理提供高精度模擬基礎。",
+        "P2P 遊戲規訓化: 利用 Rapier3D 達成無伺服器的跨平台 P2P 同步。"
     ]
 }
