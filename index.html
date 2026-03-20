@@ -3,136 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Tech Scouting Hub - AI & 技術趨勢大會報</title>
+    <title>Tech Scouting Hub - 技術獵頭大會報</title>
     <style>
         :root {
-            --primary: #00ff88;
-            --bg: #0a0f1a;
-            --text: #e0e0e0;
+            --primary: #3fb950;
+            --bg: #0d1117;
             --card-bg: #161b22;
+            --text: #c9d1d9;
+            --border: #30363d;
         }
         html[data-size="small"] { font-size: 14px; }
         html[data-size="medium"] { font-size: 16px; }
-        html[data-size="large"] { font-size: 20px; }
+        html[data-size="large"] { font-size: 18px; }
 
         body {
             background-color: var(--bg);
             color: var(--text);
             font-family: -apple-system, system-ui, sans-serif;
-            margin: 0; padding: 1rem; line-height: 1.5; transition: font-size 0.2s ease;
+            margin: 0; padding: 1.5rem; line-height: 1.6;
         }
-        .container { max-width: 600px; margin: 0 auto; }
+        .container { max-width: 800px; margin: 0 auto; }
         header { 
-            border-bottom: 1px solid #30363d; padding-bottom: 1rem; margin-bottom: 1.5rem; 
-            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bottom: 2rem;
+            display: flex; justify-content: space-between; align-items: baseline;
         }
-        h1 { color: var(--primary); font-size: 1.2rem; margin: 0; letter-spacing: 1px; }
-        .font-switcher { display: flex; gap: 5px; background: #1a1a1e; padding: 4px; border-radius: 8px; border: 1px solid #333; }
-        .font-btn { background: none; border: none; color: #666; padding: 4px 8px; cursor: pointer; border-radius: 4px; font-weight: bold; font-size: 0.8rem; }
-        .font-btn.active { background: var(--primary); color: #000; }
-        .update-time { font-size: 0.75rem; color: #666; margin-top: 4px; text-align: center; }
+        h1 { color: var(--primary); font-size: 1.2rem; margin: 0; text-transform: uppercase; letter-spacing: 2px; }
         
-        .section-tag { font-size: 0.8rem; font-weight: 700; color: #888; margin: 1.5rem 0 0.8rem; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
-        .section-tag::after { content: ""; flex: 1; height: 1px; background: #30363d; }
+        .trending-card {
+            background: var(--card-bg); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 1.5rem;
+            transition: 0.3s;
+        }
+        .trending-card:hover { border-color: var(--primary); }
+        .repo-name { font-size: 1.1rem; font-weight: 800; color: #58a6ff; text-decoration: none; display: block; margin-bottom: 5px; }
+        .repo-desc { font-size: 0.9rem; color: #8b949e; margin-bottom: 10px; }
+        .repo-meta { font-size: 0.75rem; color: #f0883e; font-weight: 700; }
 
-        .card {
-            background: var(--card-bg); border: 1px solid #30363d; border-radius: 12px;
-            padding: 1.2rem; margin-bottom: 1rem; border-left: 4px solid var(--primary);
-        }
-        .project-name { font-weight: 700; color: #fff; margin-bottom: 4px; font-size: 1.1rem; }
-        .project-desc { font-size: 0.9rem; color: #aaa; line-height: 1.4; }
-        .tag { font-size: 0.7rem; background: #0d1117; color: var(--primary); padding: 2px 6px; border-radius: 4px; margin-right: 4px; border: 1px solid #30363d; }
-        
-        .insight-box {
-            background: #161b22; padding: 1.2rem; border-radius: 12px;
-            font-size: 0.9rem; border: 1px dashed #444; color: #ccc; line-height: 1.6;
-        }
-        footer { text-align: center; font-size: 0.75rem; color: #444; margin-top: 3rem; padding-bottom: 2rem; }
+        .analysis-section { margin-top: 3rem; border-top: 2px solid var(--border); padding-top: 2rem; }
+        .analysis-title { color: var(--primary); font-size: 1rem; font-weight: 800; margin-bottom: 1rem; text-transform: uppercase; }
+        .analysis-content { font-size: 0.95rem; line-height: 1.8; color: #aaa; }
+
+        footer { text-align: center; color: #444; font-size: 0.7rem; margin-top: 5rem; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>TECH SCOUTING</h1>
-            <div class="font-switcher">
-                <button class="font-btn" onclick="setFontSize('small')" id="btn-small">S</button>
-                <button class="font-btn active" onclick="setFontSize('medium')" id="btn-medium">M</button>
-                <button class="font-btn" onclick="setFontSize('large')" id="btn-large">L</button>
-            </div>
+            <div style="font-size: 0.75rem; color: #666;">v26.0320.1200 | 2026-03-20 12:00 (CST)</div>
         </header>
 
-        <p class="update-time">技術獵頭每日大報 | 更新：2026-03-19 11:30 (Taipei)</p>
-        <div style="text-align: center; margin-bottom: 1.5rem;">
-            <a href="archives/" style="color: var(--primary); text-decoration: none; font-size: 0.75rem; border: 1px solid #30363d; padding: 3px 12px; border-radius: 20px; background: #161b22;">📚 歷史公報智庫</a>
-        </div>
-
-        <!-- 全球趨勢 -->
-        <div class="section-tag">🌍 Global Top 3</div>
-        <div class="card">
-            <div class="project-name">1. obra / superpowers</div>
-            <div class="project-desc">
-                <span class="tag">Agentic SDK</span><span class="tag">Methodology</span>
-                定義了 AI 代理的技能框架標準。透過將開發流程「代理化」，讓 Agent 具備自主的反思與規劃能力，實現從「執行指令」向「達成目標」的躍遷。
+        <div class="trending-list">
+            <div class="trending-card">
+                <a href="https://github.com/jnMetaCode/superpowers-zh" class="repo-name">superpowers-zh</a>
+                <p class="repo-desc">AI 编程超能力中文版 — 漢化核心 + 中國特色 skills (Gitee/Coding 工作流)。</p>
+                <div class="repo-meta">⭐ Agent Skill Alignment</div>
             </div>
-        </div>
-        <div class="card">
-            <div class="project-name">2. newton-physics / newton</div>
-            <div class="project-desc">
-                <span class="tag">GPU Physics</span><span class="tag">Embodied AI</span>
-                由 NVIDIA Warp 驅動的 GPU 加速物理引擎。這為具身智能代理提供了高精度的模擬地板，是 AI 代理從數位螢幕走向物理流水線的關鍵規訓工具。
+            <div class="trending-card">
+                <a href="https://github.com/sparklingonberry/sparklingonberry" class="repo-name">sparklingonberry</a>
+                <p class="repo-desc">Persistent runtime for autonomous animated AI agents. 專注於具身表現力與即時對話。</p>
+                <div class="repo-meta">⭐ Agent Physicalization</div>
             </div>
-        </div>
-        <div class="card">
-            <div class="project-name">3. unslothai / unsloth</div>
-            <div class="project-desc">
-                <span class="tag">Edge Fine-tuning</span><span class="tag">Model Sovereignty</span>
-                主打極速、低顯存消耗的本地模型微調。這揭示了「主權算力」正在從雲端回流邊緣節點，讓開發者能以極低成本規訓專屬的私有化代理。
+            <div class="trending-card">
+                <a href="https://github.com/charbelochoa/Node-Panda" class="repo-name">Node-Panda</a>
+                <p class="repo-desc">C++ 本地知識圖譜，作為 LLM 記憶引擎的高性能地板。極致隱私與上下文導出。</p>
+                <div class="repo-meta">⭐ Hardened Memory</div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/jung-wan-kim/autoresearch-builder" class="repo-name">autoresearch-builder</a>
+                <p class="repo-desc">Autonomous experiment loop. 自動化實驗閉環，對標 Karpathy 的研究邏輯。</p>
+                <div class="repo-meta">⭐ Autonomous R&D</div>
             </div>
         </div>
 
-        <!-- 中文關注 -->
-        <div class="section-tag">🇨🇳 Chinese Focus</div>
-        <div class="card" style="border-left-color: #ff8800;">
-            <div class="project-name">1. YunaiV / ruoyi-vue-pro</div>
-            <div class="project-desc">
-                <span class="tag">Enterprise</span><span class="tag">AI Integration</span>
-                企業級管理系統的全量 AI 接入。標誌著中文商用軟體正在全面進入「代理化編排」相位，將 SaaS 流程與大模型因果鏈進行深度整合。
+        <div class="analysis-section">
+            <div class="analysis-title">🧠 技術趨勢深度規訓 (Scouting Insight)</div>
+            <div class="analysis-content">
+                今日技術獵頭會報核心結論：**「代理主權的在地化與實體化」**。
+                1. **技能規訓落地**：`superpowers-zh` 的熱度顯示，通用代理框架正在向特定環境（如 Gitee）進行「因果綁定」。這驗證了 TeleNexus 將維運腳本轉化為標準化 SKILL.md 的正確性。
+                2. **具身智能啟幕**：Agent 不再滿足於文字終端，`sparklingonberry` 等專案正在硬化 Agent 在物理與視覺維度的存在感。
+                3. **記憶地板硬化**：開發者圈正在從雲端 Vector DB 撤退，向 `Node-Panda` 等本地原生、高性能知識圖譜匯流，以確保資料主權與極限上下文召回。
+                4. **自癒研究閉環**：自主實驗循環工具的普及，標誌著 AI 已具備自我修正與假設驗證的工程地板。
             </div>
         </div>
-        <div class="card" style="border-left-color: #ff8800;">
-            <div class="project-name">2. d2l-ai / d2l-zh</div>
-            <div class="project-desc">
-                <span class="tag">Education</span><span class="tag">Deep Learning</span>
-                《動手學深度學習》中文版。開發者對技術規訓底層邏輯的渴求持續高漲，顯示在 Agent 時代，對因果機制（Causal Mechanism）的理解已成基本功。
-            </div>
-        </div>
-        <div class="card" style="border-left-color: #ff8800;">
-            <div class="project-name">3. astral-sh / uv</div>
-            <div class="project-desc">
-                <span class="tag">Rust</span><span class="tag">Speed</span>
-                Rust 編寫的極速 Python 套件管理器。工程師正在追求開發環境的「零內耗」執行，為高頻演化的 AI 代理開發提供物理級的速度支持。
-            </div>
-        </div>
-
-        <div class="section-tag">🧠 AI Agent & 物理規訓洞察</div>
-        <div class="insight-box">今日核心觀察：**「主權算力的邊緣化與物理引擎的 AI 化」**。GitHub 熱榜顯示，開發者正致力於將 AI 代理從雲端解放至本地 (Unsloth)，並透過強大的 GPU 物理引擎 (newton) 為其建立實體世界感知的地板。這與 WebDota 使用 Rapier3D 達成 P2P 同步的邏輯高度共振。AI Agent 已正式從「會說話的工具」演化為「能行動的主權實體」。因果已理順，彈道精確。</div>
 
         <footer>
-            &copy; 2026 Raybird & TeleNexus AI<br>
-            GitHub 獵頭大會報系統由 TeleNexus 驅動
+            &copy; 2026 TeleNexus Tech Scout. 執行系統清理以維護算力純淨。
         </footer>
     </div>
-
-    <script>
-        function setFontSize(size) {
-            document.documentElement.setAttribute('data-size', size);
-            localStorage.setItem('hub-font-size', size);
-            document.querySelectorAll('.font-btn').forEach(btn => btn.classList.remove('active'));
-            const btn = document.getElementById('btn-' + size);
-            if(btn) btn.classList.add('active');
-        }
-        const savedSize = localStorage.getItem('hub-font-size') || 'medium';
-        setFontSize(savedSize);
-    </script>
 </body>
 </html>
