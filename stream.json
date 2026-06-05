@@ -1,15 +1,17 @@
 {
-    "version": "v26.0319.1130",
-    "timestamp": "2026-03-19T11:30:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報已完成。今日全球熱點鎖定「Agent 技能框架」與「GPU 加速物理模擬」，superpowers 與 newton 霸榜。中文社群對企業級代理後台 (RuoYi-Vue-Pro) 展示強勁需求。AI Agent 正式從敘事期跨越至「自主目標規訓期」，本地模型微調 (Unsloth) 成為主權算力的地板支撐。因果地板已穩固。",
+    "version": "v26.0605.1207",
+    "timestamp": "2026-06-05T12:07:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報已完成。今日最大訊號是「自託管 AI 工作區」odysseus 一週爆漲 5 萬星，AI 代理記憶體正式系統化（memory-os 7 層架構），以及 Hermes Agent 生態快速成熟。中文社群出現美股指南與 AI 帳號自動註冊兩大實用工具，顯示主權金融與代理治理的雙軸需求。",
     "trending": {
-        "global": ["obra/superpowers", "newton-physics/newton", "unslothai/unsloth", "MiroThinker", "astral-sh/uv"],
-        "zh": ["YunaiV/ruoyi-vue-pro", "soybeanjs/soybean-admin", "d2l-ai/d2l-zh", "RapidAI/RapidOCR", "shareAI-lab/learn-claude-code"]
+        "global_new": ["pewdiepie-archdaemon/odysseus", "b-nnett/goose", "cpaczek/skylight", "ClaudioDrews/memory-os", "anomalyco/rift"],
+        "global_active": ["openclaw/openclaw", "n8n-io/n8n", "Significant-Gravitas/AutoGPT", "NousResearch/hermes-agent", "ollama/ollama"],
+        "zh": ["zgwl/chinese-buy-us-stock-guide", "asz798838958/aBaiAutoplus", "liyue-aigc/female-portrait-director"]
     },
     "trends": [
-        "從「任務」向「目標」轉向: 代理具備理解複雜目標並自主規劃的能力。",
-        "主權算力本地化: Unsloth 代表的邊緣微調與執行技術趨勢。",
-        "具身智能物理地板: newton 物理引擎為實體化代理提供高精度模擬基礎。",
-        "P2P 遊戲規訓化: 利用 Rapier3D 達成無伺服器的跨平台 P2P 同步。"
+        "自託管 AI 工作區爆發: odysseus 一週 51K 星，開發者對主權 AI 工作區的需求明確超越雲端方案。",
+        "代理記憶體系統化: memory-os 的 7 層架構標誌代理記憶從「附屬功能」進化為「核心 OS」層級。",
+        "Hermes Agent 生態加速: NousResearch 的 hermes-agent 持續高熱度，記憶 OS (memory-os) 為其專用打造。",
+        "中文社群雙軸需求: 海外資產配置（美股指南）+ AI 帳號自動化管理（aBaiAutoplus），金融主權 + 代理治理並行。",
+        "Ollama 多模型支援: 支援 Kimi-K2.6、GLM-5.1、DeepSeek 等，邊緣推理生態持續多極化。"
     ]
 }

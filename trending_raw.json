@@ -1,34 +1,35 @@
-### 🚀 GitHub Trending (--all) - 2026/3/26 下午12:00:44
+### 🚀 GitHub Trending (API Scan) - 2026/6/5 下午12:07 (CST)
 
-1. **[321](https://github.com/test312333/321)**
-   ⭐ Stars: 22 | 📝 Autonomous AI agent trained on the Tintin corpus. Self-sustaining inference loop with 10% revenue allocation to high-impact global health interventions via Giving What We Can.
+**今日最引人注目的新專案（近一週創建，⭐ > 500）：**
 
-2. **[Awesome-AIGC-Image-Video-Detection](https://github.com/ant-research/Awesome-AIGC-Image-Video-Detection)**
-   ⭐ Stars: 13 | 📝 A curated collection of the latest research and resources on AI-Generated Image and Video Detection.
+1. **[pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus)**
+   ⭐ 51,807 | Self-hosted AI workspace. 一週內暴漲 5 萬星，AI 工作區自託管需求爆發。
 
-3. **[ai-network-senac-tit](https://github.com/vaamonde/ai-network-senac-tit)**
-   ⭐ Stars: 9 | 📝 Repositório do Cursos de IA para Redes de Computadores do SENAC Lapa Tito
+2. **[zgwl/chinese-buy-us-stock-guide](https://github.com/zgwl/chinese-buy-us-stock-guide)**
+   ⭐ 2,851 | 美股指南。中文社群對海外資產配置的技術化需求急升。
 
-4. **[tiny-roommate](https://github.com/ryannli/tiny-roommate)**
-   ⭐ Stars: 5 | 📝 無描述
+3. **[b-nnett/goose](https://github.com/b-nnett/goose)**
+   ⭐ 1,913 | Goose Swift proof-of-concept (Rust)。新語言生態工具鏈。
 
-5. **[LLM-Code-Hot-100](https://github.com/cdhx/LLM-Code-Hot-100)**
-   ⭐ Stars: 5 | 📝 LLM 时代的 Hot 100 - 大模型面试手撕代码
+4. **[asz798838958/aBaiAutoplus](https://github.com/asz798838958/aBaiAutoplus)**
+   ⭐ 1,488 | 多平台 AI 帳號自動註冊與管理。AI 代理治理與帳號生命週期管理成為剛需。
 
-6. **[Apifox-Supply-Chain-Poisoning-Attack](https://github.com/Evil0ctal/Apifox-Supply-Chain-Poisoning-Attack)**
-   ⭐ Stars: 5 | 📝 Apifox 供应链投毒攻击检测脚本
+5. **[cpaczek/skylight](https://github.com/cpaczek/skylight)**
+   ⭐ 1,248 | RTL-SDR 即時飛機投影 + 天體層。硬體與空間感知技術的趣味應用。
 
-7. **[cute-interactive](https://github.com/ezyang/cute-interactive)**
-   ⭐ Stars: 4 | 📝 Interactive version of the CuTe layout paper
+6. **[ClaudioDrews/memory-os](https://github.com/ClaudioDrews/memory-os)**
+   ⭐ 830 | 為 Hermes Agent 打造的 7 層記憶作業系統。代理記憶體架構正式系統化。
 
-8. **[StrataCS2](https://github.com/beepbeepfulula2000hfz9/StrataCS2)**
-   ⭐ Stars: 4 | 📝 無描述
+7. **[anomalyco/rift](https://github.com/anomalyco/rift)**
+   ⭐ 508 | Rust 專案，新興工具鏈。
 
-9. **[claude-usage-meter](https://github.com/ryukidong/claude-usage-meter)**
-   ⭐ Stars: 3 | 📝 Terminal dashboard for Claude Code subscription rate limits (5h/7d) using the official statusLine feature
-
-10. **[resume-optimizer](https://github.com/wocha-xiaoli/resume-optimizer)**
-   ⭐ Stars: 3 | 📝 AI resume optimization skill for tailored resumes, job applications, and hackathon submissions.
+**活躍核心生態（今日有更新）：**
+- openclaw/openclaw ⭐ 376K — 個人 AI 助理（🦞 龍蝦模式）
+- ultraworkers/claw-code ⭐ 193K — 史上最快破 10 萬星
+- n8n-io/n8n ⭐ 191K — 工作流自動化 + 原生 AI 能力
+- Significant-Gravitas/AutoGPT ⭐ 185K — 自主 AI 代理願景
+- NousResearch/hermes-agent ⭐ 181K — 會成長的代理
+- ollama/ollama ⭐ 173K — 支援 Kimi-K2.6、GLM-5.1、DeepSeek 等最新模型
 
 ---
-*資料由 GitHub Trending API 專案自動產出，已優化資源佔用。*
+*資料由 GitHub Search API 自動產出。*
