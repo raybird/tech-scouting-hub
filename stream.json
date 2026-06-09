@@ -1,18 +1,20 @@
 {
-    "version": "v26.0608.1200",
-    "timestamp": "2026-06-08T12:00:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報已完成。今日最大訊號是「自託管 AI 工作區」odysseus 持續爆量（61,926⭐，+10K/3天），而新興亮點為「設計即代碼」的 baoyu-design（343⭐）以及穿戴數據主權運動 noop（293⭐）。AI Agent 生態全線活躍：n8n、hermes-agent、langflow、dify、opencode 今日均有更新。中文社群金融工具（美股指南 3,456⭐）與多平台 AI 帳號管理（aBaiAutoplus 1,576⭐）持續升溫。",
+    "version": "v26.0609.1200",
+    "timestamp": "2026-06-09T12:00:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報已完成。今日最大訊號是 odysseus 持續霸榜 64,039⭐（+2,113/1天），而新亮點為 AI 動畫技能 lottie（616⭐）與開發沙箱 sandboxd（516⭐）。設計即代碼 baoyu-design 單日飆升 +199⭐ 至 542⭐，穿戴數據主權 noop 單日 +249⭐ 追平。AI Agent 生態全線活躍：ECC 破 211K、openclaw 377K、n8n/hermes-agent/opencode/dify/langflow 今日均有更新。",
     "trending": {
-        "global_new": ["JimLiu/baoyu-design", "NoopApp/noop", "beijingcao/binance-deribit-btc"],
-        "rising": ["pewdiepie-archdaemon/odysseus", "ClaudioDrews/memory-os", "zgwl/chinese-buy-us-stock-guide", "asz798838958/aBaiAutoplus"],
+        "global_new": ["diffusionstudio/lottie", "tastyeffectco/sandboxd", "amElnagdy/guard-skills", "Jane-xiaoer/xiaoer-videolab", "zenhosta/9drive"],
+        "rising": ["pewdiepie-archdaemon/odysseus", "JimLiu/baoyu-design", "NoopApp/noop", "jeff141/meatshell"],
         "global_active": ["openclaw/openclaw", "affaan-m/ECC", "n8n-io/n8n", "NousResearch/hermes-agent", "Significant-Gravitas/AutoGPT", "anomalyco/opencode", "garrytan/gstack", "langflow-ai/langflow", "langgenius/dify"]
     },
     "trends": [
-        "自託管 AI 工作區持續爆發: odysseus 61,926⭐（+10K/3天），主權 AI 基礎設施需求不受假日影響。",
-        "設計即代碼新範式: baoyu-design 將 Claude Design 本地化為 Agent Skill，UI 設計首次成為可注入的代理技能。",
-        "穿戴數據主權運動: noop 實現離線 WHOOP 數據完全自主掌控，呼應隱私計算的終端化趨勢。",
-        "AI Agent 生態全線活躍: n8n(192K)、hermes-agent(186K)、langflow(149K)、dify(144K)、opencode(171K) 今日均有更新推送，生態成熟度持續提升。",
-        "中文社群雙軸深化: 美股指南 3,456⭐ 成長加速，aBaiAutoplus 1,576⭐ 持續拓展 AI 帳號自動化場景。",
-        "代理即服務 (Agent-as-a-Service): gstack (108K⭐) 與 ECC (210K⭐) 代表高階開發者對最佳化代理配置的追求制度化。"
+        "自託管 AI 工作區 odysseus 64,039⭐（+2,113/1天），成長動能趨緩但仍一枝獨秀。",
+        "AI 動畫技能新範式: diffusionstudio/lottie 616⭐ — Lottie 動畫首次作為編碼代理技能注入。",
+        "設計即代碼加速擴散: baoyu-design 542⭐（+199/1天），Claude Design 本地化為 Agent Skill 已成必裝工具。",
+        "穿戴數據主權 noop 542⭐（+249/1天），fork 率 91% 暗示大量衍生利用。",
+        "開發沙箱即服務: sandboxd 516⭐，預覽 URL + 自託管開發環境工程化。",
+        "AI 代理品質閘門: guard-skills 474⭐，代理輸出品質控制成新興賽道。",
+        "Rust 原生工具持續崛起: meatshell 430⭐ 輕量 SSH 客戶端，效能敏感領域 Rust 侵蝕加速。",
+        "AI Agent 生態全線活躍: ECC 破 211K⭐、hermes-agent 188K⭐、n8n 更新、opencode 更新、langflow/dify 今日均有推送。"
     ]
 }

@@ -1,41 +1,67 @@
-### 🚀 GitHub Trending (API Scan) - 2026/6/8 下午12:00 (CST)
+### 🚀 GitHub Trending (API Scan) - 2026/6/9 下午12:00 (CST)
 
 **今日最引人注目的新專案（近一週創建，⭐ > 200）：**
 
-1. **[JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)**
-   ⭐ 343 | Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. 設計即代碼的新典範。
+1. **[diffusionstudio/lottie](https://github.com/diffusionstudio/lottie)**
+   ⭐ 616 | Lottie animation generator for Codex/Claude Code. AI 動畫技能新典範。
 
-2. **[NoopApp/noop](https://github.com/NoopApp/noop)**
-   ⭐ 293 | Offline WHOOP companion — pair your strap over Bluetooth, keep all data on your own device. 穿戴數據主權運動興起。
+2. **[JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)**
+   ⭐ 542 (+199/1天) | Run Claude Design locally as an Agent Skill — 設計即代碼持續升溫。
 
-3. **[beijingcao/binance-deribit-btc](https://github.com/beijingcao/binance-deribit-btc)**
-   ⭐ 115 | Binance and Deribit BTC cross-exchange arbitrage bot with Redis state recovery, Telegram alerts, Flask monitoring. 加密貨幣跨所套利自動化。
+3. **[NoopApp/noop](https://github.com/NoopApp/noop)**
+   ⭐ 542 (+249/1天) | Offline WHOOP companion — 穿戴數據主權運動加速擴散。
+
+4. **[tastyeffectco/sandboxd](https://github.com/tastyeffectco/sandboxd)**
+   ⭐ 516 | Self-hosted dev sandboxes with preview URLs. 開發沙箱即服務。
+
+5. **[Jane-xiaoer/xiaoer-videolab](https://github.com/Jane-xiaoer/xiaoer-videolab)**
+   ⭐ 485 | Video downloader Chrome extension (yt-dlp). 中文影片下載工具。
+
+6. **[nevertoday/zhongguo-traditional-colors](https://github.com/nevertoday/zhongguo-traditional-colors)**
+   ⭐ 477 | 中國傳統色調色盤。文化色彩工程的開源實踐。
+
+7. **[amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills)**
+   ⭐ 474 | Quality gates for AI coding agents. AI 編碼代理品質閘門。
+
+8. **[GordenSun/GordenSuperPPTSkills](https://github.com/GordenSun/GordenSuperPPTSkills)**
+   ⭐ 461 | AI PPT generator. AI 簡報生成。
+
+9. **[zenhosta/9drive](https://github.com/zenhosta/9drive)**
+   ⭐ 452 | Multi-Google Drive storage gateway. 多雲端硬碟聚合。
+
+10. **[jeff141/meatshell](https://github.com/jeff141/meatshell)**
+    ⭐ 430 | Lightweight SSH/terminal client in Rust. Rust 原生輕量 SSH。
 
 **持續爆量專案（上次掃描後持續增長）：**
 
 1. **[pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus)**
-   ⭐ 61,926 (+10K/3天) | Self-hosted AI workspace. 自託管 AI 工作區需求持續爆發。
+   ⭐ 64,039 (+2,113/1天) | Self-hosted AI workspace. 自託管 AI 工作區單日仍增 2K+。
 
-2. **[ClaudioDrews/memory-os](https://github.com/ClaudioDrews/memory-os)**
-   ⭐ 1,014 (+184/3天) | 7層代理記憶作業系統，持續獲得關注。
+2. **[JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)**
+   ⭐ 542 (+199/1天) | 設計即代碼，單日成長近 200 星。
 
-3. **[zgwl/chinese-buy-us-stock-guide](https://github.com/zgwl/chinese-buy-us-stock-guide)**
-   ⭐ 3,456 (+605/3天) | 美股指南。中文社群海外資產配置需求持續升溫。
-
-4. **[asz798838958/aBaiAutoplus](https://github.com/asz798838958/aBaiAutoplus)**
-   ⭐ 1,576 (+88/3天) | 多平台 AI 帳號自動註冊與管理。
+3. **[NoopApp/noop](https://github.com/NoopApp/noop)**
+   ⭐ 542 (+249/1天) | 穿戴數據主權，fork 率高達 91% (497 forks)。
 
 **活躍核心生態（今日有更新）：**
 - openclaw/openclaw ⭐ 377K — 個人 AI 助理（🦞 龍蝦模式）
-- affaan-m/ECC ⭐ 210K — Agent 性能優化系統
+- affaan-m/ECC ⭐ 211K (+1K) — Agent 性能優化系統
 - ultraworkers/claw-code ⭐ 193K — 史上最快破 10 萬星
-- n8n-io/n8n ⭐ 192K — 工作流自動化 + 原生 AI 能力
-- NousResearch/hermes-agent ⭐ 186K — 會成長的代理（今日有更新）
-- Significant-Gravitas/AutoGPT ⭐ 185K — 自主 AI 代理願景
-- anomalyco/opencode ⭐ 171K — 開源編碼代理
-- garrytan/gstack ⭐ 108K — Garry Tan 的 Claude Code 配置（今日有更新）
-- langflow-ai/langflow ⭐ 149K — Agent 工作流建構平台（今日有更新）
-- langgenius/dify ⭐ 144K — 代理工作流開發平台（今日有更新）
+- n8n-io/n8n ⭐ 192K — 工作流自動化 + 原生 AI 能力（今日更新）
+- NousResearch/hermes-agent ⭐ 188K — 會成長的代理（今日更新）
+- anomalyco/opencode ⭐ 172K — 開源編碼代理（今日更新）
+- garrytan/gstack ⭐ 108K — Garry Tan 的 Claude Code 配置
+- langflow-ai/langflow ⭐ 149K — Agent 工作流建構平台（今日更新）
+- langgenius/dify ⭐ 144K — 代理工作流開發平台（今日更新）
+
+**本月爆發專案（May 1 – Jun 9）：**
+- pewdiepie-archdaemon/odysseus ⭐ 64,039 (Python) — 自託管 AI 工作區，9 天 64K⭐
+- BigPizzaV3/CodexPlusPlus ⭐ 16,020 (Rust) — CodexApp 增強工具
+- antirez/ds4 ⭐ 13,262 (C) — DeepSeek 4 本地推理引擎（Redis 作者）
+- unicity-astrid/sdk-js ⭐ 8,135 (TypeScript) — Astrid OS 膠囊 SDK
+- alibaba/open-code-review ⭐ 5,519 (Go) — 阿里巴巴混合程式碼審查工具
+- microsoft/SkillOpt ⭐ 5,477 (Python) — NLP 技能優化器
+- anthropics/defending-code-reference-harness ⭐ 5,386 (Python) — 安全技能掃描工具
 
 ---
 *資料由 GitHub Search API 自動產出。*
