@@ -1,20 +1,35 @@
 {
-    "version": "v26.0609.1200",
-    "timestamp": "2026-06-09T12:00:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報已完成。今日最大訊號是 odysseus 持續霸榜 64,039⭐（+2,113/1天），而新亮點為 AI 動畫技能 lottie（616⭐）與開發沙箱 sandboxd（516⭐）。設計即代碼 baoyu-design 單日飆升 +199⭐ 至 542⭐，穿戴數據主權 noop 單日 +249⭐ 追平。AI Agent 生態全線活躍：ECC 破 211K、openclaw 377K、n8n/hermes-agent/opencode/dify/langflow 今日均有更新。",
+    "version": "v26.0704.1200",
+    "timestamp": "2026-07-04T12:00:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報復刊號。排程中斷15日後恢復。最大訊號：MCP 正式進入主流標準化階段 — Chrome DevTools MCP 45K⭐ 代表 Google 官方擁抱 MCP，codebase-memory-mcp 25K⭐ 建構程式碼知識圖譜。Token 優化成為剛需：caveman 83K⭐ 原始人語法砍65% tokens。AI 安全紅隊崛起：strix 34K⭐ 開源AI滲透測試。跨平台代理互操作：openai Codex Plugin for Claude Code 23K⭐。",
     "trending": {
-        "global_new": ["diffusionstudio/lottie", "tastyeffectco/sandboxd", "amElnagdy/guard-skills", "Jane-xiaoer/xiaoer-videolab", "zenhosta/9drive"],
-        "rising": ["pewdiepie-archdaemon/odysseus", "JimLiu/baoyu-design", "NoopApp/noop", "jeff141/meatshell"],
-        "global_active": ["openclaw/openclaw", "affaan-m/ECC", "n8n-io/n8n", "NousResearch/hermes-agent", "Significant-Gravitas/AutoGPT", "anomalyco/opencode", "garrytan/gstack", "langflow-ai/langflow", "langgenius/dify"]
+        "global_new": ["xbtlin/ai-berkshire", "Robbyant/lingbot-map", "facebook/astryx", "simplex-chat/simplex-chat"],
+        "rising": ["usestrix/strix", "openai/codex-plugin-cc", "ChromeDevTools/chrome-devtools-mcp", "harvard-edge/cs249r_book", "rommapp/romm"],
+        "global_active": ["openclaw/openclaw", "NousResearch/hermes-agent", "Significant-Gravitas/AutoGPT", "anomalyco/opencode", "JuliusBrussee/caveman", "addyosmani/agent-skills", "ChromeDevTools/chrome-devtools-mcp", "DeusData/codebase-memory-mcp"]
     },
     "trends": [
-        "自託管 AI 工作區 odysseus 64,039⭐（+2,113/1天），成長動能趨緩但仍一枝獨秀。",
-        "AI 動畫技能新範式: diffusionstudio/lottie 616⭐ — Lottie 動畫首次作為編碼代理技能注入。",
-        "設計即代碼加速擴散: baoyu-design 542⭐（+199/1天），Claude Design 本地化為 Agent Skill 已成必裝工具。",
-        "穿戴數據主權 noop 542⭐（+249/1天），fork 率 91% 暗示大量衍生利用。",
-        "開發沙箱即服務: sandboxd 516⭐，預覽 URL + 自託管開發環境工程化。",
-        "AI 代理品質閘門: guard-skills 474⭐，代理輸出品質控制成新興賽道。",
-        "Rust 原生工具持續崛起: meatshell 430⭐ 輕量 SSH 客戶端，效能敏感領域 Rust 侵蝕加速。",
-        "AI Agent 生態全線活躍: ECC 破 211K⭐、hermes-agent 188K⭐、n8n 更新、opencode 更新、langflow/dify 今日均有推送。"
-    ]
+        "MCP 主流化里程碑: Chrome DevTools MCP 45K⭐，Google 官方擁抱 MCP 協議，與 codebase-memory-mcp 25K⭐ 雙軌並進。",
+        "Token 優化成剛需: caveman 83K⭐，原始人語法砍 65% tokens，證明 token 效率是生產級代理必備。",
+        "AI 安全紅隊賽道: strix 34K⭐，開源 AI 滲透測試工具，AI 打 AI 的安全新範式。",
+        "跨平台 AI 互操作: openai/codex-plugin-cc 23K⭐，Claude Code 內呼叫 Codex，頂級 AI 平台界線模糊化。",
+        "Facebook Agent Ready: facebook/astryx 4.7K⭐，開源設計系統標榜「Agent Ready」，UI 框架為 AI 代理重新設計。",
+        "AI 價值投資框架: xbtlin/ai-berkshire 9.2K⭐，多 Agent 並行研究巴菲特/芒格/段永平/李錄四大師方法論。",
+        "哈佛 ML 開放教科書: harvard-edge/cs249r_book 26K⭐，Machine Learning Systems 開放式課程持續熱門。",
+        "3D 基礎模型開源化: Robbyant/lingbot-map 9.6K⭐，前饋 3D 場景重建基礎模型。"
+    ],
+    "monthly": {
+        "title": "七月爆發專案（Jun 19 – Jul 4）",
+        "projects": [
+            {"repo": "openclaw/openclaw", "stars": 381614, "lang": "Python", "desc": "15天 +86K⭐，個人 AI 助理持續加速"},
+            {"repo": "JuliusBrussee/caveman", "stars": 83064, "lang": "JavaScript", "desc": "Token 優化技能，原始人語法砍 65% tokens"},
+            {"repo": "addyosmani/agent-skills", "stars": 68780, "lang": "Python", "desc": "Agent 技能框架穩步成長"},
+            {"repo": "ChromeDevTools/chrome-devtools-mcp", "stars": 45527, "lang": "TypeScript", "desc": "Google 官方 DevTools MCP 伺服器"},
+            {"repo": "usestrix/strix", "stars": 34815, "lang": "Python", "desc": "開源 AI 滲透測試工具"},
+            {"repo": "harvard-edge/cs249r_book", "stars": 26237, "lang": "Python", "desc": "哈佛 ML Systems 開放教科書"},
+            {"repo": "DeusData/codebase-memory-mcp", "stars": 25622, "lang": "C", "desc": "高性能程式碼智慧 MCP 伺服器"},
+            {"repo": "Kilo-Org/kilocode", "stars": 25518, "lang": "TypeScript", "desc": "全能開源代理工程平台"},
+            {"repo": "openai/codex-plugin-cc", "stars": 23326, "lang": "JavaScript", "desc": "Codex Plugin for Claude Code"},
+            {"repo": "xbtlin/ai-berkshire", "stars": 9207, "lang": "TypeScript", "desc": "AI 價值投資研究框架"}
+        ]
+    }
 }

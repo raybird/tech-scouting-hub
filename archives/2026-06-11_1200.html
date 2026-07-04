@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-size="medium">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tech Scouting Hub - 技術獵頭大會報</title>
+    <style>
+        :root {
+            --primary: #3fb950;
+            --bg: #0d1117;
+            --card-bg: #161b22;
+            --text: #c9d1d9;
+            --border: #30363d;
+        }
+        html[data-size="small"] { font-size: 14px; }
+        html[data-size="medium"] { font-size: 16px; }
+        html[data-size="large"] { font-size: 18px; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, system-ui, sans-serif;
+            margin: 0; padding: 1.5rem; line-height: 1.6;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        header { 
+            border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bottom: 2rem;
+            display: flex; justify-content: space-between; align-items: baseline;
+        }
+        h1 { color: var(--primary); font-size: 1.2rem; margin: 0; text-transform: uppercase; letter-spacing: 2px; }
+        
+        .trending-card {
+            background: var(--card-bg); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 1.5rem;
+            transition: 0.3s;
+        }
+        .trending-card:hover { border-color: var(--primary); }
+        .repo-name { font-size: 1.1rem; font-weight: 800; color: #58a6ff; text-decoration: none; display: block; margin-bottom: 5px; }
+        .repo-desc { font-size: 0.9rem; color: #8b949e; margin-bottom: 10px; }
+        .repo-meta { font-size: 0.75rem; color: #f0883e; font-weight: 700; }
+        .tag { display: inline-block; background: #1f2d3d; color: #58a6ff; font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; margin-right: 5px; }
+
+        .analysis-section { margin-top: 3rem; border-top: 2px solid var(--border); padding-top: 2rem; }
+        .analysis-title { color: var(--primary); font-size: 1rem; font-weight: 800; margin-bottom: 1rem; text-transform: uppercase; }
+        .analysis-content { font-size: 0.95rem; line-height: 1.8; color: #aaa; }
+
+        .monthly-section { margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+        .monthly-title { color: #f0883e; font-size: 0.9rem; font-weight: 800; margin-bottom: 0.8rem; text-transform: uppercase; }
+        .monthly-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+        .monthly-item { background: var(--card-bg); padding: 0.8rem; border-radius: 6px; border: 1px solid var(--border); font-size: 0.8rem; }
+        .monthly-item .stars { color: #f0883e; font-weight: 700; }
+
+        footer { text-align: center; color: #444; font-size: 0.75rem; margin-top: 5rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TECH SCOUTING</h1>
+            <div style="font-size: 0.75rem; color: #666;">v26.0611.1200 | 2026-06-11 12:00 (CST)</div>
+        </header>
+
+        <div class="trending-list">
+            <div class="trending-card">
+                <a href="https://github.com/mvanhorn/last30days-skill" class="repo-name">mvanhorn / last30days-skill</a>
+                <p class="repo-desc">🔥 今日全網最熱！39,216⭐（+3,558/1天）。AI agent 跨平台研究技能，聚合 Reddit/X/YouTube/HN/Polymarket 數據合成摘要。</p>
+                <div class="repo-meta"><span class="tag">#1 Trending</span><span class="tag">Agent Skill</span>⭐ 39,216 · +3,558/日</div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/colbymchenry/codegraph" class="repo-name">colbymchenry / codegraph</a>
+                <p class="repo-desc">46,902⭐（+4,119% 30天）。將程式碼庫建構為本地 SQLite 語義知識圖譜，減少 AI 代理 92% 工具呼叫。本季最強生產力工具。</p>
+                <div class="repo-meta"><span class="tag">Semantic Graph</span><span class="tag">Agent UX</span>⭐ 46,902 · 30天暴漲 41x</div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/pewdiepie-archdaemon/odysseus" class="repo-name">pewdiepie-archdaemon / odysseus</a>
+                <p class="repo-desc">67,221⭐（+3,182/2天）。自託管 AI 工作區仍為本月最強專案，11 天達 67K⭐ 但每日增速持續放緩。</p>
+                <div class="repo-meta"><span class="tag">Self-hosted AI</span><span class="tag">Workspace</span>⭐ 67,221 · 本月冠軍</div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/tinyhumansai/openhuman" class="repo-name">tinyhumansai / openhuman</a>
+                <p class="repo-desc">31,398⭐（+7,656% 30天）。個人 AI 代理，本機記憶樹 + 任務自動化 + 語音。零外部成本。</p>
+                <div class="repo-meta"><span class="tag">Personal AI</span><span class="tag">Memory Tree</span>⭐ 31,398 · 爆發成長</div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/shadcn/improve" class="repo-name">shadcn / improve</a>
+                <p class="repo-desc">🚀 創立僅 1 天即達 965⭐。用最強模型審計程式碼庫 + 寫計畫，讓便宜模型執行。shadcn 跨入 AI 代理工作流。</p>
+                <div class="repo-meta"><span class="tag">Model Tiering</span><span class="tag">Agent Workflow</span>⭐ 965 · 1 天爆量</div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/diffusionstudio/lottie" class="repo-name">diffusionstudio / lottie</a>
+                <p class="repo-desc">1,278⭐（+662/2天）。Lottie animation generator for Codex/Claude Code。動畫即代碼持續升溫。</p>
+                <div class="repo-meta"><span class="tag">Animation-as-Code</span><span class="tag">Agent Skill</span>⭐ 1,278 · +662/2天</div>
+            </div>
+        </div>
+
+        <div class="analysis-section">
+            <div class="analysis-title">今日技術獵頭深度規訓 (Scouting Insight)</div>
+            <div class="analysis-content">
+                <p><strong>Agent 技能生態系全面爆發</strong> — 今日全網由 Agent Skills 主導：last30days-skill (+3,558/日) 稱冠、addyosmani/agent-skills 52K⭐、google/skills 13K⭐（+461/日），大廠與社群同步加速。技能市場成為 AI Agent 的「App Store 時刻」。</p>
+                <p><strong>三大新範式同步崛起：</strong></p>
+                <p>1. <strong>模型分層審計</strong> (shadcn/improve)：強模型寫計畫 + 弱模型執行，成本效率最大化。</p>
+                <p>2. <strong>程式碼知識圖譜</strong> (codegraph 46.9K⭐)：語義圖取代純向量搜索，減少 92% 代理工具呼叫。</p>
+                <p>3. <strong>個人 AI 記憶體</strong> (openhuman 31.4K⭐)：本機記憶樹讓 AI「記住你」成為殺手級體驗。</p>
+                <p><strong>硬體層訊號：</strong> Apple coreai-models 627⭐ 開源裝置端 AI 工具鏈，Swift + Python 生態整合。Rust 向量索引 turbovec 10.9K⭐（+1,729/日），效能敏感 AI 基礎設施 Rust 化加速。</p>
+                <p><strong>持續生態：</strong> ECC 213K⭐、openclaw 378K⭐、hermes-agent 190K⭐、opencode 173K⭐ 今日全線更新。</p>
+            </div>
+        </div>
+
+        <div class="monthly-section">
+            <div class="monthly-title">📊 本月爆發專案一覽 (May 31 – Jun 11)</div>
+            <div class="monthly-grid">
+                <div class="monthly-item"><strong>odysseus</strong> <span class="stars">67,221⭐</span><br>自託管 AI 工作區 (11天 67K)</div>
+                <div class="monthly-item"><strong>last30days-skill</strong> <span class="stars">39,216⭐</span><br>Agent 跨平台研究技能</div>
+                <div class="monthly-item"><strong>openhuman</strong> <span class="stars">31,398⭐</span><br>個人 AI 代理</div>
+                <div class="monthly-item"><strong>tolaria</strong> <span class="stars">15,018⭐</span><br>Markdown 知識庫管理</div>
+                <div class="monthly-item"><strong>google/skills</strong> <span class="stars">13,359⭐</span><br>Google 官方 Agent Skills</div>
+                <div class="monthly-item"><strong>turbovec</strong> <span class="stars">10,853⭐</span><br>Rust 向量索引</div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Generated by TeleNexus Tech Scouting · v26.0611.1200</p>
+            <p>Data source: GitHub Search API + external aggregators</p>
+        </footer>
+    </div>
+</body>
+</html>

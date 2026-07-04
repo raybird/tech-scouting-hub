@@ -1,67 +1,72 @@
-### 🚀 GitHub Trending (API Scan) - 2026/6/9 下午12:00 (CST)
+### 🚀 GitHub Trending (API Scan) - 2026/6/24 下午12:00 (CST)
 
-**今日最引人注目的新專案（近一週創建，⭐ > 200）：**
+**今日最引人注目的新專案（近一週創建，⭐ > 400）：**
 
-1. **[diffusionstudio/lottie](https://github.com/diffusionstudio/lottie)**
-   ⭐ 616 | Lottie animation generator for Codex/Claude Code. AI 動畫技能新典範。
+1. **[baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR)**
+   ⭐ 4,096 (6天) | Python | Unlimited OCR Works — 歡迎來到一次性長視野解析時代。
 
-2. **[JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)**
-   ⭐ 542 (+199/1天) | Run Claude Design locally as an Agent Skill — 設計即代碼持續升溫。
+2. **[zhongerxin/Cowart](https://github.com/zhongerxin/Cowart)**
+   ⭐ 2,422 (6天) | JavaScript | 新崛起專案。
 
-3. **[NoopApp/noop](https://github.com/NoopApp/noop)**
-   ⭐ 542 (+249/1天) | Offline WHOOP companion — 穿戴數據主權運動加速擴散。
+3. **[lyra81604/zhengxi-views](https://github.com/lyra81604/zhengxi-views)**
+   ⭐ 927 (4天) | Python | 可溯源的鄭希(易方達基金經理)投研 Agent Skill。
 
-4. **[tastyeffectco/sandboxd](https://github.com/tastyeffectco/sandboxd)**
-   ⭐ 516 | Self-hosted dev sandboxes with preview URLs. 開發沙箱即服務。
+4. **[Forsy-AI/agent-apprenticeship](https://github.com/Forsy-AI/agent-apprenticeship)**
+   ⭐ 867 (5天) | AI Agent 從真實工作中學習的生態系統。
 
-5. **[Jane-xiaoer/xiaoer-videolab](https://github.com/Jane-xiaoer/xiaoer-videolab)**
-   ⭐ 485 | Video downloader Chrome extension (yt-dlp). 中文影片下載工具。
+5. **[aidenybai/cnfast](https://github.com/aidenybai/cnfast)**
+   ⭐ 798 (5天) | TypeScript | `cn()` 函數的快速替代品。
 
-6. **[nevertoday/zhongguo-traditional-colors](https://github.com/nevertoday/zhongguo-traditional-colors)**
-   ⭐ 477 | 中國傳統色調色盤。文化色彩工程的開源實踐。
+6. **[kanavtwtgg/birds.cafe](https://github.com/kanavtwtgg/birds.cafe)**
+   ⭐ 727 (3天) | JavaScript | 快速增長中。
 
-7. **[amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills)**
-   ⭐ 474 | Quality gates for AI coding agents. AI 編碼代理品質閘門。
+7. **[bozhouDev/codex-orange-book](https://github.com/bozhouDev/codex-orange-book)**
+   ⭐ 644 (1天) | HTML | Codex 橙皮書：從安裝到實戰的全鏈路指南。
 
-8. **[GordenSun/GordenSuperPPTSkills](https://github.com/GordenSun/GordenSuperPPTSkills)**
-   ⭐ 461 | AI PPT generator. AI 簡報生成。
+8. **[sums001/Windows-Copilot-API](https://github.com/sums001/Windows-Copilot-API)**
+   ⭐ 552 (5天) | Python | 逆向工程 Windows Copilot → OpenAI 相容 API，免 API Key 存取 GPT-4/5。
 
-9. **[zenhosta/9drive](https://github.com/zenhosta/9drive)**
-   ⭐ 452 | Multi-Google Drive storage gateway. 多雲端硬碟聚合。
+9. **[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)**
+   ⭐ 500+ | Cloudflare 官方安全審計技能。
 
-10. **[jeff141/meatshell](https://github.com/jeff141/meatshell)**
-    ⭐ 430 | Lightweight SSH/terminal client in Rust. Rust 原生輕量 SSH。
+**外部聚合器監測 —— 全網最熱專案（跨平台趨勢）：**
 
-**持續爆量專案（上次掃描後持續增長）：**
+1. **[garrytan/gstack](https://github.com/garrytan/gstack)**
+   ⭐ 113,000+ | YC CEO Garry Tan 的 Claude Code 技能包，23 個專業工具。
 
-1. **[pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus)**
-   ⭐ 64,039 (+2,113/1天) | Self-hosted AI workspace. 自託管 AI 工作區單日仍增 2K+。
+2. **[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)**
+   ⭐ 8,600+ | 全球首個開源代理影片製作系統，12 管線、52 工具、500+ Agent 技能。
 
-2. **[JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)**
-   ⭐ 542 (+199/1天) | 設計即代碼，單日成長近 200 星。
+3. **[palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro)**
+   ⭐ 8,400+ | macOS AI 影片編輯器，Swift 原生，支援 MCP 代理整合。
 
-3. **[NoopApp/noop](https://github.com/NoopApp/noop)**
-   ⭐ 542 (+249/1天) | 穿戴數據主權，fork 率高達 91% (497 forks)。
+4. **[jamiepine/voicebox](https://github.com/jamiepine/voicebox)**
+   ⭐ 30,000+ | 開源 AI 語音合成工作室，7 種 TTS 引擎，23 語言。
 
-**活躍核心生態（今日有更新）：**
-- openclaw/openclaw ⭐ 377K — 個人 AI 助理（🦞 龍蝦模式）
-- affaan-m/ECC ⭐ 211K (+1K) — Agent 性能優化系統
-- ultraworkers/claw-code ⭐ 193K — 史上最快破 10 萬星
-- n8n-io/n8n ⭐ 192K — 工作流自動化 + 原生 AI 能力（今日更新）
-- NousResearch/hermes-agent ⭐ 188K — 會成長的代理（今日更新）
-- anomalyco/opencode ⭐ 172K — 開源編碼代理（今日更新）
-- garrytan/gstack ⭐ 108K — Garry Tan 的 Claude Code 配置
-- langflow-ai/langflow ⭐ 149K — Agent 工作流建構平台（今日更新）
-- langgenius/dify ⭐ 144K — 代理工作流開發平台（今日更新）
+5. **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)**
+   ⭐ 30,000 | 寫 HTML 渲染影片 — 為 AI Agent 打造的開源影片框架。
 
-**本月爆發專案（May 1 – Jun 9）：**
-- pewdiepie-archdaemon/odysseus ⭐ 64,039 (Python) — 自託管 AI 工作區，9 天 64K⭐
-- BigPizzaV3/CodexPlusPlus ⭐ 16,020 (Rust) — CodexApp 增強工具
-- antirez/ds4 ⭐ 13,262 (C) — DeepSeek 4 本地推理引擎（Redis 作者）
-- unicity-astrid/sdk-js ⭐ 8,135 (TypeScript) — Astrid OS 膠囊 SDK
-- alibaba/open-code-review ⭐ 5,519 (Go) — 阿里巴巴混合程式碼審查工具
-- microsoft/SkillOpt ⭐ 5,477 (Python) — NLP 技能優化器
-- anthropics/defending-code-reference-harness ⭐ 5,386 (Python) — 安全技能掃描工具
+6. **[mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)**
+   ⭐ 18,700 | 817 個結構化網路安全技能，映射 6 個 MITRE 框架。
+
+7. **[mattpocock/skills](https://github.com/mattpocock/skills)**
+   ⭐ 持續增長 | TypeScript 技能框架。
+
+8. **[penpot/penpot](https://github.com/penpot/penpot)**
+   ⭐ 持續霸榜 | 開源設計與原型平台。
+
+9. **[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)**
+   ⭐ 持續霸榜 | 多功能 PDF 工具。
+
+10. **[DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)**
+    ⭐ 持續增長 | C 語言高效能程式碼記憶 MCP 伺服器。
+
+**持續爆量專案：**
+1. **[obra/superpowers](https://github.com/obra/superpowers)** ⭐ 232K+ | Agent 技能框架
+2. **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** ⭐ 190K+ | 會成長的代理
+3. **[anomalyco/opencode](https://github.com/anomalyco/opencode)** ⭐ 173K+ | 開源編碼代理
+4. **[affaan-m/ECC](https://github.com/affaan-m/ECC)** ⭐ 213K+ | Agent 性能優化系統
 
 ---
-*資料由 GitHub Search API 自動產出。*
+
+*資料由 GitHub Search API + 外部聚合器自動產出。*
