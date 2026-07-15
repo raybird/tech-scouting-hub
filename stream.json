@@ -1,35 +1,35 @@
 {
-    "version": "v26.0704.1200",
-    "timestamp": "2026-07-04T12:00:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報復刊號。排程中斷15日後恢復。最大訊號：MCP 正式進入主流標準化階段 — Chrome DevTools MCP 45K⭐ 代表 Google 官方擁抱 MCP，codebase-memory-mcp 25K⭐ 建構程式碼知識圖譜。Token 優化成為剛需：caveman 83K⭐ 原始人語法砍65% tokens。AI 安全紅隊崛起：strix 34K⭐ 開源AI滲透測試。跨平台代理互操作：openai Codex Plugin for Claude Code 23K⭐。",
+    "version": "v26.0715.1200",
+    "timestamp": "2026-07-15T12:00:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報復刊號（第2次復刊）。排程中斷11日後恢復。最大訊號：知識圖譜工具 Graphify 86.6K⭐ 崛起，/graphify . 將整個專案映射為可查詢知識圖譜；開源影片編輯賽道白熱化：OpenCut 69.4K⭐ 日+4,276⭐ 為今日增速王；Agent 安全基礎設施化：destructive_command_guard 4.4K⭐ 阻擋 Agent 誤操作；AI 交易雙龍頭：ai-hedge-fund 61.9K⭐ + Vibe-Trading 22.8K⭐；反 AI 味設計運動：hallmark 6.1K⭐ 57道 slop-test 閘門。",
     "trending": {
-        "global_new": ["xbtlin/ai-berkshire", "Robbyant/lingbot-map", "facebook/astryx", "simplex-chat/simplex-chat"],
-        "rising": ["usestrix/strix", "openai/codex-plugin-cc", "ChromeDevTools/chrome-devtools-mcp", "harvard-edge/cs249r_book", "rommapp/romm"],
-        "global_active": ["openclaw/openclaw", "NousResearch/hermes-agent", "Significant-Gravitas/AutoGPT", "anomalyco/opencode", "JuliusBrussee/caveman", "addyosmani/agent-skills", "ChromeDevTools/chrome-devtools-mcp", "DeusData/codebase-memory-mcp"]
+        "global_new": ["Graphify-Labs/graphify", "mattpocock/skills", "AIEraDev/Clypra", "chenyme/grok2api", "HenryNdubuaku/maths-cs-ai-compendium"],
+        "rising": ["OpenCut-app/OpenCut", "Nutlope/hallmark", "HKUDS/Vibe-Trading", "hasaneyldrm/exercises-dataset", "par274/sharpemu"],
+        "global_active": ["openclaw/openclaw", "NousResearch/hermes-agent", "Significant-Gravitas/AutoGPT", "anomalyco/opencode", "Graphify-Labs/graphify", "JuliusBrussee/caveman", "OpenCut-app/OpenCut", "penpot/penpot"]
     },
     "trends": [
-        "MCP 主流化里程碑: Chrome DevTools MCP 45K⭐，Google 官方擁抱 MCP 協議，與 codebase-memory-mcp 25K⭐ 雙軌並進。",
-        "Token 優化成剛需: caveman 83K⭐，原始人語法砍 65% tokens，證明 token 效率是生產級代理必備。",
-        "AI 安全紅隊賽道: strix 34K⭐，開源 AI 滲透測試工具，AI 打 AI 的安全新範式。",
-        "跨平台 AI 互操作: openai/codex-plugin-cc 23K⭐，Claude Code 內呼叫 Codex，頂級 AI 平台界線模糊化。",
-        "Facebook Agent Ready: facebook/astryx 4.7K⭐，開源設計系統標榜「Agent Ready」，UI 框架為 AI 代理重新設計。",
-        "AI 價值投資框架: xbtlin/ai-berkshire 9.2K⭐，多 Agent 並行研究巴菲特/芒格/段永平/李錄四大師方法論。",
-        "哈佛 ML 開放教科書: harvard-edge/cs249r_book 26K⭐，Machine Learning Systems 開放式課程持續熱門。",
-        "3D 基礎模型開源化: Robbyant/lingbot-map 9.6K⭐，前饋 3D 場景重建基礎模型。"
+        "知識圖譜工具崛起: Graphify 86.6K⭐，/graphify . 一句話將整個專案映射為知識圖譜，20+ AI助理平台相容，完全本地執行。",
+        "開源影片編輯賽道白熱化: OpenCut 69.4K⭐ 日增 4,276⭐（今日最高），與 Clypra 2.6K⭐ 同日登上 Trending。",
+        "Agent 安全基礎設施化: destructive_command_guard 4.4K⭐，Rust 實作阻擋 Agent 誤操作危險 git/shell 命令。",
+        "AI 交易雙龍頭並立: ai-hedge-fund 61.9K⭐（多 Agent 量化交易）+ Vibe-Trading 22.8K⭐（個人交易 Agent）。",
+        "反 AI 味設計運動: hallmark 6.1K⭐，57道 slop-test 閘門 + 20 主題，拒絕 LLM 預設分佈。",
+        "Windows 去膨脹持續剛需: Win11Debloat 51.6K⭐，783⭐/日，終端隱私意識持續升高。",
+        "PS5 模擬器開源突破: sharpemu 2.1K⭐，實驗性 PS5 模擬器首次登上 Trending。",
+        "健身 AI 資料集崛起: exercises-dataset 13.5K⭐，1,324 動作含動畫 GIF + 6 語言教學。"
     ],
     "monthly": {
-        "title": "七月爆發專案（Jun 19 – Jul 4）",
+        "title": "七月爆發專案（Jul 4 – Jul 15）",
         "projects": [
-            {"repo": "openclaw/openclaw", "stars": 381614, "lang": "Python", "desc": "15天 +86K⭐，個人 AI 助理持續加速"},
-            {"repo": "JuliusBrussee/caveman", "stars": 83064, "lang": "JavaScript", "desc": "Token 優化技能，原始人語法砍 65% tokens"},
-            {"repo": "addyosmani/agent-skills", "stars": 68780, "lang": "Python", "desc": "Agent 技能框架穩步成長"},
-            {"repo": "ChromeDevTools/chrome-devtools-mcp", "stars": 45527, "lang": "TypeScript", "desc": "Google 官方 DevTools MCP 伺服器"},
-            {"repo": "usestrix/strix", "stars": 34815, "lang": "Python", "desc": "開源 AI 滲透測試工具"},
-            {"repo": "harvard-edge/cs249r_book", "stars": 26237, "lang": "Python", "desc": "哈佛 ML Systems 開放教科書"},
-            {"repo": "DeusData/codebase-memory-mcp", "stars": 25622, "lang": "C", "desc": "高性能程式碼智慧 MCP 伺服器"},
-            {"repo": "Kilo-Org/kilocode", "stars": 25518, "lang": "TypeScript", "desc": "全能開源代理工程平台"},
-            {"repo": "openai/codex-plugin-cc", "stars": 23326, "lang": "JavaScript", "desc": "Codex Plugin for Claude Code"},
-            {"repo": "xbtlin/ai-berkshire", "stars": 9207, "lang": "TypeScript", "desc": "AI 價值投資研究框架"}
+            {"repo": "openclaw/openclaw", "stars": "381K+", "lang": "Python", "desc": "個人 AI 助理，持續霸榜但增速放緩"},
+            {"repo": "Graphify-Labs/graphify", "stars": 86600, "lang": "Python", "desc": "AI 知識圖譜技能，7月最大新星"},
+            {"repo": "OpenCut-app/OpenCut", "stars": 69400, "lang": "TypeScript", "desc": "開源 CapCut 替代品，今日增速王 +4,276⭐"},
+            {"repo": "addyosmani/agent-skills", "stars": "68K+", "lang": "Python", "desc": "Agent 技能框架穩定成長"},
+            {"repo": "virattt/ai-hedge-fund", "stars": 61859, "lang": "Python", "desc": "AI 對沖基金團隊"},
+            {"repo": "penpot/penpot", "stars": 56148, "lang": "Clojure", "desc": "開源 Figma 替代設計平台"},
+            {"repo": "Raphire/Win11Debloat", "stars": 51647, "lang": "PowerShell", "desc": "Windows 去膨脹腳本"},
+            {"repo": "ChromeDevTools/chrome-devtools-mcp", "stars": "45K+", "lang": "TypeScript", "desc": "Google 官方 DevTools MCP 伺服器"},
+            {"repo": "usestrix/strix", "stars": "34K+", "lang": "Python", "desc": "開源 AI 滲透測試工具"},
+            {"repo": "HKUDS/Vibe-Trading", "stars": 22826, "lang": "Python", "desc": "個人交易 Agent"}
         ]
     }
 }
