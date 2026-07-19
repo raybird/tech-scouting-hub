@@ -1,35 +1,35 @@
 {
-    "version": "v26.0715.1200",
-    "timestamp": "2026-07-15T12:00:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報復刊號（第2次復刊）。排程中斷11日後恢復。最大訊號：知識圖譜工具 Graphify 86.6K⭐ 崛起，/graphify . 將整個專案映射為可查詢知識圖譜；開源影片編輯賽道白熱化：OpenCut 69.4K⭐ 日+4,276⭐ 為今日增速王；Agent 安全基礎設施化：destructive_command_guard 4.4K⭐ 阻擋 Agent 誤操作；AI 交易雙龍頭：ai-hedge-fund 61.9K⭐ + Vibe-Trading 22.8K⭐；反 AI 味設計運動：hallmark 6.1K⭐ 57道 slop-test 閘門。",
+    "version": "v26.0719.1200",
+    "timestamp": "2026-07-19T12:00:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報（第3次復刊後第4期）。最大訊號：Hallmark 翻倍爆發（6.1K→12.9K⭐，+112%）反AI設計正式成為獨立賽道；xAI 開源 Grok Build 19K⭐/5天 為本週最大結構性事件，編碼代理進入體驗競賽；OpenCut 75.5K⭐ 持續加速；Graphify 破 91K⭐ 知識圖譜王者地位穩固。",
     "trending": {
-        "global_new": ["Graphify-Labs/graphify", "mattpocock/skills", "AIEraDev/Clypra", "chenyme/grok2api", "HenryNdubuaku/maths-cs-ai-compendium"],
-        "rising": ["OpenCut-app/OpenCut", "Nutlope/hallmark", "HKUDS/Vibe-Trading", "hasaneyldrm/exercises-dataset", "par274/sharpemu"],
-        "global_active": ["openclaw/openclaw", "NousResearch/hermes-agent", "Significant-Gravitas/AutoGPT", "anomalyco/opencode", "Graphify-Labs/graphify", "JuliusBrussee/caveman", "OpenCut-app/OpenCut", "penpot/penpot"]
+        "global_new": ["xai-org/grok-build", "Fei-Away/Codex-Dream-Skin", "pixel-point/aval", "tandpfun/wardrobe", "nethical6/conversation-steganography", "CluvexStudio/Aether"],
+        "rising": ["Nutlope/hallmark", "OpenCut-app/OpenCut", "Graphify-Labs/graphify", "HKUDS/Vibe-Trading", "littledivy/mimic"],
+        "global_active": ["freeCodeCamp/freeCodeCamp", "EbookFoundation/free-programming-books", "awesome-selfhosted/awesome-selfhosted", "torvalds/linux", "n8n-io/n8n", "anomalyco/opencode", "Significant-Gravitas/AutoGPT", "Graphify-Labs/graphify", "OpenCut-app/OpenCut", "mattpocock/skills", "Shubhamsaboo/awesome-llm-apps"]
     },
     "trends": [
-        "知識圖譜工具崛起: Graphify 86.6K⭐，/graphify . 一句話將整個專案映射為知識圖譜，20+ AI助理平台相容，完全本地執行。",
-        "開源影片編輯賽道白熱化: OpenCut 69.4K⭐ 日增 4,276⭐（今日最高），與 Clypra 2.6K⭐ 同日登上 Trending。",
-        "Agent 安全基礎設施化: destructive_command_guard 4.4K⭐，Rust 實作阻擋 Agent 誤操作危險 git/shell 命令。",
-        "AI 交易雙龍頭並立: ai-hedge-fund 61.9K⭐（多 Agent 量化交易）+ Vibe-Trading 22.8K⭐（個人交易 Agent）。",
-        "反 AI 味設計運動: hallmark 6.1K⭐，57道 slop-test 閘門 + 20 主題，拒絕 LLM 預設分佈。",
-        "Windows 去膨脹持續剛需: Win11Debloat 51.6K⭐，783⭐/日，終端隱私意識持續升高。",
-        "PS5 模擬器開源突破: sharpemu 2.1K⭐，實驗性 PS5 模擬器首次登上 Trending。",
-        "健身 AI 資料集崛起: exercises-dataset 13.5K⭐，1,324 動作含動畫 GIF + 6 語言教學。"
+        "反AI設計成為獨立賽道: Hallmark 4天翻倍 12.9K⭐，57道 slop-test 閘門形成設計品質檢測新工具類別。",
+        "xAI 編碼代理 Grok Build 19K⭐: Rust 全螢幕 TUI，5天爆紅，與 Opencode/Claude Code/Codex 四足鼎立。",
+        "開源影片編輯 OpenCut 75.5K⭐ 持續加速: 4天 +6,080⭐，Clypra 2.6K⭐ 差距仍大。",
+        "知識圖譜 Graphify 破 91K⭐: 4天 +4,449⭐，/graphify . 一句話映射專案為知識圖譜。",
+        "Codex Dream Skin 瞬間爆紅: Amazon Codex 主題皮膚 9.8K⭐/4天，UI 自定義需求強勁。",
+        "Agent 安全基礎設施化持續: destructive_command_guard 5.1K⭐，Rust Agent 安全防護。",
+        "AI 交易賽道分化: Vibe-Trading 25K⭐ (+2,210)，ai-hedge-fund 62.3K⭐ 增速放緩。",
+        "LLM 隱寫術新領域: conversation-steganography 713⭐，用 LLM 在對話中隱藏訊息。"
     ],
     "monthly": {
-        "title": "七月爆發專案（Jul 4 – Jul 15）",
+        "title": "七月爆發專案（Jul 15 – Jul 19）",
         "projects": [
-            {"repo": "openclaw/openclaw", "stars": "381K+", "lang": "Python", "desc": "個人 AI 助理，持續霸榜但增速放緩"},
-            {"repo": "Graphify-Labs/graphify", "stars": 86600, "lang": "Python", "desc": "AI 知識圖譜技能，7月最大新星"},
-            {"repo": "OpenCut-app/OpenCut", "stars": 69400, "lang": "TypeScript", "desc": "開源 CapCut 替代品，今日增速王 +4,276⭐"},
-            {"repo": "addyosmani/agent-skills", "stars": "68K+", "lang": "Python", "desc": "Agent 技能框架穩定成長"},
-            {"repo": "virattt/ai-hedge-fund", "stars": 61859, "lang": "Python", "desc": "AI 對沖基金團隊"},
-            {"repo": "penpot/penpot", "stars": 56148, "lang": "Clojure", "desc": "開源 Figma 替代設計平台"},
-            {"repo": "Raphire/Win11Debloat", "stars": 51647, "lang": "PowerShell", "desc": "Windows 去膨脹腳本"},
-            {"repo": "ChromeDevTools/chrome-devtools-mcp", "stars": "45K+", "lang": "TypeScript", "desc": "Google 官方 DevTools MCP 伺服器"},
-            {"repo": "usestrix/strix", "stars": "34K+", "lang": "Python", "desc": "開源 AI 滲透測試工具"},
-            {"repo": "HKUDS/Vibe-Trading", "stars": 22826, "lang": "Python", "desc": "個人交易 Agent"}
+            {"repo": "Graphify-Labs/graphify", "stars": 91049, "lang": "Python", "desc": "AI 知識圖譜技能，4天 +4,449⭐"},
+            {"repo": "OpenCut-app/OpenCut", "stars": 75480, "lang": "TypeScript", "desc": "開源 CapCut 替代品，4天 +6,080⭐"},
+            {"repo": "Nutlope/hallmark", "stars": 12902, "lang": "CSS", "desc": "反 AI 味設計技能，翻倍王 +6,802⭐"},
+            {"repo": "xai-org/grok-build", "stars": 19074, "lang": "Rust", "desc": "xAI 編碼代理 TUI，5天爆紅"},
+            {"repo": "Shubhamsaboo/awesome-llm-apps", "stars": 124061, "lang": "Python", "desc": "100+ LLM 應用大全"},
+            {"repo": "HKUDS/Vibe-Trading", "stars": 25010, "lang": "Python", "desc": "個人交易 Agent，+2,210⭐"},
+            {"repo": "Fei-Away/Codex-Dream-Skin", "stars": 9829, "lang": "JavaScript", "desc": "Amazon Codex 主題皮膚，4天接近 10K⭐"},
+            {"repo": "Dicklesworthstone/destructive_command_guard", "stars": 5117, "lang": "Rust", "desc": "Agent 安全命令防護"},
+            {"repo": "virattt/ai-hedge-fund", "stars": 62254, "lang": "Python", "desc": "AI 對沖基金團隊，增速放緩"},
+            {"repo": "penpot/penpot", "stars": 56821, "lang": "Clojure", "desc": "開源 Figma 替代設計平台"}
         ]
     }
 }
