@@ -1,60 +1,52 @@
-### 🚀 GitHub Trending (API Scan) - 2026/7/15 下午12:00 (CST)
+### 🚀 GitHub Trending (API Scan) - 2026/7/21 下午12:00 (CST)
 
-**今日 Trending Top 15（依 GitHub Trending 排名）：**
+**今日 Tracking（追蹤專案 2 天變化 Jul 19 → Jul 21）：**
 
-1. **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)**
-   精選 LLM 應用大全。
+1. **[xai-org/grok-build](https://github.com/xai-org/grok-build)** ⭐ 20,927
+   xAI 編碼代理 TUI。2天 +1,853⭐，7天 0→20K⭐ 破紀錄。
 
-2. **[mattpocock/skills](https://github.com/mattpocock/skills)**
-   Matt Pocock 的 TypeScript 技能包。
+2. **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** ⭐ 92,436
+   AI 知識圖譜技能。2天 +1,387⭐。
 
-3. **[Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard)**
-   ⭐ 4,390 | Rust | 阻擋 Agent 執行危險 git/shell 命令。今日 +473⭐。
+3. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** ⭐ 14,333
+   反 AI 味設計技能。2天 +1,431⭐。
 
-4. **[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)**
-   ⭐ 69,400 | TypeScript | 開源 CapCut 替代品。今日 +4,276⭐（增速冠軍）。
+4. **[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)** ⭐ 76,477
+   開源 CapCut 替代品。2天 +997⭐。
 
-5. **[virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)**
-   ⭐ 61,859 | Python | AI 對沖基金團隊。今日 +109⭐。
+5. **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** ⭐ 125,255
+   LLM 應用大全。2天 +1,194⭐。
 
-6. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)**
-   ⭐ 6,117 | CSS | 反 AI 味設計技能。今日 +1,015⭐。
+6. **[Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin)** ⭐ 11,174
+   Codex 主題皮膚。2天 +1,345⭐，6天 0→11K。
 
-7. **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**
-   ⭐ 22,826 | Python | 個人交易 Agent。今日 +1,256⭐。
+7. **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** ⭐ 25,791
+   個人交易 Agent。2天 +781⭐。
 
-8. **[Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)**
-   ⭐ 51,647 | PowerShell | Windows 10/11 去膨脹腳本。今日 +783⭐。
+8. **[mattpocock/skills](https://github.com/mattpocock/skills)** ⭐ 179,182
+   技能包。2天 +2K+⭐。
 
-9. **[hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset)**
-   ⭐ 13,484 | HTML | 1,324 動作健身資料集。今日 +851⭐。
+9. **[virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)** ⭐ 62,308
+   AI 對沖基金。2天 +54⭐（放緩）。
 
-10. **[penpot/penpot](https://github.com/penpot/penpot)**
-    ⭐ 56,148 | Clojure | 開源設計平台。今日 +395⭐。
+10. **[littledivy/mimic](https://github.com/littledivy/mimic)** ⭐ 1,407
+    攔截任意應用從 Python 呼叫。2天 +207⭐。
 
-11. **[AIEraDev/Clypra](https://github.com/AIEraDev/Clypra)**
-    ⭐ 2,608 | TypeScript | Tauri 影片編輯器。今日 +85⭐。
+11. **[Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)** ⭐ 53,139
+    Windows 去膨脹腳本。2天 +218⭐。
 
-12. **[par274/sharpemu](https://github.com/par274/sharpemu)**
-    ⭐ 2,110 | C# | 實驗性 PS5 模擬器。今日 +332⭐。
-
-13. **[chenyme/grok2api](https://github.com/chenyme/grok2api)**
-    Grok API 包裝。
-
-14. **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)**
-    ⭐ 86,600 | Python | AI 知識圖譜技能，跨 20+ 平台。
-
-15. **[HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium)**
-    數學/計算機/AI 知識大全。
+12. **[penpot/penpot](https://github.com/penpot/penpot)** ⭐ 57,036
+    開源設計平台。2天 +215⭐。
 
 **生態巨頭即時星數：**
-- openclaw/openclaw: 381K+
-- NousResearch/hermes-agent: 208K+
-- Significant-Gravitas/AutoGPT: 185K+
-- anomalyco/opencode: 182K+
-- Graphify-Labs/graphify: 86.6K (新入榜)
-- JuliusBrussee/caveman: 83K+
-- OpenCut-app/OpenCut: 69.4K
-- addyosmani/agent-skills: 68K+
-- penpot/penpot: 56.1K
-- ChromeDevTools/chrome-devtools-mcp: 45K+
+- freeCodeCamp: 452K+
+- openclaw: 383K+
+- n8n: 197K+
+- anomalyco/opencode: 188K+
+- AutoGPT: 185K+
+- mattpocock/skills: 179K+
+- flutter: 177K+
+- ollama: 175K+ (prev)
+- Shubhamsaboo/awesome-llm-apps: 125K+
+- Graphify-Labs/graphify: 92.4K
+- OpenCut-app/OpenCut: 76.5K
