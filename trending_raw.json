@@ -1,42 +1,42 @@
-### 🚀 GitHub Trending (API Scan) - 2026/7/21 下午12:00 (CST)
+### 🚀 GitHub Trending (API Scan) - 2026/7/22 下午12:00 (CST)
 
-**今日 Tracking（追蹤專案 2 天變化 Jul 19 → Jul 21）：**
+**今日 Tracking（追蹤專案 1 天變化 Jul 21 → Jul 22）：**
 
-1. **[xai-org/grok-build](https://github.com/xai-org/grok-build)** ⭐ 20,927
-   xAI 編碼代理 TUI。2天 +1,853⭐，7天 0→20K⭐ 破紀錄。
+1. **[xai-org/grok-build](https://github.com/xai-org/grok-build)** ⭐ 21,491
+   xAI 編碼代理 TUI。1天 +564⭐，8天 0→21.5K⭐，增速放緩。
 
-2. **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** ⭐ 92,436
-   AI 知識圖譜技能。2天 +1,387⭐。
+2. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** ⭐ 15,049
+   反 AI 味設計技能。1天 +716⭐，正式突破 15K 里程碑。
 
-3. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** ⭐ 14,333
-   反 AI 味設計技能。2天 +1,431⭐。
+3. **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** ⭐ 93,280
+   AI 知識圖譜技能。1天 +844⭐。
 
-4. **[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)** ⭐ 76,477
-   開源 CapCut 替代品。2天 +997⭐。
+4. **[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)** ⭐ 77,096
+   開源 CapCut 替代品。1天 +619⭐。
 
-5. **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** ⭐ 125,255
-   LLM 應用大全。2天 +1,194⭐。
+5. **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** ⭐ 125,867
+   LLM 應用大全。1天 +612⭐。
 
-6. **[Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin)** ⭐ 11,174
-   Codex 主題皮膚。2天 +1,345⭐，6天 0→11K。
+6. **[Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin)** ⭐ 11,582
+   Codex 主題皮膚。1天 +408⭐，7天 0→11.6K。
 
-7. **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** ⭐ 25,791
-   個人交易 Agent。2天 +781⭐。
+7. **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** ⭐ 26,190
+   個人交易 Agent。1天 +399⭐。
 
-8. **[mattpocock/skills](https://github.com/mattpocock/skills)** ⭐ 179,182
-   技能包。2天 +2K+⭐。
+8. **[virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)** ⭐ 62,342
+   AI 對沖基金。1天 +34⭐（幾近停滯）。
 
-9. **[virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)** ⭐ 62,308
-   AI 對沖基金。2天 +54⭐（放緩）。
+9. **[littledivy/mimic](https://github.com/littledivy/mimic)** ⭐ 1,439
+   攔截任意應用從 Python 呼叫。1天 +32⭐。
 
-10. **[littledivy/mimic](https://github.com/littledivy/mimic)** ⭐ 1,407
-    攔截任意應用從 Python 呼叫。2天 +207⭐。
+10. **[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** ⭐ 41,573
+    AI 工程從零開始學習專案。今日全球趨勢#1。
 
-11. **[Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)** ⭐ 53,139
-    Windows 去膨脹腳本。2天 +218⭐。
+11. **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** ⭐ 23,829
+    自由 MIT AI 閘道：268+ providers/500+ models。
 
-12. **[penpot/penpot](https://github.com/penpot/penpot)** ⭐ 57,036
-    開源設計平台。2天 +215⭐。
+12. **[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)** ⭐ 15,343
+    《深入理解 AI Agent》開源書。中文 AI Agent 學習需求。
 
 **生態巨頭即時星數：**
 - freeCodeCamp: 452K+
@@ -46,7 +46,6 @@
 - AutoGPT: 185K+
 - mattpocock/skills: 179K+
 - flutter: 177K+
-- ollama: 175K+ (prev)
-- Shubhamsaboo/awesome-llm-apps: 125K+
-- Graphify-Labs/graphify: 92.4K
-- OpenCut-app/OpenCut: 76.5K
+- Shubhamsaboo/awesome-llm-apps: 125.9K
+- Graphify-Labs/graphify: 93.3K
+- OpenCut-app/OpenCut: 77.1K
