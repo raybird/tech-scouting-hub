@@ -1,36 +1,36 @@
 {
-    "version": "v28.0722.1200",
-    "timestamp": "2026-07-22T12:00:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報（第3次復刊後第6期，#123）。最大訊號：Hallmark 突破 15K⭐（單日 +716⭐）反 AI 設計運動正式跨入新里程碑；Grok Build 21.5K⭐ 增速放緩至 +564/天（前 2 天日均 +927），編碼代理賽道進入高原期；Graphify 93.3K⭐ 穩步朝 100K 前進，OpenCut 77.1K⭐ 持續吸星。今日新面孔：ai-engineering-from-scratch 41.6K⭐ 衝上 Jul 21 全球趨勢#1，以及 OmniRoute 23.8K⭐ AI 閘道概念再起。",
+    "version": "v29.0723.1200",
+    "timestamp": "2026-07-23T12:00:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報（第 4 次復刊後第 7 期，#124）。最大訊號：OmniRoute 暴漲 +1,737⭐ 至 25.6K，AI 閘道概念正式爆發；ai-agent-book +2,104⭐ 創驚人增速，中文開發者 AI Agent 學習需求海嘯來襲。Hallmark 15.7K⭐ +685 維持韌性，Grok Build +375 持續放緩進入第 9 天高原期。新專案全面轉向 AI Agent 工具鏈生態系。",
     "trending": {
-        "global_new": ["rohitg00/ai-engineering-from-scratch", "diegosouzapw/OmniRoute", "bojieli/ai-agent-book"],
-        "rising": ["Nutlope/hallmark", "xai-org/grok-build", "Graphify-Labs/graphify", "OpenCut-app/OpenCut", "Fei-Away/Codex-Dream-Skin"],
-        "global_active": ["freeCodeCamp/freeCodeCamp", "openclaw/openclaw", "n8n-io/n8n", "anomalyco/opencode", "Significant-Gravitas/AutoGPT", "mattpocock/skills", "flutter/flutter", "Graphify-Labs/graphify", "OpenCut-app/OpenCut", "Shubhamsaboo/awesome-llm-apps"]
+        "global_new": ["diegosouzapw/OmniRoute", "bojieli/ai-agent-book", "Jakubantalik/thinking-orbs"],
+        "rising": ["Nutlope/hallmark", "rohitg00/ai-engineering-from-scratch", "realfishsam/agent-notch", "risa-labs-inc/BossConsole"],
+        "global_active": ["freeCodeCamp/freeCodeCamp", "openclaw/openclaw", "n8n-io/n8n", "anomalyco/opencode", "Graphify-Labs/graphify", "OpenCut-app/OpenCut", "Shubhamsaboo/awesome-llm-apps", "tensorflow/tensorflow", "microsoft/vscode", "Significant-Gravitas/AutoGPT"]
     },
     "trends": [
-        "Hallmark 突破 15K⭐（15,049）：反 AI 設計運動完成制度化里程碑，單日 +716⭐ 增速回升。",
-        "Grok Build 21.5K⭐ 增速放緩：單日 +564⭐（前 2 日均 +927⭐），8 天 0→21.5K⭐ 但動能進入高原。",
-        "Graphify 93.3K⭐ 穩健朝 100K 前進：單日 +844⭐，知識圖譜賽道持續領先。",
-        "OpenCut 77.1K⭐ 影片編輯龍頭穩固：單日 +619⭐，CapCut 替代品效應深化。",
-        "ai-engineering-from-scratch 41.6K⭐ 強勢崛起：今日全球趨勢#1，AI 工程教育需求清晰。",
-        "AI 交易資金持續移向個人 Agent：Vibe-Trading 26.2K⭐（+399/天）vs ai-hedge-fund 62.3K⭐（+34/天）差距擴大中。",
-        "OmniRoute 23.8K⭐ AI 閘道再起：268+ providers/500+ models，編碼代理生態基礎設施需求明確。",
-        "Codex Dream Skin 11.6K⭐（+408/天）7 天從 0→11.6K⭐，主題市場已成形。",
-        "mimic 1.4K⭐ 攔截應用呼叫新概念持續關注。"
+        "OmniRoute 暴漲 +1,737⭐ 至 25,566：AI 閘道概念正式爆發，268+ providers 需求確認。",
+        "ai-agent-book +2,104⭐ 至 17,447：中文 AI Agent 開源書單日 2K⭐，學習需求海嘯。",
+        "Hallmark 15,734⭐ 維持韌性（+685），反 AI 設計運動持續制度化。",
+        "Grok Build 21,866⭐（+375）持續放緩，第 9 天高原期待突破。",
+        "Graphify 94,008⭐（+728）朝 100K 穩步前進。",
+        "Vibe-Trading 26,584⭐（+394）持續碾壓 ai-hedge-fund 62,362⭐（+20）。",
+        "新專案全面轉向 AI Agent 工具鏈：BossConsole(agent harness)、agent-notch(vibe-island 替代)、thinking-orbs(AI UI)、Finn-loop(AI factory)。",
+        "ai-engineering-from-scratch 42,380⭐（+807）持續強勁，AI 教育需求不減。"
     ],
     "monthly": {
-        "title": "七月爆發專案追蹤 (Jul 14 – Jul 22)",
+        "title": "七月爆發專案追蹤 (Jul 14 – Jul 23)",
         "projects": [
-            {"repo": "xai-org/grok-build", "stars": 21491, "lang": "Rust", "desc": "xAI 編碼代理 TUI，8 天 0→21.5K⭐，增速放緩中"},
-            {"repo": "Graphify-Labs/graphify", "stars": 93280, "lang": "Python", "desc": "AI 知識圖譜，8 天 +4,631⭐"},
-            {"repo": "OpenCut-app/OpenCut", "stars": 77096, "lang": "TypeScript", "desc": "開源 CapCut 替代品，8 天 +7,696⭐"},
-            {"repo": "Nutlope/hallmark", "stars": 15049, "lang": "CSS", "desc": "反 AI 味設計 突破 15K⭐，8 天 +8,932⭐ 翻倍王"},
-            {"repo": "Fei-Away/Codex-Dream-Skin", "stars": 11582, "lang": "JavaScript", "desc": "Codex 主題皮膚，7 天 0→11.6K⭐"},
-            {"repo": "Shubhamsaboo/awesome-llm-apps", "stars": 125867, "lang": "Python", "desc": "100+ LLM 應用大全"},
-            {"repo": "HKUDS/Vibe-Trading", "stars": 26190, "lang": "Python", "desc": "個人交易 Agent，8 天 +3,364⭐"},
-            {"repo": "virattt/ai-hedge-fund", "stars": 62342, "lang": "Python", "desc": "AI 對沖基金，增速持續放緩 +88/8天"},
-            {"repo": "rohitg00/ai-engineering-from-scratch", "stars": 41573, "lang": "Python", "desc": "AI 工程從零開始，今日趨勢#1"},
-            {"repo": "diegosouzapw/OmniRoute", "stars": 23829, "lang": "TypeScript", "desc": "AI 閘道 268+ providers, 500+ models"}
+            {"repo": "xai-org/grok-build", "stars": 21866, "lang": "Rust", "desc": "xAI 編碼代理 TUI，9 天 0→21.9K⭐，第 9 天高原期"},
+            {"repo": "Graphify-Labs/graphify", "stars": 94008, "lang": "Python", "desc": "AI 知識圖譜，9 天 +5,359⭐"},
+            {"repo": "OpenCut-app/OpenCut", "stars": 77681, "lang": "TypeScript", "desc": "開源 CapCut 替代品，9 天 +8,281⭐"},
+            {"repo": "Nutlope/hallmark", "stars": 15734, "lang": "CSS", "desc": "反 AI 味設計 突破 15K⭐，9 天 +9,617⭐ 翻倍王"},
+            {"repo": "Fei-Away/Codex-Dream-Skin", "stars": 11887, "lang": "JavaScript", "desc": "Codex 主題皮膚，8 天 0→11.9K⭐"},
+            {"repo": "Shubhamsaboo/awesome-llm-apps", "stars": 126462, "lang": "Python", "desc": "100+ LLM 應用大全"},
+            {"repo": "HKUDS/Vibe-Trading", "stars": 26584, "lang": "Python", "desc": "個人交易 Agent，9 天 +3,758⭐"},
+            {"repo": "virattt/ai-hedge-fund", "stars": 62362, "lang": "Python", "desc": "AI 對沖基金，幾近停滯 +20/天"},
+            {"repo": "rohitg00/ai-engineering-from-scratch", "stars": 42380, "lang": "Python", "desc": "AI 工程從零開始，持續飆升"},
+            {"repo": "diegosouzapw/OmniRoute", "stars": 25566, "lang": "TypeScript", "desc": "AI 閘道 268+ providers，暴漲 +1,737/天"},
+            {"repo": "bojieli/ai-agent-book", "stars": 17447, "lang": "Python", "desc": "中文 AI Agent 開源書，單日 +2,104⭐"}
         ]
     }
 }
