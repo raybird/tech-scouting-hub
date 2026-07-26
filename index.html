@@ -29,157 +29,41 @@
         }
         h1 { color: var(--primary); font-size: 1.2rem; margin: 0; text-transform: uppercase; letter-spacing: 2px; }
         
-        .trending-card {
-            background: var(--card-bg); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 1.5rem;
+        .hero-link {
+            display: block; text-align: center; padding: 1.5rem; margin-bottom: 2rem;
+            background: linear-gradient(135deg, #161b22 0%, #1a2a3a 100%);
+            border: 1px solid var(--primary); border-radius: 12px;
+            color: var(--primary); text-decoration: none; font-weight: 800; font-size: 1.1rem;
             transition: 0.3s;
         }
-        .trending-card:hover { border-color: var(--primary); }
-        .repo-name { font-size: 1.1rem; font-weight: 800; color: #58a6ff; text-decoration: none; display: block; margin-bottom: 5px; }
-        .repo-desc { font-size: 0.9rem; color: #8b949e; margin-bottom: 10px; }
-        .repo-meta { font-size: 0.75rem; color: #f0883e; font-weight: 700; }
-        .tag { display: inline-block; background: #1f2d3d; color: #58a6ff; font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; margin-right: 5px; }
-        .delta-pos { color: #3fb950; font-weight: 700; }
-        .delta-neg { color: #f85149; font-weight: 700; }
-        .delta-fire { color: #f0883e; font-weight: 700; }
-
-        .analysis-section { margin-top: 3rem; border-top: 2px solid var(--border); padding-top: 2rem; }
-        .analysis-title { color: var(--primary); font-size: 1rem; font-weight: 800; margin-bottom: 1rem; text-transform: uppercase; }
-        .analysis-content { font-size: 0.95rem; line-height: 1.8; color: #aaa; }
-
-        .monthly-section { margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
-        .monthly-title { color: #f0883e; font-size: 0.9rem; font-weight: 800; margin-bottom: 0.8rem; text-transform: uppercase; }
-        .monthly-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
-        .monthly-item { background: var(--card-bg); padding: 0.8rem; border-radius: 6px; border: 1px solid var(--border); font-size: 0.8rem; }
-        .monthly-item .stars { color: #f0883e; font-weight: 700; }
+        .hero-link:hover { background: linear-gradient(135deg, #1a2a3a 0%, #161b22 100%); border-color: #fff; color: #fff; }
+        .hero-link small { display: block; font-weight: 400; font-size: 0.8rem; color: #8b949e; margin-top: 0.3rem; }
 
         .archives-link { margin-top: 2rem; text-align: center; }
         .archives-link a { color: #58a6ff; font-size: 0.85rem; }
 
         footer { text-align: center; color: #444; font-size: 0.75rem; margin-top: 5rem; }
-        .fresh-badge { background: #3fb950; color: #0d1117; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
-        .milestone { background: #f0883e; color: #0d1117; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
-        .fire-badge { background: #ff6b35; color: #fff; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
-        .corp-badge { background: #6e40c9; color: #fff; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>TECH SCOUTING</h1>
-            <div style="font-size: 0.75rem; color: #666;">v30.0724.1200 | 2026-07-24 12:00 (CST) · #125</div>
+            <div style="font-size: 0.75rem; color: #666;">v31.0726.0600 | 2026-07-26 (CST) · #126</div>
         </header>
 
-        <div class="trending-list">
-            <div class="trending-card">
-                <a href="https://github.com/koala73/worldmonitor" class="repo-name">koala73 / worldmonitor <span class="fire-badge">🔥 +4,000</span></a>
-                <p class="repo-desc">即時全球情報儀表板：AI 新聞聚合、地緣政治監控、65+ 資料來源。昨日突破 70K⭐，1 天 +4,000⭐ 創增速新高。</p>
-                <div class="repo-meta"><span class="tag">OSINT</span><span class="tag">Geopolitics</span><span class="tag">TypeScript</span>⭐ ~71,000 <span class="delta-fire">+4,000</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/block/buzz" class="repo-name">block / buzz <span class="corp-badge">BLOCK</span><span class="fire-badge">🔥 +3,252</span></a>
-                <p class="repo-desc">由 Block, Inc.（前 Square）推出的開源「蜂巢思維」通訊平台。Rust 打造的去中心化社群工具，1 天 +3,252⭐ 達 6,637⭐。</p>
-                <div class="repo-meta"><span class="tag">Rust</span><span class="tag">Social</span><span class="tag">Decentralized</span>⭐ 6,637 <span class="delta-fire">+3,252</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/ruvnet/RuView" class="repo-name">ruvnet / RuView <span class="milestone">84K☆</span></a>
-                <p class="repo-desc">π RuView 將 WiFi 訊號轉換為即時空間智慧、生命徵象監控與存在檢測——不需任何攝影機鏡頭。Rust 實現。84,571⭐。</p>
-                <div class="repo-meta"><span class="tag">WiFi Sensing</span><span class="tag">Rust</span><span class="tag">Spatial AI</span>⭐ 84,571 <span class="delta-pos">+741</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/shiyu-coder/Kronos" class="repo-name">shiyu-coder / Kronos <span class="fresh-badge">HOT</span></a>
-                <p class="repo-desc">金融市場的基礎模型：Kronos 是首個專為金融市場語言設計的大模型。Python 實現 32,797⭐。</p>
-                <div class="repo-meta"><span class="tag">Finance AI</span><span class="tag">Foundation Model</span><span class="tag">Python</span>⭐ 32,797 <span class="delta-pos">+137</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/chrislgarry/Apollo-11" class="repo-name">chrislgarry / Apollo-11 <span class="milestone">70K☆</span></a>
-                <p class="repo-desc">阿波羅 11 號導航電腦原始程式碼——人類登月的科技遺產。Assembly 語言，70,846⭐。</p>
-                <div class="repo-meta"><span class="tag">Assembly</span><span class="tag">Space</span><span class="tag">History</span>⭐ 70,846 <span class="delta-pos">+768</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/diegosouzapw/OmniRoute" class="repo-name">diegosouzapw / OmniRoute</a>
-                <p class="repo-desc">AI 閘道增速放緩：1 天 +602⭐ 至 26,168⭐。278+ providers/500+ models 規模不變，暴漲動能回歸常態。</p>
-                <div class="repo-meta"><span class="tag">AI Gateway</span><span class="tag">TypeScript</span>⭐ 26,168 <span class="delta-pos">+602</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/ComposioHQ/awesome-claude-skills" class="repo-name">ComposioHQ / awesome-claude-skills</a>
-                <p class="repo-desc">Claude Skills 精選清單持續吸引流量，1 天 +163⭐ 至 69,093⭐。AI 技能生態系的入口樞紐。</p>
-                <div class="repo-meta"><span class="tag">Claude Skills</span><span class="tag">Python</span>⭐ 69,093 <span class="delta-pos">+163</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/alibaba/open-code-review" class="repo-name">alibaba / open-code-review <span class="corp-badge">ALIBABA</span></a>
-                <p class="repo-desc">阿里巴巴開源的程式碼審查工具。混合架構：確定性流水線 + LLM Agent。Go 實現 11,031⭐。</p>
-                <div class="repo-meta"><span class="tag">Code Review</span><span class="tag">Go</span><span class="tag">Alibaba</span>⭐ 11,031 <span class="delta-pos">+162</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/Nutlope/hallmark" class="repo-name">Nutlope / hallmark</a>
-                <p class="repo-desc">反 AI 味設計增速放緩至 +209/天，15,943⭐。58 道 slop-test 影響力續增但星數動能遞減。</p>
-                <div class="repo-meta"><span class="tag">Anti-AI Slop</span><span class="tag">CSS</span>⭐ 15,943 <span class="delta-pos">+209</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/bojieli/ai-agent-book" class="repo-name">bojieli / ai-agent-book</a>
-                <p class="repo-desc">《深入理解 AI Agent》開源書，昨日單日 +2,104⭐ 後回檔至常態。~19,000+⭐。</p>
-                <div class="repo-meta"><span class="tag">AI Agent</span><span class="tag">Book</span>⭐ ~19,000 <span class="delta-pos">~+1,500</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/Pumpkin-MC/Pumpkin" class="repo-name">Pumpkin-MC / Pumpkin <span class="fresh-badge">NEW</span></a>
-                <p class="repo-desc">Rust 實現的 Minecraft 伺服器軟體。高效能、低資源佔用，社群關注度飆升。</p>
-                <div class="repo-meta"><span class="tag">Minecraft</span><span class="tag">Rust</span><span class="tag">Game Server</span>⭐ Trending <span class="delta-pos">NEW</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/citrolabs/ego-lite" class="repo-name">citrolabs / ego-lite <span class="fresh-badge">NEW</span></a>
-                <p class="repo-desc">輕量級自我意識 Agent 框架——降低 AI Agent 建置門檻的新嘗試。</p>
-                <div class="repo-meta"><span class="tag">AI Agent</span><span class="tag">Framework</span>⭐ Trending <span class="delta-pos">NEW</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/earthtojake/text-to-cad" class="repo-name">earthtojake / text-to-cad <span class="fresh-badge">NEW</span></a>
-                <p class="repo-desc">文字描述直接生成 CAD 模型——AI 輔助工業設計的新工具。</p>
-                <div class="repo-meta"><span class="tag">CAD</span><span class="tag">AI</span><span class="tag">Design</span>⭐ Trending <span class="delta-pos">NEW</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/likec4/likec4" class="repo-name">likec4 / likec4 <span class="fresh-badge">NEW</span></a>
-                <p class="repo-desc">C4 模型架構圖即程式碼工具。以文字定義架構圖的視覺化工具。</p>
-                <div class="repo-meta"><span class="tag">Architecture</span><span class="tag">Diagrams</span><span class="tag">C4 Model</span>⭐ Trending <span class="delta-pos">NEW</span></div>
-            </div>
-            <div class="trending-card">
-                <a href="https://github.com/agegr/pi-web" class="repo-name">agegr / pi-web <span class="fresh-badge">NEW</span></a>
-                <p class="repo-desc">π Web——基於 Raspberry Pi 的 Web 工具生態。邊緣計算輕量化解決方案。</p>
-                <div class="repo-meta"><span class="tag">Raspberry Pi</span><span class="tag">Edge</span>⭐ Trending <span class="delta-pos">NEW</span></div>
-            </div>
-        </div>
-
-        <div class="analysis-section">
-            <div class="analysis-title">今日技術獵頭深度規訓 (Scouting Insight)</div>
-            <div class="analysis-content">
-                <p><strong>WorldMonitor 70K⭐ 爆發——非 AI 工具的意外勝利</strong> — koala73/worldmonitor 以 +4,000/天 的增速衝破 70K⭐。即時全球情報儀表板的成功反映的是 OSINT（開源情報）的全民化需求，而非 AI 熱潮的直接產物。</p>
-                <p><strong>Block/buzz 企業社群平台開源——科技巨頭開放戰略的訊號</strong> — Block, Inc. 將其「蜂巢思維」平台開源，+3,252⭐ 在一天內躍升 Top 2。Rust 去中心化社交工具，企業級社交基礎設施從封閉走向開放。</p>
-                <p><strong>Fintech AI 雙箭頭：Kronos + RuView 並立</strong> — Kronos（32.8K⭐）金融市場基礎模型 + RuView（84.6K⭐）WiFi 感知，代表 AI 在金融與 IoT 垂直領域的深度落地。</p>
-                <p><strong>Alibaba 開源 code review 工具——中國科技巨頭開源復甦</strong> — 阿里巴巴以 Go 推出 open-code-review（11K⭐），混合確定性流水線與 LLM Agent 的精準審查。近年中國巨頭少見的高品質開發工具開源。</p>
-                <p><strong>AI Gateway 降溫回歸常態</strong> — OmniRoute 從 +1,737/天（7/23）降至 +602/天（7/24），Hallmark、ai-agent-book 同步降溫。</p>
-                <p><strong>生態巨頭即時星數：</strong> build-your-own-x 530K⭐、freeCodeCamp 452K⭐、openclaw 384K⭐、tensorflow 196K⭐、n8n 197K⭐、vscode 187K⭐、opencode 188K⭐、AutoGPT 185K⭐、flutter 177K⭐、ollama 176K⭐、Graphify ~94.7K⭐、OpenCut ~78.2K⭐、awesome-llm-apps 126.7K⭐。</p>
-            </div>
-        </div>
-
-        <div class="monthly-section">
-            <div class="monthly-title">七月爆發專案持續追蹤 (Jul 14 – Jul 24)</div>
-            <div class="monthly-grid">
-                <div class="monthly-item"><strong>Grok Build</strong> <span class="stars">~22,200⭐</span><br>10天高原期 放緩</div>
-                <div class="monthly-item"><strong>Hallmark</strong> <span class="stars">15,943⭐</span><br>放緩至+209/天</div>
-                <div class="monthly-item"><strong>Graphify</strong> <span class="stars">~94,700⭐</span><br>+700/天 朝100K</div>
-                <div class="monthly-item"><strong>OpenCut</strong> <span class="stars">~78,200⭐</span><br>+500/天 影片龍頭</div>
-                <div class="monthly-item"><strong>Vibe-Trading</strong> <span class="stars">~26,950⭐</span><br>+366/天 持續</div>
-                <div class="monthly-item"><strong>OmniRoute</strong> <span class="stars">26,168⭐</span><br>降溫至+602/天</div>
-                <div class="monthly-item"><strong>WorldMonitor</strong> <span class="stars">~71,000⭐</span><br>今日王 +4,000/天</div>
-                <div class="monthly-item"><strong>block/buzz</strong> <span class="stars">6,637⭐</span><br>Block 開源 +3,252/天</div>
-            </div>
-        </div>
+        <a href="archives/2026-07-26_0600.html" class="hero-link">
+            📡 查看最新一期大會報 #126 — 2026-07-26
+            <small>block/buzz +5,467⭐ 暴漲王、OmniRoute 二次加速突破 30K、WorldMonitor 放緩</small>
+        </a>
 
         <div class="archives-link">
-            <a href="archives/index.html">📂 查看歷史存檔</a>
+            <a href="archives/index.html">📂 查看歷史存檔 (共 14 期)</a>
         </div>
 
         <footer>
-            <p>Generated by TeleNexus Tech Scouting · v30.0724.1200 · #125</p>
-            <p>Data source: GitHub Search API + external aggregators · Updated 2026-07-24</p>
+            <p>Generated by TeleNexus Tech Scouting · v31.0726.0600 · #126</p>
+            <p>Data source: GitHub REST API + external aggregators · Updated 2026-07-26</p>
         </footer>
     </div>
 </body>
