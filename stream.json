@@ -1,41 +1,39 @@
 {
-    "version": "v31.0726.0600",
-    "timestamp": "2026-07-26T06:00:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報（第 5 次復刊後第 9 期，#126）。block/buzz 以 +5,467⭐/2天（+2,733/天）從 6,637 暴漲至 12,104⭐，超越 WorldMonitor 成為 W30 末段最大爆發王。OmniRoute 突破均值回歸，重新加速至 +1,983/天，突破 30K。WorldMonitor 74,224⭐ 增速放緩至 +1,612/天。Hallmark 增速反彈至 +910/天而非放緩。ai-hedge-fund 62,413⭐ 近乎停滯（+33/2天），Vibe-Trading 逆勢超越。",
+    "version": "v32.0727.1200",
+    "timestamp": "2026-07-27T12:00:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報（第 5 次復刊後第 10 期，#127）。工作日曆假說驗證通過——週一恢復出刊。bitchat 以 +1,842⭐/日 登頂今日趨勢榜首，超越 block/buzz 成為 W31 最強新敘事。去中心化通訊賽道全面引爆：bitchat（藍牙 Mesh）+ buzz（蜂巢思維平台）雙雄並立。OmniRoute 31,221⭐ 二次加速確認（+1,087/日）。Hallmark 18,343⭐（+579/日）與 impeccable 50,806⭐ 形成設計雙軌賽道。Chat2DB 27,211⭐ AI 資料庫重回趨勢榜。",
     "trending": {
-        "global_new": ["block/buzz", "citrolabs/ego-lite", "Automattic/harper", "obra/superpowers", "permissionlesstech/bitchat"],
-        "rising": ["diegosouzapw/OmniRoute", "alibaba/open-code-review", "shiyu-coder/Kronos", "bojieli/ai-agent-book", "likec4/likec4"],
-        "global_active": ["block/buzz", "koala73/worldmonitor", "ruvnet/RuView", "diegosouzapw/OmniRoute", "ComposioHQ/awesome-claude-skills", "Nutlope/hallmark", "Graphify-Labs/graphify", "OpenCut-app/OpenCut", "alibaba/open-code-review", "chrislgarry/Apollo-11"]
+        "global_new": ["permissionlesstech/bitchat", "pingdotgg/t3code", "pbakaus/impeccable", "andrewyng/aisuite", "anthropics/claude-cookbooks"],
+        "rising": ["block/buzz", "diegosouzapw/OmniRoute", "OtterMind/Chat2DB", "Nutlope/hallmark", "citrolabs/ego-lite"],
+        "global_active": ["permissionlesstech/bitchat", "block/buzz", "diegosouzapw/OmniRoute", "koala73/worldmonitor", "pbakaus/impeccable", "Nutlope/hallmark", "shiyu-coder/Kronos", "OtterMind/Chat2DB", "pingdotgg/t3code", "alibaba/open-code-review"]
     },
     "trends": [
-        "block/buzz +5,467⭐ 至 12,104：Block 蜂巢思維平台啟動去中心化社交賽道，本週增速王。",
-        "OmniRoute +3,966⭐ 至 30,134：AI 閘道突破均值回歸，二次加速至 +1,983/天。",
-        "WorldMonitor +3,224⭐ 至 74,224：OSINT 王者放緩至 +1,612/天，但仍強勁。",
-        "alibaba/open-code-review +2,034⭐ 至 13,065：中國巨頭開源持續升溫。",
-        "RuView 86,402⭐（+1,831）：WiFi 空間智慧穩定朝 100K。",
-        "Hallmark 17,764⭐（+1,821）：反 AI 味運動增速反彈至 +910/天。",
-        "awesome-claude-skills 70,650⭐（+1,557）：Claude Skills 生態入口突破 70K。",
-        "opencode 189,708⭐（+1,708）：開源編碼代理逼近 190K。",
-        "Graphify 95,927⭐（+1,227）：距 100K 最後 4K。",
-        "ai-hedge-fund 62,413⭐（+33）：近乎停滯，Vibe-Trading 27,599⭐（+649）逆勢超越。",
-        "ai-agent-book 19,882⭐（+882）：朝 20K 里程碑邁進。",
-        "OpenCut 78,749⭐（+549）：影片賽道增速放緩進入高原期。"
+        "permissionlesstech/bitchat +1,842⭐ 至 30,646：藍牙 Mesh 聊天登頂今日趨勢榜首，去中心化離線通訊引爆。",
+        "block/buzz +1,399⭐ 至 13,503：3日累計 +6,866⭐，蜂巢思維平台持續爆發。",
+        "OmniRoute +1,087⭐ 至 31,221：AI 閘道二次加速確認，突破 31K。",
+        "WorldMonitor +671⭐ 至 74,895：OSINT 王者放緩至中速。",
+        "Hallmark +579⭐ 至 18,343：反 AI 味運動增速持穩。",
+        "impeccable 50,806⭐：AI 設計語言 50K 里程碑，與 hallmark 形成設計雙軌。",
+        "Kronos +352⭐ 至 34,188：金融 LLM 持續穩定。",
+        "Chat2DB 27,211⭐：AI 資料庫工具重回趨勢榜，Java 生態 AI 化。",
+        "t3code 15,097⭐：T3 Stack 新編碼工具新面孔。",
+        "andrewyng/aisuite、anthropics/claude-cookbooks：AI 教育與官方教材系列上榜。"
     ],
     "monthly": {
-        "title": "七月爆發專案追蹤 (Jul 14 – Jul 26)",
+        "title": "七月爆發專案追蹤 (Jul 14 – Jul 27)",
         "projects": [
-            {"repo": "xai-org/grok-build", "stars": 22548, "lang": "Rust", "desc": "xAI 編碼代理 TUI，高原期末段 +174/天"},
-            {"repo": "Graphify-Labs/graphify", "stars": 95927, "lang": "Python", "desc": "AI 知識圖譜，12天 +7,227⭐"},
-            {"repo": "OpenCut-app/OpenCut", "stars": 78749, "lang": "TypeScript", "desc": "開源 CapCut 替代品，放緩至 +274/天"},
-            {"repo": "Nutlope/hallmark", "stars": 17764, "lang": "CSS", "desc": "反 AI 味設計，增速反彈至 +910/天"},
-            {"repo": "koala73/worldmonitor", "stars": 74224, "lang": "TypeScript", "desc": "OSINT 全民化，放緩至 +1,612/天"},
-            {"repo": "block/buzz", "stars": 12104, "lang": "Rust", "desc": "Block 蜂巢思維平台，+2,733/天 暴漲王"},
-            {"repo": "diegosouzapw/OmniRoute", "stars": 30134, "lang": "TypeScript", "desc": "AI 閘道二次加速至 +1,983/天"},
-            {"repo": "HKUDS/Vibe-Trading", "stars": 27599, "lang": "Python", "desc": "個人交易 Agent，+324/天持續"},
-            {"repo": "shiyu-coder/Kronos", "stars": 33836, "lang": "Python", "desc": "金融市場基礎模型，+520/天"},
-            {"repo": "ruvnet/RuView", "stars": 86402, "lang": "Rust", "desc": "WiFi 空間智慧，+915/天朝 100K"},
-            {"repo": "bojieli/ai-agent-book", "stars": 19882, "lang": "Python", "desc": "中文 AI Agent 開源書，逼近 20K"},
-            {"repo": "alibaba/open-code-review", "stars": 13065, "lang": "Go", "desc": "阿里巴巴開源程式碼審查工具，+1,017/天"}
+            {"repo": "block/buzz", "stars": 13503, "lang": "Rust", "desc": "Block 蜂巢思維平台，3日 +6,866⭐ 爆發王確認"},
+            {"repo": "permissionlesstech/bitchat", "stars": 30646, "lang": "Swift", "desc": "藍牙 Mesh 聊天，+1,842/天 趨勢榜首"},
+            {"repo": "diegosouzapw/OmniRoute", "stars": 31221, "lang": "TypeScript", "desc": "AI 閘道二次加速 +1,087/天 突破 31K"},
+            {"repo": "koala73/worldmonitor", "stars": 74895, "lang": "TypeScript", "desc": "OSINT 全民化，放緩至 +671/天"},
+            {"repo": "Nutlope/hallmark", "stars": 18343, "lang": "CSS", "desc": "反 AI 味設計，增速持穩 +579/天"},
+            {"repo": "pbakaus/impeccable", "stars": 50806, "lang": "JavaScript", "desc": "AI 設計語言 50K 里程碑"},
+            {"repo": "shiyu-coder/Kronos", "stars": 34188, "lang": "Python", "desc": "金融市場基礎模型，+352/天"},
+            {"repo": "OtterMind/Chat2DB", "stars": 27211, "lang": "Java", "desc": "AI 資料庫工具重回趨勢榜"},
+            {"repo": "Graphify-Labs/graphify", "stars": 95927, "lang": "Python", "desc": "AI 知識圖譜，穩步朝 100K"},
+            {"repo": "ruvnet/RuView", "stars": 86402, "lang": "Rust", "desc": "WiFi 空間智慧，朝 100K"},
+            {"repo": "pingdotgg/t3code", "stars": 15097, "lang": "TypeScript", "desc": "T3 Stack 編碼工具新面孔"},
+            {"repo": "alibaba/open-code-review", "stars": 13065, "lang": "Go", "desc": "阿里巴巴程式碼審查持續"}
         ]
     }
 }

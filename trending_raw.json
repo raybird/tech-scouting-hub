@@ -1,69 +1,59 @@
-### 🚀 GitHub Trending (API Scan) - 2026/7/26 06:00 (CST)
+### 🚀 GitHub Trending (API Scan) - 2026/7/27 12:00 (CST)
 
-**今日 Tracking（追蹤專案 2 天變化 Jul 24 → Jul 26）：**
+**本日整體趨勢榜 Top 17（OrangeBot 聚合，7/27 12:00 CST）：**
+1. permissionlesstech/bitchat — 藍牙 Mesh 聊天，Swift 原生
+2. citrolabs/ego-lite — 自我意識 Agent 輕量版
+3. block/buzz — Block 蜂巢思維平台，Rust 實作
+4. pingdotgg/t3code — T3 Stack 新編碼工具
+5. CoreBunch/Instatic
+6. yorukot/superfile
+7. nodejs/node
+8. OtterMind/Chat2DB — AI 資料庫工具，Java
+9. pbakaus/impeccable — AI 設計語言，50K⭐
+10. shiyu-coder/Kronos — 金融 LLM，34,188⭐
+11. alibaba/open-code-review
+12. andrewyng/aisuite — Andrew Ng AI 工具套件
+13. anthropics/claude-cookbooks — Claude 官方食譜
+14. Pumpkin-MC/Pumpkin
+15. permissionlesstech/bitchat-android
+16. jenkinsci/jenkins
+17. amnezia-vpn/amnezia-client
 
-1. **[koala73/worldmonitor](https://github.com/koala73/worldmonitor)** ⭐ 74,224
-   OSINT 全球情報儀表板。2天 +3,224⭐（~+1,612/天），增速從狂暴期放緩但仍強勁。
+**追蹤專案單日變化（7/26 → 7/27）：**
+1. **[permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)** ⭐ 30,646
+   藍牙 Mesh 聊天，IRC 風格。單日 +1,842⭐，登頂今日趨勢榜首。
 
-2. **[block/buzz](https://github.com/block/buzz)** ⭐ 12,104
-   Block 蜂巢思維平台。2天 +5,467⭐ 爆炸性增長！突破 10K，24日僅 6,637⭐。
+2. **[block/buzz](https://github.com/block/buzz)** ⭐ 13,503
+   Block 蜂巢思維平台。單日 +1,399⭐（今日 #3 趨勢）。3 日累計 +6,866⭐。
 
-3. **[ruvnet/RuView](https://github.com/ruvnet/RuView)** ⭐ 86,402
-   WiFi 空間智慧。2天 +1,831⭐，穩步朝 100K 邁進。
+3. **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** ⭐ 31,221
+   AI 閘道二次加速確認。單日 +1,087⭐，突破 31K。
 
-4. **[shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)** ⭐ 33,836
-   金融 LLM。2天 +1,039⭐，32K→33K 站穩。
+4. **[koala73/worldmonitor](https://github.com/koala73/worldmonitor)** ⭐ 74,895
+   OSINT 全球情報儀表板。單日 +671⭐。放緩至中速穩定。
 
-5. **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** ⭐ 30,134
-   AI 閘道擺脫均值回歸，重新加速！2天 +3,966⭐（~+1,983/天），突破 30K。
+5. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** ⭐ 18,343
+   反 AI 味設計工具。單日 +579⭐。增速持穩，58 道 slop-test 持續發酵。
 
-6. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** ⭐ 17,764
-   反 AI 味設計。2天 +1,821⭐（~+910/天），增速反彈而非放緩。
+6. **[pbakaus/impeccable](https://github.com/pbakaus/impeccable)** ⭐ 50,806
+   AI 設計語言，50K 里程碑。
 
-7. **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** ⭐ 95,927
-   AI 知識圖譜。2天 +1,227⭐，朝 100K 最後衝刺。
+7. **[shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)** ⭐ 34,188
+   金融 LLM。單日 +352⭐。金融 AI 賽道持續穩定。
 
-8. **[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)** ⭐ 78,749
-   開源 CapCut 替代品。2天 +549⭐（~+274/天），增速明顯放緩。
+8. **[OtterMind/Chat2DB](https://github.com/OtterMind/Chat2DB)** ⭐ 27,211
+   AI 驅動資料庫工具。重回今日趨勢榜，Java 生態 AI 化代表作。
 
-9. **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** ⭐ 27,599
-   個人交易 Agent。2天 +649⭐，持續穩定。
-
-10. **[virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)** ⭐ 62,413
-    AI 對沖基金。2天僅 +33⭐，幾近停滯。
-
-11. **[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)** ⭐ 19,882
-    《深入理解 AI Agent》開源書。2天 +882⭐，接近 20K 里程碑。
-
-12. **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** ⭐ 13,065
-    阿里巴巴程式碼審查工具。2天 +2,034⭐（~+1,017/天），突破 13K。
-
-13. **[xai-org/grok-build](https://github.com/xai-org/grok-build)** ⭐ 22,548
-    xAI 編碼代理 TUI。2天 +348⭐，進入高原期末段。
-
-14. **[chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11)** ⭐ 71,522
-    阿波羅 11 號原始碼。2天 +676⭐，穩定增長。
-
-15. **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** ⭐ 70,650
-    Claude Skills 精選清單。2天 +1,557⭐，突破 70K。
-
-16. **[anomalyco/opencode](https://github.com/anomalyco/opencode)** ⭐ 189,708
-    開源編碼代理。2天 +1,708⭐，逼近 190K。
-
-**本日 Trending 新面孔（7/26 掃描）：**
-17. **[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)** ⭐ 3,691
-     自我意識 Agent 框架輕量版。
-
-18. **[Automattic/harper](https://github.com/Automattic/harper)** ⭐ 13,465
-     Automattic 開源隱私優先文法檢查器，Rust 實作。
-
-19. **[obra/superpowers](https://github.com/obra/superpowers)** ⭐ 261,160
-     Agentic skills 框架，持續爆發 261K⭐。
-
-20. **[permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)** ⭐ 28,804
-     藍牙 Mesh 聊天工具，Swift 原生，IRC 風格。
+**本日 Trending 新面孔（7/27 掃描）：**
+- pingdotgg/t3code (15,097⭐, TypeScript, T3 Stack 新編碼工具)
+- CoreBunch/Instatic
+- yorukot/superfile
+- OtterMind/Chat2DB (27,211⭐, Java, AI 資料庫工具)
+- andrewyng/aisuite (Andrew Ng AI 工具套件)
+- anthropics/claude-cookbooks (Anthropic 官方 Claude 食譜集)
+- Pumpkin-MC/Pumpkin
+- amnezia-vpn/amnezia-client
 
 **生態巨頭即時星數：**
-- freeCodeCamp: 452K+, openclaw: 384K+, n8n: 198K+, tensorflow: 196.5K+, javascript-algorithms: 196.3K+
-- opencode: 189.7K, vscode: 187.9K, transformers: 179K+, flutter: 177K+, ollama: ~176K+
-- awesome-llm-apps: 127.7K, Graphify: 95.9K, OpenCut: 78.7K, RuView: 86.4K
+- freeCodeCamp: 452K+, openclaw: 384K+, ECC: 233K+, hermes-agent: 221K+, n8n: 198K+
+- tensorflow: 196.5K+, opencode: 189.7K+, vscode: 187.9K+, RuView: 86.4K+, Graphify: ~96K
