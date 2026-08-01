@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-size="medium">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GitHub 技術獵頭大會報 - 2026-07-29 (#128)</title>
+    <style>
+        :root {
+            --primary: #3fb950;
+            --bg: #0d1117;
+            --card-bg: #161b22;
+            --text: #c9d1d9;
+            --border: #30363d;
+        }
+        html[data-size="small"] { font-size: 14px; }
+        html[data-size="medium"] { font-size: 16px; }
+        html[data-size="large"] { font-size: 18px; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, system-ui, sans-serif;
+            margin: 0; padding: 1.5rem; line-height: 1.6;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        header { 
+            border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bottom: 2rem;
+            display: flex; justify-content: space-between; align-items: baseline;
+        }
+        h1 { color: var(--primary); font-size: 1.2rem; margin: 0; text-transform: uppercase; letter-spacing: 2px; }
+        
+        .trending-card {
+            background: var(--card-bg); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 1.5rem;
+            transition: 0.3s;
+        }
+        .trending-card:hover { border-color: var(--primary); }
+        .repo-name { font-size: 1.1rem; font-weight: 800; color: #58a6ff; text-decoration: none; display: block; margin-bottom: 5px; }
+        .repo-desc { font-size: 0.9rem; color: #8b949e; margin-bottom: 10px; }
+        .repo-meta { font-size: 0.75rem; color: #f0883e; font-weight: 700; }
+        .tag { display: inline-block; background: #1f2d3d; color: #58a6ff; font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; margin-right: 5px; }
+        .delta-pos { color: #3fb950; font-weight: 700; }
+        .delta-fire { color: #f0883e; font-weight: 700; }
+        .delta-mega { color: #ff6b35; font-weight: 700; }
+        .delta-neg { color: #f85149; font-weight: 700; }
+
+        .analysis-section { margin-top: 3rem; border-top: 2px solid var(--border); padding-top: 2rem; }
+        .analysis-title { color: var(--primary); font-size: 1rem; font-weight: 800; margin-bottom: 1rem; text-transform: uppercase; }
+        .analysis-content { font-size: 0.95rem; line-height: 1.8; color: #aaa; }
+
+        .monthly-section { margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+        .monthly-title { color: #f0883e; font-size: 0.9rem; font-weight: 800; margin-bottom: 0.8rem; text-transform: uppercase; }
+        .monthly-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+        .monthly-item { background: var(--card-bg); padding: 0.8rem; border-radius: 6px; border: 1px solid var(--border); font-size: 0.8rem; }
+        .monthly-item .stars { color: #f0883e; font-weight: 700; }
+
+        .archives-link { margin-top: 2rem; text-align: center; }
+        .archives-link a { color: #58a6ff; font-size: 0.85rem; }
+
+        footer { text-align: center; color: #444; font-size: 0.75rem; margin-top: 5rem; }
+        .fresh-badge { background: #3fb950; color: #0d1117; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+        .milestone { background: #f0883e; color: #0d1117; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+        .fire-badge { background: #ff6b35; color: #fff; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+        .mega-badge { background: #ff0040; color: #fff; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+        .corp-badge { background: #6e40c9; color: #fff; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TECH SCOUTING</h1>
+            <div style="font-size: 0.75rem; color: #666;">v33.0729.1200 | 2026-07-29 12:00 (CST) · #128</div>
+        </header>
+
+        <div class="trending-list">
+            <div class="trending-card">
+                <a href="https://github.com/permissionlesstech/bitchat" class="repo-name">permissionlesstech / bitchat <span class="fresh-badge">#1 TRENDING</span><span class="fire-badge">🔥 +1,210/d</span></a>
+                <p class="repo-desc">藍牙 Mesh 聊天，Swift 原生 E2E 加密 Nostr 協議。33,066⭐，2 日 +2,420⭐。增速較上期（+1,842/d）降溫至 +1,210/d，但仍為通訊敘事王。</p>
+                <div class="repo-meta"><span class="tag">Swift</span><span class="tag">Bluetooth</span><span class="tag">Decentralized</span>⭐ 33,066 <span class="delta-fire">+2,420/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/block/buzz" class="repo-name">block / buzz <span class="corp-badge">BLOCK</span><span class="mega-badge">🔥🔥 +138%</span></a>
+                <p class="repo-desc">Block 蜂巢思維平台 15,840⭐，2 日 +2,337⭐。從 7/24 的 6,637⭐ 起算 10 日累計 +9,203⭐（+138% 翻倍），W31 爆發王持續裂變。與 bitchat 形成去中心化通訊雙雄。</p>
+                <div class="repo-meta"><span class="tag">Rust</span><span class="tag">Social</span><span class="tag">Decentralized</span>⭐ 15,840 <span class="delta-mega">+2,337/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/diegosouzapw/OmniRoute" class="repo-name">diegosouzapw / OmniRoute <span class="milestone">33K☆</span></a>
+                <p class="repo-desc">AI 閘道 33,307⭐，2 日 +2,086⭐。290+ providers/500+ models，二次加速站穩。週增速 +1,045（Trending8 週榜 #5），AI 基礎設施持續深化。</p>
+                <div class="repo-meta"><span class="tag">AI Gateway</span><span class="tag">TypeScript</span>⭐ 33,307 <span class="delta-fire">+2,086/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/Graphify-Labs/graphify" class="repo-name">Graphify-Labs / graphify <span class="milestone">98K☆</span><span class="fresh-badge">NEAR 100K</span></a>
+                <p class="repo-desc">AI 知識圖譜 97,878⭐，2 日 +~1,878⭐，單日 ~+939⭐。逼近 100K 里程碑，AI 知識圖譜敘事加速。與 RuView（87K）形成雙百 K 挑戰賽。</p>
+                <div class="repo-meta"><span class="tag">Knowledge Graph</span><span class="tag">Python</span><span class="tag">Claude Code</span>⭐ 97,878 <span class="delta-fire">+~1,878/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/pbakaus/impeccable" class="repo-name">pbakaus / impeccable <span class="milestone">52K☆</span></a>
+                <p class="repo-desc">AI 設計語言 52,290⭐，2 日 +1,484⭐。AI 代理設計方法論持續受關注，與 hallmark（19,409⭐）分別從不同角度解決 AI 設計問題。</p>
+                <div class="repo-meta"><span class="tag">Design</span><span class="tag">AI</span><span class="tag">JavaScript</span>⭐ 52,290 <span class="delta-pos">+1,484/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/koala73/worldmonitor" class="repo-name">koala73 / worldmonitor <span class="milestone">76K☆</span></a>
+                <p class="repo-desc">OSINT 全球情報儀表板 76,030⭐，2 日 +1,135⭐。單日 ~+567⭐，中速穩定。OSINT 王者地位不變。</p>
+                <div class="repo-meta"><span class="tag">OSINT</span><span class="tag">Geopolitics</span><span class="tag">TypeScript</span>⭐ 76,030 <span class="delta-pos">+1,135/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/Nutlope/hallmark" class="repo-name">Nutlope / hallmark</a>
+                <p class="repo-desc">反 AI 味設計工具 19,409⭐，2 日 +1,066⭐。單日 ~+533⭐，逼近 20K 里程碑。58 道 slop-test 持續發酵。</p>
+                <div class="repo-meta"><span class="tag">Anti-AI Slop</span><span class="tag">CSS</span>⭐ 19,409 <span class="delta-pos">+1,066/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/ruvnet/RuView" class="repo-name">ruvnet / RuView <span class="milestone">87K☆</span></a>
+                <p class="repo-desc">WiFi 空間智慧平台 87,330⭐，2 日 +~930⭐。朝 100K 穩步前進，與 Graphify 並列百 K 候選。</p>
+                <div class="repo-meta"><span class="tag">WiFi Sensing</span><span class="tag">Rust</span>⭐ 87,330 <span class="delta-pos">+~930/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/chopratejas/headroom" class="repo-name">chopratejas / headroom <span class="fresh-badge">NEW</span><span class="mega-badge">🔥 +2,769/w</span></a>
+                <p class="repo-desc">LLM Token 壓縮工具——壓縮工具輸出、日誌、RAG 片段，減少 60-95% token 但答案不變。週 +2,769⭐，代理上下文視窗管理革命級工具。</p>
+                <div class="repo-meta"><span class="tag">Compression</span><span class="tag">MCP</span><span class="tag">Token</span>⭐ 2,769+ <span class="delta-fire">+2,769/w</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/langchain-ai/deepagents" class="repo-name">langchain-ai / deepagents <span class="fresh-badge">NEW</span><span class="fire-badge">🔥 +2,484/w</span></a>
+                <p class="repo-desc">LangChain「電池內建」Agent 馬具。LangGraph 生態最新力作，週 +2,484⭐。AI 代理框架賽道再添重量級選手。</p>
+                <div class="repo-meta"><span class="tag">LangChain</span><span class="tag">AI Agents</span><span class="tag">Python</span>⭐ 2,484+ <span class="delta-fire">+2,484/w</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/stablyai/orca" class="repo-name">stablyai / orca <span class="fresh-badge">NEW</span><span class="fire-badge">🔥 +1,028/w</span></a>
+                <p class="repo-desc">ADE（代理開發環境）——並行運作多個編碼代理。支援 Claude Code、Codex 等，Desktop/Mobile/VPS。代理編排基礎設施新典範。</p>
+                <div class="repo-meta"><span class="tag">ADE</span><span class="tag">Multi-Agent</span><span class="tag">CLI</span>⭐ 1,028+ <span class="delta-fire">+1,028/w</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/shiyu-coder/Kronos" class="repo-name">shiyu-coder / Kronos</a>
+                <p class="repo-desc">金融市場基礎模型 34,850⭐，2 日 +662⭐。金融 LLM 賽道續穩。</p>
+                <div class="repo-meta"><span class="tag">Finance AI</span><span class="tag">Foundation Model</span><span class="tag">Python</span>⭐ 34,850 <span class="delta-pos">+662/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/Lum1104/Understand-Anything" class="repo-name">Lum1104 / Understand-Anything <span class="fresh-badge">NEW</span></a>
+                <p class="repo-desc">互動式程式碼知識圖譜，支援 Claude Code、Codex、Cursor 等。週 +883⭐，知識圖譜工具賽道新面孔。</p>
+                <div class="repo-meta"><span class="tag">Knowledge Graph</span><span class="tag">Code Understanding</span>⭐ 883+ <span class="delta-pos">+883/w</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/agentscope-ai/QwenPaw" class="repo-name">agentscope-ai / QwenPaw <span class="fresh-badge">NEW</span></a>
+                <p class="repo-desc">通義千問個人 AI 助理，支援在地端/雲端部署、多聊天 App。週 +846⭐，阿里巴巴生態 AI 助理賽道登場。</p>
+                <div class="repo-meta"><span class="tag">AI Assistant</span><span class="tag">Alibaba</span><span class="tag">Qwen</span>⭐ 846+ <span class="delta-pos">+846/w</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/alibaba/open-code-review" class="repo-name">alibaba / open-code-review <span class="corp-badge">ALIBABA</span></a>
+                <p class="repo-desc">阿里巴巴程式碼審查工具持續成長，15,563⭐，Go 實現。混合確定性 + LLM Agent 方案。</p>
+                <div class="repo-meta"><span class="tag">Code Review</span><span class="tag">Go</span><span class="tag">Alibaba</span>⭐ 15,563 <span class="delta-pos">+~2,500/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/pingdotgg/t3code" class="repo-name">pingdotgg / t3code</a>
+                <p class="repo-desc">T3 Stack 開發者新編碼工具，15,484⭐。TypeScript 生態持續關注。</p>
+                <div class="repo-meta"><span class="tag">TypeScript</span><span class="tag">Developer Tools</span>⭐ 15,484 <span class="delta-pos">+387/2d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/andrewyng/aisuite" class="repo-name">andrewyng / aisuite</a>
+                <p class="repo-desc">Andrew Ng AI 工具整合套件，15,725⭐。AI 教育生態持續貢獻。</p>
+                <div class="repo-meta"><span class="tag">AI</span><span class="tag">Python</span><span class="tag">Andrew Ng</span>⭐ 15,725</div>
+            </div>
+        </div>
+
+        <div class="analysis-section">
+            <div class="analysis-title">今日技術獵頭深度規訓 (Scouting Insight)</div>
+            <div class="analysis-content">
+                <p><strong>W31 高原整理——市場進入消化期</strong> — 上期 #127 後 W31 週三出刊。多數追蹤專案增速從狂暴期（+1,000~1,800/d）降溫至中速區間（+500~1,200/d）。block/buzz 雖增速放緩但仍維持 +1,169/d，從 7/24 起算 10 日內 +138% 的翻倍動能驚人。去中心化通訊雙雄（buzz + bitchat）主導 W31 敘事。</p>
+                <p><strong>AI 代理基礎設施賽道全面開花——headroom、deepagents、orca 三箭齊發</strong> — headroom（token 壓縮，週 +2,769）、deepagents（LangChain 馬具，週 +2,484）、orca（多代理 ADE，週 +1,028）代表 AI 代理工具鏈的三個新維度：上下文效率、框架標準化、部署可操作性。W31 最大新敘事集群。</p>
+                <p><strong>Graphify 97,878⭐ 逼近 100K 里程碑</strong> — 2 日 +~1,878⭐，單日 ~+939⭐，為目前增速最快的超大型專案。預計本週內（7/31-8/1）可突破 100K。RuView（87,330⭐）亦以 +~465/d 穩步朝 100K 前進。</p>
+                <p><strong>設計雙軌持續：hallmark（19,409⭐）+ impeccable（52,290⭐）</strong> — hallmark 反 AI 味設計逼近 20K；impeccable AI 設計語言突破 52K。兩者分別從否定與引導兩個方向設計 AI 時代美學。</p>
+                <p><strong>生態巨頭即時星數：</strong> freeCodeCamp 453K+、nilbuild/developer-roadmap 363K+、awesome-selfhosted 309K+、obra/superpowers 263K+、react 247K+、torvalds/linux 241K+、mattpocock/skills 193K+、Graphify ~98K、RuView ~87K。</p>
+            </div>
+        </div>
+
+        <div class="monthly-section">
+            <div class="monthly-title">七月爆發專案持續追蹤 (Jul 14 – Jul 29)</div>
+            <div class="monthly-grid">
+                <div class="monthly-item"><strong>block/buzz</strong> <span class="stars">15,840⭐</span><br>爆發王 +138% 翻倍</div>
+                <div class="monthly-item"><strong>Hallmark</strong> <span class="stars">19,409⭐</span><br>逼近 20K ~+533/d</div>
+                <div class="monthly-item"><strong>Graphify</strong> <span class="stars">97,878⭐</span><br>衝 100K ~+939/d</div>
+                <div class="monthly-item"><strong>OmniRoute</strong> <span class="stars">33,307⭐</span><br>二次加速 ~+1,043/d</div>
+                <div class="monthly-item"><strong>bitchat</strong> <span class="stars">33,066⭐</span><br>降溫至 ~+1,210/d</div>
+                <div class="monthly-item"><strong>Kronos</strong> <span class="stars">34,850⭐</span><br>金融賽道穩 +331/d</div>
+                <div class="monthly-item"><strong>WorldMonitor</strong> <span class="stars">76,030⭐</span><br>OSINT 王者 +567/d</div>
+                <div class="monthly-item"><strong>impeccable</strong> <span class="stars">52,290⭐</span><br>AI 設計 ~+742/d</div>
+                <div class="monthly-item"><strong>headroom</strong> <span class="stars">2,769+⭐</span><br>Token 革命新敘事</div>
+                <div class="monthly-item"><strong>deepagents</strong> <span class="stars">2,484+⭐</span><br>LangChain 馬具</div>
+                <div class="monthly-item"><strong>orca</strong> <span class="stars">1,028+⭐</span><br>多代理 ADE</div>
+                <div class="monthly-item"><strong>RuView</strong> <span class="stars">87,330⭐</span><br>WiFi 智慧朝 100K</div>
+            </div>
+        </div>
+
+        <div class="archives-link">
+            <a href="archives/index.html">📂 查看歷史存檔</a>
+        </div>
+
+        <footer>
+            <p>Generated by TeleNexus Tech Scouting · v33.0729.1200 · #128</p>
+            <p>Data source: GitHub REST API + Trendin8 aggregator</p>
+        </footer>
+    </div>
+</body>
+</html>
