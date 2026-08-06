@@ -1,39 +1,37 @@
 {
-    "version": "v34.0801.1200",
-    "timestamp": "2026-08-01T12:00:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報（第 5 次復刊後第 12 期，#129）。W31 週六出刊，超級循環降臨：#128 標記的 5 個新面孔（Understand-Anything/headroom/orca/QwenPaw/deepagents）3 日內集體爆擊，全部從 ~1K 竄破萬星（11x~87x）。Understand-Anything 76,972⭐ 一舉竄升追蹤榜第 3，與 graphify（99,804⭐，距 100K 僅 196 顆）併流引爆「知識圖譜」賽道。buzz +3,795⭐ 逼近 20K 接棒通訊敘事王；bitchat 降溫 -82%。",
+    "version": "v35.0806.1200",
+    "timestamp": "2026-08-06T12:00:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報（第 5 次復刊後第 13 期，#130）。W32 週四出刊，距上期 5 日。八月超級循環正式進入「收斂淘汰」階段：#128/#129 的 5 箭新面孔僅 orca（+716/d）與 QwenPaw（+430/d）續跑長 beta，其餘全數撞破。Understand-Anything 自 Lun1104 移轉至 Egonex-AI 後成長劇烈坍縮（5 日僅 +715，從日增萬級崩至 +143/d），87x 超新星證實是「單點事件」。旗艦動能交棒：graphify 正式突破 100K 里程碑（103K，本平台追蹤史上首次）；OmniRoute +4,658⭐ 越 40K 登上全榜最快出手王（~+932/d）。同時新一輪「Frontier Intelligence + 開源智能體工作」敘事啟動：MoonshotAI/Kimi-K3、andrewyng/openworker、yc-software/qm、trycompai/agentic CRM 五天內集體擴張，7 月底新組 4 箭全入萬星俱樂部。",
     "trending": {
-        "global_new": ["Lum1104/Understand-Anything", "chopratejas/headroom", "stablyai/orca", "agentscope-ai/QwenPaw", "langchain-ai/deepagents"],
-        "rising": ["Graphify-Labs/graphify", "block/buzz", "alibaba/open-code-review", "citrolabs/ego-lite", "different-ai/openwork"],
-        "global_active": ["Lum1104/Understand-Anything", "Graphify-Labs/graphify", "chopratejas/headroom", "block/buzz", "diegosouzapw/OmniRoute", "stablyai/orca", "ruvnet/RuView", "koala73/worldmonitor", "pbakaus/impeccable", "Nutlope/hallmark"]
+        "global_new": ["MoonshotAI/Kimi-K3", "andrewyng/openworker", "yc-software/qm", "trycompai/crm", "firecrawl/anydoc"],
+        "rising": ["diegosouzapw/OmniRoute", "stablyai/orca", "block/buzz", "citrolabs/ego-lite", "different-ai/openwork"],
+        "global_active": ["Graphify-Labs/Graphify", "diegosouzapw/OmniRoute", "ruvnet/RuView", "koala73/worldmonitor", "headroomlabs-ai/headroom", "stablyai/orca", "agentscope-ai/QwenPaw", "permissionlesstech/bitchat", "Nutlope/hallmark", "Egonex-AI/Understand-Anything"]
     },
     "trends": [
-        "Lum1104/Understand-Anything 76,972⭐ 3 日 87x 爆擊：互動程式碼知識圖譜，竄升追蹤榜第 3，知識圖譜賽道主導者。",
-        "Graphify-Labs/graphify 99,804⭐（~+642/d）：距 100K 里程碑僅 196 顆，隨時直播突破。",
-        "chopratejas/headroom 63,590⭐ 3 日 23x：LLM Token 壓縮成為主流敘事。",
-        "stablyai/orca 34,716⭐ 3 日 34x：多代理 ADE 開發環境進入主流。",
-        "block/buzz 19,635⭐（~+1,265/d）：7/24 起算 8 日 +196%，逼近 20K，接棒通訊敘事王。",
-        "diegosouzapw/OmniRoute 36,232⭐（~+975/d）：AI 閘道龍頭穩步突破 36K。",
-        "permissionlesstech/bitchat 33,722⭐（~+219/d）：增速 -82% 大降溫，敘事王寶座移交 buzz。",
-        "Nutlope/hallmark 20,376⭐：正式突破 20K 里程碑。",
-        "agentscope-ai/QwenPaw 31,534⭐ 3 日 37x：阿里巴巴 Qwen 個人助理起飛。",
-        "今日 Trending：microsoft/AI-For-Beginners +1,592/d、openwork +806/d、awesome-systematic-trading +763/d、jcode +527/d。"
+        "Graphify-Labs/graphify 103,108⭐（~+661/d）：正式突破 100K 里程碑，本平台追蹤史上首個破百K專案。",
+        "diegosouzapw/OmniRoute 40,890⭐（~+932/d 5 日 +4,658）：以閘道敘事在全榜最快出手王，跨 40K。",
+        "stablyai/orca 38,295⭐（~+716/d）：多代理 ADE 續升高位，取代 Understand-Anything 成續命新王。",
+        "Egonex-AI/Understand-Anything 77,687⭐（5 日僅 +715，~+143/d）：自 Lun1104 遷移組織後成長坍縮 95%，87x 超新星證實退潮。",
+        "block/buzz 23,303⭐（~+734/d）：正式跨 20K 後續強，通訊敘事王地位穩固同位。",
+        "MoonshotAI/Kimi-K3 8,104⭐（6 日）：新一代 Frontier 模型開放，加入開源前沿浪潮。",
+        "andrewyng/openworker 13,163⭐（17 日）：Andrew Ng 開源 Agent 工作母機，人/機協作進入主流。",
+        "今日 Trending 新血：yc-software/qm +11,760⭐（10 日多人協作 harness）、trycompai/agentic CRM、firecrawl/anydoc（Rust 文件轉換）。"
     ],
     "monthly": {
-        "title": "八月超級循環追蹤 (Jul 29 – Aug 01)",
+        "title": "八月超循環收斂追蹤 (Aug 01 – Aug 06)",
         "projects": [
-            {"repo": "Lum1104/Understand-Anything", "stars": 76972, "lang": "TypeScript", "desc": "互動程式碼知識圖譜，3 日 87x 竄升第三巨頭"},
-            {"repo": "Graphify-Labs/graphify", "stars": 99804, "lang": "Python", "desc": "AI 知識圖譜，距 100K 僅 196 顆"},
-            {"repo": "chopratejas/headroom", "stars": 63590, "lang": "Python", "desc": "LLM Token 壓縮，3 日 23x 主流化"},
-            {"repo": "stablyai/orca", "stars": 34716, "lang": "TypeScript", "desc": "多代理 ADE，3 日 34x"},
-            {"repo": "agentscope-ai/QwenPaw", "stars": 31534, "lang": "Python", "desc": "Qwen 個人助理，3 日 37x"},
-            {"repo": "langchain-ai/deepagents", "stars": 27174, "lang": "Python", "desc": "LangChain Agent 馬具，3 日 11x"},
-            {"repo": "block/buzz", "stars": 19635, "lang": "Rust", "desc": "蜂巢通訊平台，接棒通訊王 +196%"},
-            {"repo": "diegosouzapw/OmniRoute", "stars": 36232, "lang": "TypeScript", "desc": "AI 閘道龍頭，~+975/d"},
-            {"repo": "ruvnet/RuView", "stars": 87934, "lang": "Rust", "desc": "WiFi 空間智慧，動能轉弱 ~+201/d"},
-            {"repo": "koala73/worldmonitor", "stars": 77493, "lang": "TypeScript", "desc": "OSINT 王者被 Understand-Anything 貼近"},
-            {"repo": "permissionlesstech/bitchat", "stars": 33722, "lang": "Swift", "desc": "藍牙 Mesh 聊天，降溫 -82%"},
-            {"repo": "Nutlope/hallmark", "stars": 20376, "lang": "CSS", "desc": "反 AI 味設計，突破 20K"}
+            {"repo": "Graphify-Labs/graphify", "stars": 103108, "lang": "Python", "desc": "AI 知識圖譜，破 100K 里程碑第一箭"},
+            {"repo": "ruvnet/RuView", "stars": 88654, "lang": "Rust", "desc": "WiFi 空間智慧，動能轉弱 +143/d"},
+            {"repo": "koala73/worldmonitor", "stars": 79171, "lang": "TypeScript", "desc": "OSINT 王者，仍被 graphify 拉開"},
+            {"repo": "Egonex-AI/Understand-Anything", "stars": 77687, "lang": "TypeScript", "desc": "知識圖譜超新星坍縮，遷移 Egonex-AI 後成長熄火"},
+            {"repo": "chopratejas/headroom", "stars": 65080, "lang": "Python", "desc": "LLM Token 壓縮，長 beta 放緩"},
+            {"repo": "diegosouzapw/OmniRoute", "stars": 40890, "lang": "TypeScript", "desc": "AI 閘道龍頭，跨 40K 最快出手"},
+            {"repo": "stablyai/orca", "stars": 38295, "lang": "TypeScript", "desc": "多代理 ADE，續命新王 +716/d"},
+            {"repo": "permissionlesstech/bitchat", "stars": 34586, "lang": "Swift", "desc": "藍牙 Mesh 聊天，裁讀持續退"},
+            {"repo": "agentscope-ai/QwenPaw", "stars": 33686, "lang": "Python", "desc": "Qwen 個人助理，~+374/d 穩定續"},
+            {"repo": "block/buzz", "stars": 23303, "lang": "Rust", "desc": "蜂巢通訊平台，跨 20K 續強 +734/d"},
+            {"repo": "Nutlope/hallmark", "stars": 22079, "lang": "CSS", "desc": "反 AI 味設計，+341/d 平穩"},
+            {"repo": "andrewyng/openworker", "stars": 13163, "lang": "Agent", "desc": "Andrew Ng 開源工作母艦，新 Frontier 敘事"}
         ]
     }
 }

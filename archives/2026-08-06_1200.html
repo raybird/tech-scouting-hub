@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-size="medium">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GitHub 技術獵頭大會報 - 2026-08-06 (#130)</title>
+    <style>
+        :root {
+            --primary: #3fb950;
+            --bg: #0d1117;
+            --card-bg: #161b22;
+            --text: #c9d1d9;
+            --border: #30363d;
+        }
+        html[data-size="small"] { font-size: 14px; }
+        html[data-size="medium"] { font-size: 16px; }
+        html[data-size="large"] { font-size: 18px; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, system-ui, sans-serif;
+            margin: 0; padding: 1.5rem; line-height: 1.6;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        header {
+            border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bottom: 2rem;
+            display: flex; justify-content: space-between; align-items: baseline;
+        }
+        h1 { color: var(--primary); font-size: 1.2rem; margin: 0; text-transform: uppercase; letter-spacing: 2px; }
+
+        .trending-card {
+            background: var(--card-bg); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 1.5rem;
+            transition: 0.3s;
+        }
+        .trending-card:hover { border-color: var(--primary); }
+        .repo-name { font-size: 1.1rem; font-weight: 800; color: #58a6ff; text-decoration: none; display: block; margin-bottom: 5px; }
+        .repo-desc { font-size: 0.9rem; color: #8b949e; margin-bottom: 10px; }
+        .repo-meta { font-size: 0.75rem; color: #f0883e; font-weight: 700; }
+        .tag { display: inline-block; background: #1f2d3d; color: #58a6ff; font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; margin-right: 5px; }
+        .delta-pos { color: #3fb950; font-weight: 700; }
+        .delta-fire { color: #f0883e; font-weight: 700; }
+        .delta-mega { color: #ff6b35; font-weight: 700; }
+        .delta-neg { color: #f85149; font-weight: 700; }
+
+        .analysis-section { margin-top: 3rem; border-top: 2px solid var(--border); padding-top: 2rem; }
+        .analysis-title { color: var(--primary); font-size: 1rem; font-weight: 800; margin-bottom: 1rem; text-transform: uppercase; }
+        .analysis-content { font-size: 0.95rem; line-height: 1.8; color: #aaa; }
+
+        .monthly-section { margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+        .monthly-title { color: #f0883e; font-size: 0.9rem; font-weight: 800; margin-bottom: 0.8rem; text-transform: uppercase; }
+        .monthly-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+        .monthly-item { background: var(--card-bg); padding: 0.8rem; border-radius: 6px; border: 1px solid var(--border); font-size: 0.8rem; }
+        .monthly-item .stars { color: #f0883e; font-weight: 700; }
+
+        .archives-link { margin-top: 2rem; text-align: center; }
+        .archives-link a { color: #58a6ff; font-size: 0.85rem; }
+
+        footer { text-align: center; color: #444; font-size: 0.75rem; margin-top: 5rem; }
+        .fresh-badge { background: #3fb950; color: #0d1117; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+        .milestone { background: #f0883e; color: #0d1117; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+        .fire-badge { background: #ff6b35; color: #fff; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+        .mega-badge { background: #ff0040; color: #fff; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+        .corp-badge { background: #6e40c9; color: #fff; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+        .cool-badge { background: #57606a; color: #fff; font-size: 0.6rem; padding: 1px 6px; border-radius: 8px; font-weight: 800; margin-left: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TECH SCOUTING</h1>
+            <div style="font-size: 0.75rem; color: #666;">v35.0806.1200 | 2026-08-06 12:00 (CST) · #130</div>
+        </header>
+
+        <div class="trending-list">
+            <div class="trending-card">
+                <a href="https://github.com/Graphify-Labs/graphify" class="repo-name">Graphify-Labs / graphify <span class="milestone">★ 100K MILESTONE</span><span class="fire-badge">🔥 破百K第一箭</span></a>
+                <p class="repo-desc">AI 知識圖譜 103,108⭐，5 日 +3,304⭐（~+661/d）。正式突破 100K 里程碑——本平台追蹤史上首個破百K專案。續與 Understand-Anything 知識圖譜敘事，但本家續跑長 beta。</p>
+                <div class="repo-meta"><span class="tag">Knowledge Graph</span><span class="tag">Python</span><span class="tag">Claude Code</span>⭐ 103,108 <span class="delta-fire">+3,304/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/diegosouzapw/OmniRoute" class="repo-name">diegosouzapw / OmniRoute <span class="milestone">40K☆</span><span class="mega-badge">🚀 全榜最快 +932/d</span></a>
+                <p class="repo-desc">AI 閘道 40,890⭐，5 日 +4,658⭐（~+932/d）。跨過 40K 門檻，成為本期全榜最快出手王。290+ providers/500+ models，閘道敘事在超循環退潮中逆勢加速。</p>
+                <div class="repo-meta"><span class="tag">AI Gateway</span><span class="tag">TypeScript</span>⭐ 40,890 <span class="delta-mega">+4,658/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/stablyai/orca" class="repo-name">stablyai / orca <span class="fresh-badge">續命 NEW王</span><span class="fire-badge">🔥 +716/d</span></a>
+                <p class="repo-desc">多代理 ADE 38,295⭐，5 日 +3,579⭐（~+716/d）。超循環 5 箭中唯一續升高位的續命王。並行運作多個編碼代理，代理編排基礎設施取代「單點爆紅」成為主流動能。</p>
+                <div class="repo-meta"><span class="tag">ADE</span><span class="tag">Multi-Agent</span><span class="tag">TypeScript</span>⭐ 38,295 <span class="delta-fire">+3,579/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/chopratejas/headroom" class="repo-name">headroomlabs-ai / headroom <span class="fire-badge">遷移長beta</span></a>
+                <p class="repo-desc">LLM Token 壓縮工具改名 headroomlabs-ai/headroom、65,080⭐（5 日 +1,490，~+298/d）。從 23x 超新星回歸穩定長 beta，Token 壓縮仍是 LLM 環境主流省成本敘事。</p>
+                <div class="repo-meta"><span class="tag">Compression</span><span class="tag">MCP</span><span class="tag">Python</span>⭐ 65,080 <span class="delta-pos">+1,490/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/block/buzz" class="repo-name">block / buzz <span class="corp-badge">BLOCK</span><span class="milestone">20K☆</span><span class="fire-badge">+734/d</span></a>
+                <p class="repo-desc">Block 蜂巢通訊平台 23,303⭐，5 日 +3,668⭐（~+734/d）。正式跨 20K 後續強，去中心化通訊敘事王持續由 buzz 扛旗，領先 bitchat 大幅拉開。</p>
+                <div class="repo-meta"><span class="tag">Rust</span><span class="tag">Social</span><span class="tag">Decentralized</span>⭐ 23,303 <span class="delta-fire">+3,668/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/koala73/worldmonitor" class="repo-name">koala73 / worldmonitor <span class="milestone">79K☆</span><span class="fresh-badge">OSINT 王</span></a>
+                <p class="repo-desc">OSINT 全球情報儀表板 79,171⭐，5 日 +1,678⭐（+336/d）。OSINT 王者穩步進命，仍居追蹤榜前列。</p>
+                <div class="repo-meta"><span class="tag">OSINT</span><span class="tag">Geopolitics</span><span class="tag">TypeScript</span>⭐ 79,171 <span class="delta-pos">+1,678/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/Egonex-AI/Understand-Anything" class="repo-name">Egonex-AI / Understand-Anything <span class="cool-badge">⚠ SUPERNOOVA COOL</span></a>
+                <p class="repo-desc">互動式程式碼知識圖譜 77,687⭐（自 Lum1104 遷移 Egonex-AI）。5 日僅 +715（+143/d），成長較 87x 期坍縮 95%。超新星單點事件退潮，遷移組織未重啟拋物線。</p>
+                <div class="repo-meta"><span class="tag">Knowledge Graph</span><span class="tag">TypeScript</span>⭐ 77,687 <span class="delta-neg">+715/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/ruvnet/RuView" class="repo-name">ruvnet / RuView <span class="milestone">88K☆</span></a>
+                <p class="repo-desc">WiFi 空間智慧平台 88,654⭐，5 日 +720⭐（+144/d）。動能仍低，與 graphify（103K）百 K 雙雄競逐現由 graphify 領先，RuView 續緩爬。</p>
+                <div class="repo-meta"><span class="tag">WiFi Sensing</span><span class="tag">Rust</span>⭐ 88,654 <span class="delta-neg">+720/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/andrewyng/openworker" class="repo-name">andrewyng / openworker <span class="corp-badge">ANDREW NG</span><span class="fresh-badge">NEW FRONTIER</span></a>
+                <p class="repo-desc">Andrew Ng 開源 Agent 工作母機 13,163⭐（17 日）。把 open-source 工作導入 standby 人/機協作，7/20 成立，5 日內強勢逼近 15K。「Agent 作為工作」敘事由大牛背書進入主流。</p>
+                <div class="repo-meta"><span class="tag">Agentic Work</span><span class="tag">Andrew Ng</span>⭐ 13,163 <span class="delta-fire">+5,071/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/ysoftware/qm" class="repo-name">yc-software / qm <span class="fresh-badge">NEW ROCKET</span><span class="mega-badge">🔥 +11,760/10d</span></a>
+                <p class="repo-desc">「Multiplayer agent harness for work」多人協作 Agent 馬具 11,760⭐（成立 10 日）。把多個 agent 集合成可並行的「工作小隊」，多人協作 harness 是 Yahoo 新一章智能體工作敘事。</p>
+                <div class="repo-meta"><span class="tag">Multi-Agent</span><span class="tag">Harness</span>⭐ 11,760 <span class="delta-fire">+11,760/10d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/MoonshotAI/Kimi-K3" class="repo-name">MoonshotAI / Kimi-K3 <span class="corp-badge">MOONSHOT</span><span class="fresh-badge">FRONTIER OPEN</span></a>
+                <p class="repo-desc">「Open Frontier Intelligence」新一代開放前沿模型 8,104⭐（6 日）。Kimi-K3 加入開源前沿浪潮，與全球 LLM 開源化同步，開啟 8 月「開放 frontier 模型」敘事。</p>
+                <div class="repo-meta"><span class="tag">Frontier Model</span><span class="tag">LLM</span><span class="tag">Open</span>⭐ 8,104 <span class="delta-pos">+8,104/6d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/permissionlesstech/bitchat" class="repo-name">permissionlesstech / bitchat <span class="cool-badge">COOL</span></a>
+                <p class="repo-desc">藍牙 Mesh 聊天 34,579⭐，5 日 +857⭐（+171/d）。退潮持續，藍牙 Mesh 敘事退燒，被 buzz（通訊）與開源工作（Agentic）雙翼超車。</p>
+                <div class="repo-meta"><span class="tag">Swift</span><span class="tag">Bluetooth</span><span class="tag">Decentralized</span>⭐ 34,579 <span class="delta-neg">+857/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/citrolabs/ego-lite" class="repo-name">citrolabs / ego-lite <span class="fresh-badge">RISING</span></a>
+                <p class="repo-desc">AI Agent 瀏覽器 8,816⭐（+1,747）。共享登入瀏覽器狀態給 Codex/Claude Code，agent 自動化基礎設施 續強。</p>
+                <div class="repo-meta"><span class="tag">Agent Browser</span><span class="tag">JavaScript</span>⭐ 8,816 <span class="delta-fire">+1,747/5d</span></div>
+            </div>
+            <div class="trending-card">
+                <a href="https://github.com/alibaba/open-code-review" class="repo-name">alibaba / open-code-review <span class="corp-badge">ALIBABA</span></a>
+                <p class="repo-desc">阿里程式碼審查 19,212⭐（5 日 +2,146，+429/d）。混合確定性 + LLM agent，企業級 Agent 工具穩健。</p>
+                <div class="repo-meta"><span class="tag">Code Review</span><span class="tag">Go</span><span class="tag">Alibaba</span>⭐ 19,212 <span class="delta-fire">+2,146/5d</span></div>
+            </div>
+        </div>
+
+        <div class="analysis-section">
+            <div class="analysis-title">今日技術獵頭深度規訓 (Scouting Insight)</div>
+            <div class="analysis-content">
+                <p><strong>超循環進入「收斂淘汰」——只有 orca 續離</strong> — #128/#129 的五箭（Understand / headroom / orca / QwenPaw / deepagents）5 日後僅 orca（+716/d）與 QwenPaw（+430/d）續高速，deepagents（+41/d）、headroom（+298）、headroom 走進遷移長 beta；Understand-Anything 坍縮 95%。八月超循環由「批量爆擊」轉為「少數存活者的長 beta＋新敘事接力」。</p>
+                <p><strong>graphify 破 100K —— 追蹤史上的第一座里程碑</strong> — 103,108⭐（+661/d）正式跨百萬K門檻，此為本平台自 3 月復刊以來追蹤的首個破百K專案。同為知識圖譜敘事的 Understand-Anything 已先退潮，graphify 以長期基建型動能單騎留守高位，「知識圖譜」分化為「老將走長、新秀走爆」。</p>
+                <p><strong>OmniRoute 是收斂期的最大贏家</strong> — +4,658⭐/5d、~+932/day 全榜最快，從 AI 閘道跨 40K。相較超新星靠爆點、基建型專案靠「真實工具需求（290+ providers/500+ models）+ 穩定動能」支撐，後超循環階段的穩定加速者反而是真正值得投資的標的。</p>
+                <p><strong>新 Frontier 敘事接棒：「開源模型 + 智能體工作」</strong> — MoonshotAI/Kimi-K3（8,104）、andrewyng/openworker（13,163）、yc-software/qm（11,760⭐，10 日）、trycompai 智能優先 CRM（6,448）。K3 標榜「Open Frontier Intelligence」再次讓開源 LLM 與「human+agent 協作工具」成為 8 月前段最強風向，非單一爆點而是「整罩」新賽道群。</p>
+                <p><strong>今日 GitHub Trending 焦點</strong> — 開源工作母艦（openworker）、多人協作 harness（qm）、frontier 開放（K3）、agent-first CRM（trycompai）、Rust 文件轉換（firecrawl/anydoc）五路並進。通訊/知識圖譜故事的震暫時讓位給「AI 落地為工作工具」。</p>
+                <p><strong>生態巨頭即時星數：</strong> freeCodeCamp 453K+、developer-roadmap 363K+、awesome-selfhosted 310K+、obra/superpowers 264K+、react 247K+、torvalds/linux 241K+、graphify ~103K（破百）、openworker ~13K。</p>
+            </div>
+        </div>
+
+        <div class="monthly-section">
+            <div class="monthly-title">八月超循環 收斂追蹤 (Aug 01 – Aug 06)</div>
+            <div class="monthly-grid">
+                <div class="monthly-item"><strong>graphify</strong> <span class="stars">103,108⭐</span><br>破 100K 第一箭</div>
+                <div class="monthly-item"><strong>RuView</strong> <span class="stars">88,654⭐</span><br>動能低速 +144/d</div>
+                <div class="monthly-item"><strong>worldmonitor</strong> <span class="stars">79,171⭐</span><br>OSINT 王者進命</div>
+                <div class="monthly-item"><strong>Understand-Anything</strong> <span class="stars">77,687⭐</span><br>超新坍入 Egonex-AI</div>
+                <div class="monthly-item"><strong>OmniRoute</strong> <span class="stars">40,890⭐</span><br>跨 40K 最快出手</div>
+                <div class="monthly-item"><strong>orca</strong> <span class="stars">38,295⭐</span><br>續命王 +716/d</div>
+                <div class="monthly-item"><strong>buzz</strong> <span class="stars">23,303⭐</span><br>跨20K 續強</div>
+                <div class="monthly-item"><strong>headroom</strong> <span class="stars">65,080⭐</span><br>遷新 org 轉 beta</div>
+                <div class="monthly-item"><strong>openworker</strong> <span class="stars">14,163⭐</span><br>新 Frontier Ng軍艦</div>
+                <div class="monthly-item"><strong>qm</strong> <span class="stars">11,760⭐</span><br>多人協作 harness</div>
+                <div class="monthly-item"><strong>Kimi-K3</strong> <span class="stars">8,104⭐</span><br>Open Frontier</div>
+                <div class="monthly-item"><strong>open-code-review</strong> <span class="stars">19,212⭐</span><br>阿里 code-review tool</div>
+            </div>
+        </div>
+
+        <div class="archives-link">
+            <a href="archives/index.html">📂 查看歷史存檔</a>
+        </div>
+
+        <footer>
+            <p>Generated by TeleNexus Tech Scouting · v35.0806.1200 · #130</p>
+            <p>Data source: GitHub REST API + GitHub trending</p>
+        </footer>
+    </div>
+</body>
+</html>
