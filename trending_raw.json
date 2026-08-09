@@ -1,48 +1,53 @@
-### 🚀 GitHub Trending (API Scan) - 2026/8/1 12:00 (CST)
+### 🚀 GitHub Trending (API Scan) - 2026/8/9 12:00 (CST)
 
-**W31 週六追蹤專案即時星數（GitHub API 直接查詢，對比 7/29 基線）：**
-1. **[Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything)** ⭐ 76,972
-   互動式程式碼知識圖譜。3 日從 ~883 暴漲 87 倍，竄升追蹤榜第 3。
-2. **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** ⭐ 99,804
-   AI 知識圖譜。3 日 +1,926⭐（~+642/d），距 100K 僅 196 顆。
-3. **[chopratejas/headroom](https://github.com/chopratejas/headroom)** ⭐ 63,590
-   LLM Token 壓縮。3 日從 ~2,769 暴漲 23 倍，單日級別跳過 60K。
-4. **[block/buzz](https://github.com/block/buzz)** ⭐ 19,635
-   Block 蜂巢思維平台。3 日 +3,795⭐（~+1,265/d），逼近 20K。
-5. **[stablyai/orca](https://github.com/stablyai/orca)** ⭐ 34,716
-   多代理 ADE。3 日從 ~1,028 暴漲 34 倍。
-6. **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** ⭐ 36,232
-   AI 閘道。3 日 +2,925⭐（~+975/d），穩居龍頭。
-7. **[agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)** ⭐ 31,534
-   通義千問個人助理。3 日從 ~846 暴漲 37 倍。
-8. **[langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)** ⭐ 27,174
-   LangChain Agent 馬具。3 日從 ~2,484 暴漲 11 倍。
-9. **[ruvnet/RuView](https://github.com/ruvnet/RuView)** ⭐ 87,934
-   WiFi 空間智慧。3 日 +604⭐（~+201/d），動能轉弱。
-10. **[koala73/worldmonitor](https://github.com/koala73/worldmonitor)** ⭐ 77,493
-    OSINT 全球情報儀表板。3 日 +1,463⭐（~+488/d），被 Understand-Anything 貼近。
-11. **[pbakaus/impeccable](https://github.com/pbakaus/impeccable)** ⭐ 53,391
-    AI 設計語言。3 日 +1,101⭐（~+367/d）。
-12. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** ⭐ 20,376
-    反 AI 味設計工具。3 日 +967⭐，突破 20K 里程碑。
-13. **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** ⭐ 17,066
-    阿里巴巴程式碼審查。3 日 +1,503⭐（~+501/d），企業級 Agent 續強。
-14. **[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)** ⭐ 7,069
-    AI Agent 瀏覽器。3 日 +1,318⭐（~+439/d）。
-15. **[shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)** ⭐ 35,279
-    金融 LLM。3 日 +429⭐（~+143/d），增速放緩。
-16. **[permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)** ⭐ 33,722
-    藍牙 Mesh 聊天。3 日 +656⭐（~+219/d），降溫 -82%。
+**W32 週日追蹤專案即時星數（GitHub API 直接查詢，對比 8/6 基線，3 日區間）：**
+1. **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** ⭐ 104,394
+   AI 知識圖譜。3 日 +1,286⭐（~+429/d），破 100K 後續寫全平台史上最高星數。
+2. **[ruvnet/RuView](https://github.com/ruvnet/RuView)** ⭐ 88,994
+   WiFi 空間智慧。3 日 +340⭐（~+113/d），動能連三低。
+3. **[koala73/worldmonitor](https://github.com/koala73/worldmonitor)** ⭐ 79,987
+   OSINT 情報儀表板。3 日 +816⭐（~+272/d），OSINT 王穩步。
+4. **[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** ⭐ 78,187
+   互動式程式碼知識圖譜。3 日僅 +500（~+167/d），87x 超新星正式收山。
+5. **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)** ⭐ 65,551
+   LLM Token 壓縮（遷移 headroomlabs-ai）。3 日 +471（~+157/d），長 beta 續。
+6. **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** ⭐ 43,548
+   AI 閘道。3 日 +2,704⭐（~+901/d），連續三期全榜最快，跨 43K。
+7. **[stablyai/orca](https://github.com/stablyai/orca)** ⭐ 40,309
+   多代理 ADE。3 日 +2,014⭐（~+671/d），正式跨 40K，超循環五箭唯一續跑。
+8. **[permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)** ⭐ 34,821
+   藍牙 Mesh 聊天。3 日 +242⭐（~+81/d），退潮延續。
+9. **[agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)** ⭐ 34,252
+   通義千問個人助理。3 日 +566⭐（~+189/d），穩定長 beta。
+10. **[block/buzz](https://github.com/block/buzz)** ⭐ 25,347
+    Block 蜂巢通訊。3 日 +2,044⭐（~+681/d），跨 25K，通訊王續扛。
+11. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** ⭐ 22,792
+    反 AI 味設計工具。3 日 +713⭐（~+238/d）。
+12. **[different-ai/openwork](https://github.com/different-ai/openwork)** ⭐ 21,616
+    開源替代 Claude Cowork。耐用。
+13. **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** ⭐ 19,744
+    阿里程式碼審查。3 日 +532（~+177/d），企業級 Agent 續穩。
+14. **[google/skills](https://github.com/google/skills)** ⭐ 16,810
+    Google 官方 Agent Skills，整週引爆「技能標準化」。
+15. **[andrewyng/openworker](https://github.com/andrewyng/openworker)** ⭐ 13,827
+    Andrew Ng 開源工作母艦。3 日 +664⭐（~+221/d）。
+16. **[yc-software/qm](https://github.com/yc-software/qm)** ⭐ 12,574
+    多人協作 Agent 馬具。3 日 +814⭐（~+271/d）。
+17. **[firecrawl/anydoc](https://github.com/firecrawl/anydoc)** ⭐ 12,206
+    Rust 文件轉換引擎。
+18. **[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)** ⭐ 9,341
+    AI Agent 瀏覽器。3 日 +525⭐（~+175/d）。
 
-**今日 GitHub Trending 掃描（2026-08-01）：**
-- zhaoxuya520/reverse-skill — PowerShell 逆向技能，10,891⭐，+335/day
-- different-ai/openwork — TypeScript，19,585⭐，+806/day
-- mvanhorn/last30days-skill — Python 技能封裝，56,300⭐，+658/day
-- paperswithbacktest/awesome-systematic-trading — 量化交易清單，11,827⭐，+763/day
-- microsoft/AI-For-Beginners — 教育長尾啟動，55,430⭐，+1,592/day
-- github/copilot-sdk — Copilot Agent SDK，10,150⭐，+7/day
-- agavra/tuicr — Rust code review TUI，2,178⭐，+335/day
-- 1jehuang/jcode — Rust 高效 harness，14,670⭐，+527/day
+**今日 GitHub Trending 掃描（2026-08-09）：**
+- TauricResearch/TradingAgents — 多代理 LLM 金融交易，96,564⭐，Trending #1
+- addyosmani/agent-skills — 給 IDE 的 Production-grade 技能，84,655⭐，Trending #2
+- PrimeIntellect-ai/prime-agent — self-improving RLM agent，9,184⭐，首入榜
+- google/skills — Google 官方 Agent Skills，16,810⭐
+- denoland/celld — Deno 自託管 distributed Durable Objects，2,630⭐
+- TapXWorld/ChinaTextbook — 開源教材庫，78,003⭐
+- goauthentik/authentik — 開源身分認證，24,013⭐
+- LadybirdBrowser/ladybird — 獨立瀏覽器，65,033⭐
+- litu54/DevOps-Interview-Guide — DevOps 面試手冊，727⭐
 
 **生態巨頭即時星數：**
-- freeCodeCamp: 453K+, nilbuild/developer-roadmap: 363K+, awesome-selfhosted: 310K+, obra/superpowers: 264K+, react: 247K+, torvalds/linux: 241K+, mattpocock/skills: 198K+, Graphify: 99.8K+, Understand-Anything: 77K+
+- freeCodeCamp: 453K+, obra/superpowers: 269K（+5K/3d，Agent Skills 最大贏家）, awesome-selfhosted: 311K+, torvalds/linux: 242K+, Graphify: 104K+（史上最高追蹤）, TradingAgents: 96K+, agent-skills: 84K+

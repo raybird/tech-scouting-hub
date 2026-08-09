@@ -1,37 +1,38 @@
 {
-    "version": "v35.0806.1200",
-    "timestamp": "2026-08-06T12:00:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報（第 5 次復刊後第 13 期，#130）。W32 週四出刊，距上期 5 日。八月超級循環正式進入「收斂淘汰」階段：#128/#129 的 5 箭新面孔僅 orca（+716/d）與 QwenPaw（+430/d）續跑長 beta，其餘全數撞破。Understand-Anything 自 Lun1104 移轉至 Egonex-AI 後成長劇烈坍縮（5 日僅 +715，從日增萬級崩至 +143/d），87x 超新星證實是「單點事件」。旗艦動能交棒：graphify 正式突破 100K 里程碑（103K，本平台追蹤史上首次）；OmniRoute +4,658⭐ 越 40K 登上全榜最快出手王（~+932/d）。同時新一輪「Frontier Intelligence + 開源智能體工作」敘事啟動：MoonshotAI/Kimi-K3、andrewyng/openworker、yc-software/qm、trycompai/agentic CRM 五天內集體擴張，7 月底新組 4 箭全入萬星俱樂部。",
+    "version": "v36.0809.1200",
+    "timestamp": "2026-08-09T12:00:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報（第 5 次復刊後第 14 期，#131）。W32 週日出刊，距上期 3 日。八月超級循環收斂確認：超循環五箭中僅 orca 跨 40K（40,309⭐，+671/d）續跑，Understand-Anything 持續坍縮（3 日僅 +500，+167/d）。旗艦 graphify 續寫百K紀錄（104,394⭐，+429/d 全平台史上最高星數）；OmniRoute 連續三期全網最快出手（43,548⭐，~+886/d）。本週最關鍵的新敘事是「Agent Skills 技能資產化」成形：addyosmani/agent-skills 84,655⭐ 與 google/skills 官方站台同時進 Trending，obra/superpowers 269K 三天 +5K 成最大贏家，Agent 生態從「單一爆款」進化到「可組合技能市場」。今日 Trending 由 TauricResearch/TradingAgents（96,564⭐，金融 LLM 多代理框架）洗板突襲，PrimeIntellect-ai/prime-agent（RLM 自改進 agent）首入榜。",
     "trending": {
-        "global_new": ["MoonshotAI/Kimi-K3", "andrewyng/openworker", "yc-software/qm", "trycompai/crm", "firecrawl/anydoc"],
-        "rising": ["diegosouzapw/OmniRoute", "stablyai/orca", "block/buzz", "citrolabs/ego-lite", "different-ai/openwork"],
-        "global_active": ["Graphify-Labs/Graphify", "diegosouzapw/OmniRoute", "ruvnet/RuView", "koala73/worldmonitor", "headroomlabs-ai/headroom", "stablyai/orca", "agentscope-ai/QwenPaw", "permissionlesstech/bitchat", "Nutlope/hallmark", "Egonex-AI/Understand-Anything"]
+        "global_new": ["TauricResearch/TradingAgents", "addyosmani/agent-skills", "PrimeIntellect-ai/prime-agent", "google/skills", "denoland/celld"],
+        "rising": ["diegosouzapw/OmniRoute", "stablyai/orca", "block/buzz", "citrolabs/ego-lite", "yc-software/qm"],
+        "global_active": ["Graphify-Labs/Graphify", "diegosouzapw/OmniRoute", "ruvnet/RuView", "koala73/worldmonitor", "stablyai/orca", "Egonex-AI/Understand-Anything", "permissionlesstech/bitchat", "Nutlope/hallmark", "block/buzz", "addyosmani/agent-skills"]
     },
     "trends": [
-        "Graphify-Labs/graphify 103,108⭐（~+661/d）：正式突破 100K 里程碑，本平台追蹤史上首個破百K專案。",
-        "diegosouzapw/OmniRoute 40,890⭐（~+932/d 5 日 +4,658）：以閘道敘事在全榜最快出手王，跨 40K。",
-        "stablyai/orca 38,295⭐（~+716/d）：多代理 ADE 續升高位，取代 Understand-Anything 成續命新王。",
-        "Egonex-AI/Understand-Anything 77,687⭐（5 日僅 +715，~+143/d）：自 Lun1104 遷移組織後成長坍縮 95%，87x 超新星證實退潮。",
-        "block/buzz 23,303⭐（~+734/d）：正式跨 20K 後續強，通訊敘事王地位穩固同位。",
-        "MoonshotAI/Kimi-K3 8,104⭐（6 日）：新一代 Frontier 模型開放，加入開源前沿浪潮。",
-        "andrewyng/openworker 13,163⭐（17 日）：Andrew Ng 開源 Agent 工作母機，人/機協作進入主流。",
-        "今日 Trending 新血：yc-software/qm +11,760⭐（10 日多人協作 harness）、trycompai/agentic CRM、firecrawl/anydoc（Rust 文件轉換）。"
+        "Graphify-Labs/graphify 104,394⭐（~+429/d）：破 100K 後續創新高，本平台追蹤史上最高星數。",
+        "diegosouzapw/OmniRoute 43,548⭐（~+886/d 3 日 +2,658）：連續三期全榜最快，跨 43K，閘道基建敘事飛輪續滾。",
+        "stablyai/orca 40,309⭐（~+671/d）：正式跨 40K，超循環五箭唯一全場續跑的倖存者。",
+        "addyosmani/agent-skills 84,655⭐：今日 Trending #2，Agent Skills 技能資產化新敘事，Google 工程師主導。",
+        "google/skills 16,810⭐：Google 官方技能進駐 GitHub，與 agent-skills 同一週引爆「技能就是基建」。",
+        "TauricResearch/TradingAgents 96,564⭐：今日 Trending #1，多代理 LLM 金融交易框架，金融 Agent 成 Dark horse。",
+        "Egonex-AI/Understand-Anything 78,187⭐（3 日 +500，+167/d）：87x 超新星正式收山，遷移後成長熄火成教科書案例。",
+        "block/buzz 25,347⭐（~+681/d）：跨 25K，去中心化通訊僅剩 buzz 獨撐高位。",
+        "PrimeIntellect-ai/prime-agent 9,184⭐：self-improving RLM agent 首入榜，RLM 開放與 Kimi-K3 同脈絡。"
     ],
     "monthly": {
-        "title": "八月超循環收斂追蹤 (Aug 01 – Aug 06)",
+        "title": "八月追蹤艦隊 (Aug 06 – Aug 09)",
         "projects": [
-            {"repo": "Graphify-Labs/graphify", "stars": 103108, "lang": "Python", "desc": "AI 知識圖譜，破 100K 里程碑第一箭"},
-            {"repo": "ruvnet/RuView", "stars": 88654, "lang": "Rust", "desc": "WiFi 空間智慧，動能轉弱 +143/d"},
-            {"repo": "koala73/worldmonitor", "stars": 79171, "lang": "TypeScript", "desc": "OSINT 王者，仍被 graphify 拉開"},
-            {"repo": "Egonex-AI/Understand-Anything", "stars": 77687, "lang": "TypeScript", "desc": "知識圖譜超新星坍縮，遷移 Egonex-AI 後成長熄火"},
-            {"repo": "chopratejas/headroom", "stars": 65080, "lang": "Python", "desc": "LLM Token 壓縮，長 beta 放緩"},
-            {"repo": "diegosouzapw/OmniRoute", "stars": 40890, "lang": "TypeScript", "desc": "AI 閘道龍頭，跨 40K 最快出手"},
-            {"repo": "stablyai/orca", "stars": 38295, "lang": "TypeScript", "desc": "多代理 ADE，續命新王 +716/d"},
-            {"repo": "permissionlesstech/bitchat", "stars": 34586, "lang": "Swift", "desc": "藍牙 Mesh 聊天，裁讀持續退"},
-            {"repo": "agentscope-ai/QwenPaw", "stars": 33686, "lang": "Python", "desc": "Qwen 個人助理，~+374/d 穩定續"},
-            {"repo": "block/buzz", "stars": 23303, "lang": "Rust", "desc": "蜂巢通訊平台，跨 20K 續強 +734/d"},
-            {"repo": "Nutlope/hallmark", "stars": 22079, "lang": "CSS", "desc": "反 AI 味設計，+341/d 平穩"},
-            {"repo": "andrewyng/openworker", "stars": 13163, "lang": "Agent", "desc": "Andrew Ng 開源工作母艦，新 Frontier 敘事"}
+            {"repo": "Graphify-Labs/graphify", "stars": 104394, "lang": "Python", "desc": "AI 知識圖譜，百K俱樂部續寫紀錄"},
+            {"repo": "TauricResearch/TradingAgents", "stars": 96564, "lang": "Python", "desc": "今日 Trend #1 金融LLM 多代理框架"},
+            {"repo": "ruvnet/RuView", "stars": 88994, "lang": "Rust", "desc": "WiFi 空間智慧，動能低速 +113/d"},
+            {"repo": "addyosmani/agent-skills", "stars": 84655, "lang": "JavaScript", "desc": "New 技能賽道女王 84.6K"},
+            {"repo": "koala73/worldmonitor", "stars": 79987, "lang": "TypeScript", "desc": "OSINT 王者 +272/d"},
+            {"repo": "Egonex-AI/Understand-Anything", "stars": 78187, "lang": "TypeScript", "desc": "87x 超新坍縮驗退潮"},
+            {"repo": "diegosouzapw/OmniRoute", "stars": 43548, "lang": "TypeScript", "desc": "跨43K 全榜最快 ~901/d"},
+            {"repo": "stablyai/orca", "stars": 40309, "lang": "TypeScript", "desc": "跨40K 續跑王 +671/d"},
+            {"repo": "block/buzz", "stars": 25347, "lang": "Rust", "desc": "Block 通訊跨 25K"},
+            {"repo": "citrolabs/ego-lite", "stars": 9341, "lang": "JavaScript", "desc": "Agent 瀏覽器續強"},
+            {"repo": "PrimeIntellect-ai/prime-agent", "stars": 9184, "lang": "TypeScript", "desc": "RLM 開放新技法 首入榜"},
+            {"repo": "MoonshotAI/Kimi-K3", "stars": 8260, "lang": "-", "desc": "Open Frontier 模型"}
         ]
     }
 }
