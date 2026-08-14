@@ -1,38 +1,40 @@
 {
-    "version": "v36.0809.1200",
-    "timestamp": "2026-08-09T12:00:00+08:00",
-    "summary": "GitHub 每日技術獵頭大會報（第 5 次復刊後第 14 期，#131）。W32 週日出刊，距上期 3 日。八月超級循環收斂確認：超循環五箭中僅 orca 跨 40K（40,309⭐，+671/d）續跑，Understand-Anything 持續坍縮（3 日僅 +500，+167/d）。旗艦 graphify 續寫百K紀錄（104,394⭐，+429/d 全平台史上最高星數）；OmniRoute 連續三期全網最快出手（43,548⭐，~+886/d）。本週最關鍵的新敘事是「Agent Skills 技能資產化」成形：addyosmani/agent-skills 84,655⭐ 與 google/skills 官方站台同時進 Trending，obra/superpowers 269K 三天 +5K 成最大贏家，Agent 生態從「單一爆款」進化到「可組合技能市場」。今日 Trending 由 TauricResearch/TradingAgents（96,564⭐，金融 LLM 多代理框架）洗板突襲，PrimeIntellect-ai/prime-agent（RLM 自改進 agent）首入榜。",
+    "version": "v37.0814.1200",
+    "timestamp": "2026-08-14T12:00:00+08:00",
+    "summary": "GitHub 每日技術獵頭大會報（第 5 次復刊後第 15 期，#132）。W33 週五出刊，距上期 5 日。本輪最大變局：動能龍頭換人——orca（45,062⭐，5 日 +4,753，~+951/d）正式超車成為全艦隊最速，OmniRoute（47,377⭐，+3,829/5d）讓位四期龍頭；prime-agent（15,546⭐，+6,362/5d，~+1,272/d）單週翻近一倍成最強爆擊。新敘事兩連發：Anthropic 官方 repo anthropics/skills 169,124⭐ 進駐 Trending #3，Agent Skills 賽道正式三巨頭（Anthropic/Google/addyosmani）成形；DeepSeek Harness（66,466⭐）8/13 創建隔天即破 66K，寫下史上最快百K候選紀錄。今日 Trending #1 由 cathrynlavery/diagram-design（15,082⭐，單日 +4,475）以 Claude Code editorial 圖表刷新紀錄。警示信號：QwenPaw（33,745⭐）5 日 -507，追蹤艦隊首次出現負成長。",
     "trending": {
-        "global_new": ["TauricResearch/TradingAgents", "addyosmani/agent-skills", "PrimeIntellect-ai/prime-agent", "google/skills", "denoland/celld"],
-        "rising": ["diegosouzapw/OmniRoute", "stablyai/orca", "block/buzz", "citrolabs/ego-lite", "yc-software/qm"],
-        "global_active": ["Graphify-Labs/Graphify", "diegosouzapw/OmniRoute", "ruvnet/RuView", "koala73/worldmonitor", "stablyai/orca", "Egonex-AI/Understand-Anything", "permissionlesstech/bitchat", "Nutlope/hallmark", "block/buzz", "addyosmani/agent-skills"]
+        "global_new": ["cathrynlavery/diagram-design", "anthropics/skills", "deepseek-ai/deepseek-harness", "cactus-compute/needle", "holaboss-ai/holaOS"],
+        "rising": ["stablyai/orca", "PrimeIntellect-ai/prime-agent", "firecrawl/anydoc", "Nutlope/hallmark", "block/buzz"],
+        "global_active": ["Graphify-Labs/graphify", "TauricResearch/TradingAgents", "ruvnet/RuView", "addyosmani/agent-skills", "koala73/worldmonitor", "Egonex-AI/Understand-Anything", "diegosouzapw/OmniRoute", "stablyai/orca", "block/buzz", "anthropics/skills"]
     },
     "trends": [
-        "Graphify-Labs/graphify 104,394⭐（~+429/d）：破 100K 後續創新高，本平台追蹤史上最高星數。",
-        "diegosouzapw/OmniRoute 43,548⭐（~+886/d 3 日 +2,658）：連續三期全榜最快，跨 43K，閘道基建敘事飛輪續滾。",
-        "stablyai/orca 40,309⭐（~+671/d）：正式跨 40K，超循環五箭唯一全場續跑的倖存者。",
-        "addyosmani/agent-skills 84,655⭐：今日 Trending #2，Agent Skills 技能資產化新敘事，Google 工程師主導。",
-        "google/skills 16,810⭐：Google 官方技能進駐 GitHub，與 agent-skills 同一週引爆「技能就是基建」。",
-        "TauricResearch/TradingAgents 96,564⭐：今日 Trending #1，多代理 LLM 金融交易框架，金融 Agent 成 Dark horse。",
-        "Egonex-AI/Understand-Anything 78,187⭐（3 日 +500，+167/d）：87x 超新星正式收山，遷移後成長熄火成教科書案例。",
-        "block/buzz 25,347⭐（~+681/d）：跨 25K，去中心化通訊僅剩 buzz 獨撐高位。",
-        "PrimeIntellect-ai/prime-agent 9,184⭐：self-improving RLM agent 首入榜，RLM 開放與 Kimi-K3 同脈絡。"
+        "stablyai/orca 45,062⭐（5 日 +4,753，~+951/d）：超車 OmniRoute 成全艦隊最快加速王，ADE 設施型動能證明工具比話題長命。",
+        "PrimeIntellect-ai/prime-agent 15,546⭐（5 日 +6,362，~+1,272/d）：單週翻近一倍，self-improving RLM agent 成最強爆擊。",
+        "diegosouzapw/OmniRoute 47,377⭐（+3,829/5d）：連續四期全榜最快級，跨 47K，但動能被 orca 反超。",
+        "anthropics/skills 169,124⭐：Anthropic 官方 Agent Skills 進駐 Trending #3，技能賽道官方巨頭齊備。",
+        "deepseek-ai/deepseek-harness 66,466⭐：8/13 創建隔日破 66K，「Everything is a Plugin」，史上最快百K候選。",
+        "firecrawl/anydoc 15,791⭐（+3,585/5d）：Rust 文件轉換引擎竄升，Doc-to-Markdown 基建需求爆發。",
+        "cathrynlavery/diagram-design 15,082⭐（+4,475/今日）：Claude Code 編輯型圖表 skill，今日 Trending #1。",
+        "agentscope-ai/QwenPaw 33,745⭐（-507/5d）：追蹤艦隊首次負成長，中國個人助理敘事見頂。",
+        "Graphify-Labs/graphify 106,083⭐：百K紀錄續寫，追蹤艦隊最高星數不變。",
+        "TauricResearch/TradingAgents 98,041⭐：距 100K 僅 ~2K，金融 Agent 下一里程碑。"
     ],
     "monthly": {
-        "title": "八月追蹤艦隊 (Aug 06 – Aug 09)",
+        "title": "八月追蹤艦隊 (Aug 09 – Aug 14)",
         "projects": [
-            {"repo": "Graphify-Labs/graphify", "stars": 104394, "lang": "Python", "desc": "AI 知識圖譜，百K俱樂部續寫紀錄"},
-            {"repo": "TauricResearch/TradingAgents", "stars": 96564, "lang": "Python", "desc": "今日 Trend #1 金融LLM 多代理框架"},
-            {"repo": "ruvnet/RuView", "stars": 88994, "lang": "Rust", "desc": "WiFi 空間智慧，動能低速 +113/d"},
-            {"repo": "addyosmani/agent-skills", "stars": 84655, "lang": "JavaScript", "desc": "New 技能賽道女王 84.6K"},
-            {"repo": "koala73/worldmonitor", "stars": 79987, "lang": "TypeScript", "desc": "OSINT 王者 +272/d"},
-            {"repo": "Egonex-AI/Understand-Anything", "stars": 78187, "lang": "TypeScript", "desc": "87x 超新坍縮驗退潮"},
-            {"repo": "diegosouzapw/OmniRoute", "stars": 43548, "lang": "TypeScript", "desc": "跨43K 全榜最快 ~901/d"},
-            {"repo": "stablyai/orca", "stars": 40309, "lang": "TypeScript", "desc": "跨40K 續跑王 +671/d"},
-            {"repo": "block/buzz", "stars": 25347, "lang": "Rust", "desc": "Block 通訊跨 25K"},
-            {"repo": "citrolabs/ego-lite", "stars": 9341, "lang": "JavaScript", "desc": "Agent 瀏覽器續強"},
-            {"repo": "PrimeIntellect-ai/prime-agent", "stars": 9184, "lang": "TypeScript", "desc": "RLM 開放新技法 首入榜"},
-            {"repo": "MoonshotAI/Kimi-K3", "stars": 8260, "lang": "-", "desc": "Open Frontier 模型"}
+            {"repo": "Graphify-Labs/graphify", "stars": 106083, "lang": "Python", "desc": "百K俱樂部 續寫紀錄"},
+            {"repo": "TauricResearch/TradingAgents", "stars": 98041, "lang": "Python", "desc": "金融LLM 距100K僅2K"},
+            {"repo": "ruvnet/RuView", "stars": 89948, "lang": "Rust", "desc": "WiFi 空間智慧 溫和復甦"},
+            {"repo": "addyosmani/agent-skills", "stars": 87018, "lang": "JavaScript", "desc": "技能賽道動能王 87K"},
+            {"repo": "koala73/worldmonitor", "stars": 81634, "lang": "TypeScript", "desc": "OSINT 王 +329/d"},
+            {"repo": "Egonex-AI/Understand-Anything", "stars": 79250, "lang": "TypeScript", "desc": "超新坍縮 底部溫和"},
+            {"repo": "diegosouzapw/OmniRoute", "stars": 47377, "lang": "TypeScript", "desc": "跨47K 四期最快級"},
+            {"repo": "stablyai/orca", "stars": 45062, "lang": "TypeScript", "desc": "全艦隊最速 +951/d"},
+            {"repo": "block/buzz", "stars": 27206, "lang": "Rust", "desc": "通訊王 跨27K"},
+            {"repo": "Nutlope/hallmark", "stars": 24721, "lang": "CSS", "desc": "反AI味 跨24K"},
+            {"repo": "firecrawl/anydoc", "stars": 15791, "lang": "Rust", "desc": "Doc轉Markdown 竄升王"},
+            {"repo": "PrimeIntellect-ai/prime-agent", "stars": 15546, "lang": "TypeScript", "desc": "RLM 單週翻倍最強爆擊"},
+            {"repo": "MoonshotAI/Kimi-K3", "stars": 8426, "lang": "-", "desc": "Open Frontier 底"}
         ]
     }
 }

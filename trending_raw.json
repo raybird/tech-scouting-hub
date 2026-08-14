@@ -1,53 +1,62 @@
-### 🚀 GitHub Trending (API Scan) - 2026/8/9 12:00 (CST)
+### 🚀 GitHub Trending (API Scan) - 2026/8/14 12:00 (CST)
 
-**W32 週日追蹤專案即時星數（GitHub API 直接查詢，對比 8/6 基線，3 日區間）：**
-1. **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** ⭐ 104,394
-   AI 知識圖譜。3 日 +1,286⭐（~+429/d），破 100K 後續寫全平台史上最高星數。
-2. **[ruvnet/RuView](https://github.com/ruvnet/RuView)** ⭐ 88,994
-   WiFi 空間智慧。3 日 +340⭐（~+113/d），動能連三低。
-3. **[koala73/worldmonitor](https://github.com/koala73/worldmonitor)** ⭐ 79,987
-   OSINT 情報儀表板。3 日 +816⭐（~+272/d），OSINT 王穩步。
-4. **[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** ⭐ 78,187
-   互動式程式碼知識圖譜。3 日僅 +500（~+167/d），87x 超新星正式收山。
-5. **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)** ⭐ 65,551
-   LLM Token 壓縮（遷移 headroomlabs-ai）。3 日 +471（~+157/d），長 beta 續。
-6. **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** ⭐ 43,548
-   AI 閘道。3 日 +2,704⭐（~+901/d），連續三期全榜最快，跨 43K。
-7. **[stablyai/orca](https://github.com/stablyai/orca)** ⭐ 40,309
-   多代理 ADE。3 日 +2,014⭐（~+671/d），正式跨 40K，超循環五箭唯一續跑。
-8. **[permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)** ⭐ 34,821
-   藍牙 Mesh 聊天。3 日 +242⭐（~+81/d），退潮延續。
-9. **[agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)** ⭐ 34,252
-   通義千問個人助理。3 日 +566⭐（~+189/d），穩定長 beta。
-10. **[block/buzz](https://github.com/block/buzz)** ⭐ 25,347
-    Block 蜂巢通訊。3 日 +2,044⭐（~+681/d），跨 25K，通訊王續扛。
-11. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** ⭐ 22,792
-    反 AI 味設計工具。3 日 +713⭐（~+238/d）。
-12. **[different-ai/openwork](https://github.com/different-ai/openwork)** ⭐ 21,616
-    開源替代 Claude Cowork。耐用。
-13. **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** ⭐ 19,744
-    阿里程式碼審查。3 日 +532（~+177/d），企業級 Agent 續穩。
-14. **[google/skills](https://github.com/google/skills)** ⭐ 16,810
-    Google 官方 Agent Skills，整週引爆「技能標準化」。
-15. **[andrewyng/openworker](https://github.com/andrewyng/openworker)** ⭐ 13,827
-    Andrew Ng 開源工作母艦。3 日 +664⭐（~+221/d）。
-16. **[yc-software/qm](https://github.com/yc-software/qm)** ⭐ 12,574
-    多人協作 Agent 馬具。3 日 +814⭐（~+271/d）。
-17. **[firecrawl/anydoc](https://github.com/firecrawl/anydoc)** ⭐ 12,206
-    Rust 文件轉換引擎。
-18. **[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)** ⭐ 9,341
-    AI Agent 瀏覽器。3 日 +525⭐（~+175/d）。
+**W33 週五追蹤專案即時星數（GitHub API 直接查詢，對比 8/9 基線，5 日區間）：**
+1. **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** ⭐ 106,083
+   AI 知識圖譜。5 日 +1,689⭐（~+338/d），百K紀錄續寫，追蹤艦隊最高星數不變。
+2. **[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)** ⭐ 98,041
+   金融LLM 多代理。5 日 +1,477⭐（~+295/d），距 100K 僅 ~2K，下一座里程碑。
+3. **[ruvnet/RuView](https://github.com/ruvnet/RuView)** ⭐ 89,948
+   WiFi 空間智慧。5 日 +954⭐（~+191/d），溫和復甦，雙雄之爭已由 graphify 定案。
+4. **[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** ⭐ 87,018
+   Agent Skills 技能庫。5 日 +2,363⭐（~+473/d），技能敘事最強動能之一。
+5. **[koala73/worldmonitor](https://github.com/koala73/worldmonitor)** ⭐ 81,634
+   OSINT 儀表板。5 日 +1,647⭐（~+329/d），OSINT 王穩步，逼近 82K。
+6. **[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** ⭐ 79,250
+   互動式知識圖譜。5 日 +1,063⭐（~+213/d），超新星坍縮後溫和底部。
+7. **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** ⭐ 47,377
+   AI 閘道。5 日 +3,829⭐（~+766/d），連續四期最快級，跨 47K，被 orca 反超勢頭挑戰。
+8. **[stablyai/orca](https://github.com/stablyai/orca)** ⭐ 45,062
+   多代理 ADE。5 日 +4,753⭐（~+951/d）🔥 全艦隊最快加速王，正式超車成動能龍頭。
+9. **[permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)** ⭐ 35,319
+   藍牙 Mesh 聊天。5 日 +498⭐（~+100/d），退潮底。
+10. **[agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw)** ⭐ 33,745
+    通義千問個人助理。5 日 -507⭐（~-101/d）⚠️ 追蹤艦隊首次負成長。
+11. **[block/buzz](https://github.com/block/buzz)** ⭐ 27,206
+    Block 蜂巢通訊。5 日 +1,859⭐（~+372/d），通訊王續扛 27K。
+12. **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** ⭐ 24,721
+    反 AI 味設計工具。5 日 +1,929⭐（~+386/d），跨 24K 續強。
+13. **[different-ai/openwork](https://github.com/different-ai/openwork)** ⭐ 22,092
+    開源替代 Claude Cowork。5 日 +476⭐（~+95/d），平台期。
+14. **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** ⭐ 20,424
+    阿里程式碼審查。5 日 +680⭐（~+136/d），企業級 Agent 穩健破 20K。
+15. **[google/skills](https://github.com/google/skills)** ⭐ 18,088
+    Google 官方 Agent Skills。5 日 +1,278⭐（~+256/d），官方技能敘事續熱。
+16. **[firecrawl/anydoc](https://github.com/firecrawl/anydoc)** ⭐ 15,791
+    Rust 文件轉換引擎。5 日 +3,585⭐（~+717/d）🔥 竄升王，Rust 文件管線爆紅。
+17. **[andrewyng/openworker](https://github.com/andrewyng/openworker)** ⭐ 14,431
+    Andrew Ng 開源工作母艦。5 日 +604⭐（~+121/d）。
+18. **[yc-software/qm](https://github.com/yc-software/qm)** ⭐ 13,467
+    多人協作 Agent 馬具。5 日 +893⭐（~+179/d），跨 13K。
+19. **[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)** ⭐ 10,014
+    AI Agent 瀏覽器。5 日 +673⭐（~+135/d），跨 10K。
+20. **[PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)** ⭐ 15,546
+    self-improving RLM agent。5 日 +6,362⭐（~+1,272/d）🚀 全艦隊最強爆擊，單週翻近一倍。
 
-**今日 GitHub Trending 掃描（2026-08-09）：**
-- TauricResearch/TradingAgents — 多代理 LLM 金融交易，96,564⭐，Trending #1
-- addyosmani/agent-skills — 給 IDE 的 Production-grade 技能，84,655⭐，Trending #2
-- PrimeIntellect-ai/prime-agent — self-improving RLM agent，9,184⭐，首入榜
-- google/skills — Google 官方 Agent Skills，16,810⭐
-- denoland/celld — Deno 自託管 distributed Durable Objects，2,630⭐
-- TapXWorld/ChinaTextbook — 開源教材庫，78,003⭐
-- goauthentik/authentik — 開源身分認證，24,013⭐
-- LadybirdBrowser/ladybird — 獨立瀏覽器，65,033⭐
-- litu54/DevOps-Interview-Guide — DevOps 面試手冊，727⭐
+**今日 GitHub Trending 掃描（2026-08-14）：**
+- cathrynlavery/diagram-design — editorial 圖表 skill for Claude Code，15,082⭐，+4,475/今日，Trending #1
+- anthropics/skills — Anthropic 官方 Agent Skills，169,124⭐，+312/今日，Trending #3
+- cactus-compute/needle — 14MB 邊緣基礎模型 for 微型裝置，5,047⭐，+769/今日
+- holaboss-ai/holaOS — AI Agent 一體化工作區，6,713⭐，+241/今日
+- NVIDIA-NeMo/Switchyard — LLM 路由，1,269⭐，+408/今日
+- Lightricks/LTX-2 — 音訊-影片生成模型，8,948⭐，+205/今日
+- infiniflow/ragflow — RAG 引擎，88,102⭐，+465/今日
+- 3b1b/manim — 數學動畫引擎，90,938⭐，+176/今日
+- megadose/holehe — 郵箱 OSINT，12,481⭐，+195/今日
+- smicallef/spiderfoot — OSINT 威脅情報，20,700⭐，+283/今日
+- macro-inc/macro — 團隊協作工作區，2,672⭐，+1,239/今日
+
+**超新星（新創建，今天或昨天上線）：**
+- deepseek-ai/deepseek-harness — DeepSeek 官方 coding harness「Everything is a Plugin」，2026-08-13 創建，66,466⭐，TypeScript，史上最快百K候選
 
 **生態巨頭即時星數：**
-- freeCodeCamp: 453K+, obra/superpowers: 269K（+5K/3d，Agent Skills 最大贏家）, awesome-selfhosted: 311K+, torvalds/linux: 242K+, Graphify: 104K+（史上最高追蹤）, TradingAgents: 96K+, agent-skills: 84K+
+- freeCodeCamp: 453,980, awesome-selfhosted: 312,497, obra/superpowers: 271,820（+2,820/5d，Agent Skills 敘事最大贏家）, torvalds/linux: 242,769, anthropics/skills: 169,124, graphify: 106,083, TradingAgents: 98,041
